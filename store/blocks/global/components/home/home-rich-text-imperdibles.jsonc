@@ -1,0 +1,11 @@
+{
+  "rich-text#home__imperdibles--title": {
+    "title": "Title of imperdibles del mes",
+    "props": {
+      "text": "Imperdibles del Mes",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "font": "t-heading-2"
+    }
+  }
+}

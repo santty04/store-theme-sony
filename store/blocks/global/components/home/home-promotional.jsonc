@@ -1,0 +1,13 @@
+{
+  "image#home__image--promotional": {
+    "title": "image promotional",
+    "props": {
+      "src": "assets/img/banner-promotional.webp",
+      "blockClass": "home__image--promotional",
+      "link": {
+        "url": "/"
+      },
+      "alt": "Camaras y lentes al mismo precio de EEUU"
+    }
+  }
+}

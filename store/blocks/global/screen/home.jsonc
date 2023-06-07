@@ -6,8 +6,7 @@
       "responsive-layout.tablet#home__section-1",
       "responsive-layout.phone#home__section-1",
       "responsive-layout.mobile#phone__and__tablet",
-      "flex-layout.row#home__section--global",
-      "slider-layout#home__slider--promo"
+      "flex-layout.row#home__section--global"
     ]
   }
 }

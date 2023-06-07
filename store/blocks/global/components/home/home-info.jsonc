@@ -1,0 +1,21 @@
+{
+  "flex-layout.row#home__info--flex": {
+    "title": "Info about free shipping",
+    "children": [
+      "rich-text#home__section--info"
+    ],
+    "props": {
+      "marginTop": 0,
+      "border": ["all"],
+      "borderWidth": 1,
+      "blockClass": "home__section--info"
+    }
+  },
+  "rich-text#home__section--info": {
+    "props": {
+      "text": "| GRATIS Envío desde $99.000*.",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
+    }
+  }
+}

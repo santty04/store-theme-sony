@@ -1,0 +1,232 @@
+{
+  "flex-layout.row#home__section--favorites": {
+    "title": "section favorites sony",
+    "children": [
+      "flex-layout.col#section__favorites--cinema",
+      "flex-layout.col#section__favorites--cams",
+      "flex-layout.col#section__favorites--sound",
+      "flex-layout.col#section__favorites--playstation"
+    ]
+  },
+  // title
+  "flex-layout.row#section__favorites--title": {
+    "title": "section favorites title",
+    "props": {
+      "border": "top"
+    },
+    "children": [
+      "rich-text#home__favorites--title"
+    ]
+  },
+  "rich-text#home__favorites--title": {
+    "props": {
+      "text": "FAVORITOS SONY STORE",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "font": "t-heading-3",
+      "blockClass": "home__favorites--title"
+    }
+  },
+  // Section cinema
+  "flex-layout.col#section__favorites--cinema": {
+    "title": "section favorites cinema",
+    "children": [
+      "image#favorite__cinema--image",
+      "flex-layout.col#favorite__cinema--texts"
+    ]
+  },
+  "image#favorite__cinema--image": {
+    "props": {
+      "src": "assets/img/favorite-cinema.webp",
+      "link": {
+        "url": "/"
+      }
+    }
+  },
+  "flex-layout.col#favorite__cinema--texts": {
+    "children": [
+      "rich-text#favorite__cinema--title",
+      "rich-text#favorite__cinema--description-one",
+      "rich-text#favorite__cinema--description-two",
+      "rich-text#favorite__cinema--description-three",
+      "rich-text#favorite__cinema--description-four"
+    ]
+  },
+  "rich-text#favorite__cinema--title": {
+    "props": {
+      "text": "Cine en Casa"
+    }
+  },
+  "rich-text#favorite__cinema--description-one": {
+    "props": {
+      "text": "Televisores Full Arrray LED"
+    }
+  },
+  "rich-text#favorite__cinema--description-two": {
+    "props": {
+      "text": "Televisores Smart con Google TV"
+    }
+  },
+  "rich-text#favorite__cinema--description-three": {
+    "props": {
+      "text": "Barras de Sonido y Teatros"
+    }
+  },
+  "rich-text#favorite__cinema--description-four": {
+    "props": {
+      "text": "Reproductores Blu-ray"
+    }
+  },
+  // Section cams
+  "flex-layout.col#section__favorites--cams": {
+    "title": "section favorites cams",
+    "children": [
+      "image#favorite__cams--image",
+      "flex-layout.col#favorite__cams--texts"
+    ]
+  },
+  "image#favorite__cams--image": {
+    "props": {
+      "src": "assets/img/favorite-cams.webp",
+      "link": {
+        "url": "/"
+      }
+    }
+  },
+  "flex-layout.col#favorite__cams--texts": {
+    "children": [
+      "rich-text#favorite__cams--title",
+      "rich-text#favorite__cams--description-one",
+      "rich-text#favorite__cams--description-two",
+      "rich-text#favorite__cams--description-three",
+      "rich-text#favorite__cams--description-four"
+    ]
+  },
+  "rich-text#favorite__cams--title": {
+    "props": {
+      "text": "Captura el Momento"
+    }
+  },
+  "rich-text#favorite__cams--description-one": {
+    "props": {
+      "text": "Cámaras profesionales Alpha"
+    }
+  },
+  "rich-text#favorite__cams--description-two": {
+    "props": {
+      "text": "Lentes G-Master"
+    }
+  },
+  "rich-text#favorite__cams--description-three": {
+    "props": {
+      "text": "Cámaras Vlogger"
+    }
+  },
+  "rich-text#favorite__cams--description-four": {
+    "props": {
+      "text": "Cámaras Cinema Line"
+    }
+  },
+
+  // Section sound
+  "flex-layout.col#section__favorites--sound": {
+    "title": "section favorites sound",
+    "children": [
+      "image#favorite__sound--image",
+      "flex-layout.col#favorite__sound--texts"
+    ]
+  },
+  "image#favorite__sound--image": {
+    "props": {
+      "src": "assets/img/favorite-sound.webp",
+      "link": {
+        "url": "/"
+      }
+    }
+  },
+  "flex-layout.col#favorite__sound--texts": {
+    "children": [
+      "rich-text#favorite__sound--title",
+      "rich-text#favorite__sound--description-one",
+      "rich-text#favorite__sound--description-two",
+      "rich-text#favorite__sound--description-three",
+      "rich-text#favorite__sound--description-four"
+    ]
+  },
+  "rich-text#favorite__sound--title": {
+    "props": {
+      "text": "Audio Premium"
+    }
+  },
+  "rich-text#favorite__sound--description-one": {
+    "props": {
+      "text": "Sistemas de audio Serie V"
+    }
+  },
+  "rich-text#favorite__sound--description-two": {
+    "props": {
+      "text": "Sistemas de Audio Hi-res"
+    }
+  },
+  "rich-text#favorite__sound--description-three": {
+    "props": {
+      "text": "Parlantes Bluetooth"
+    }
+  },
+  "rich-text#favorite__sound--description-four": {
+    "props": {
+      "text": "360 Reality Audio"
+    }
+  },
+
+  // Section playstation
+  "flex-layout.col#section__favorites--playstation": {
+    "title": "section favorites playstation",
+    "children": [
+      "image#favorite__playstation--image",
+      "flex-layout.col#favorite__playstation--texts"
+    ]
+  },
+  "image#favorite__playstation--image": {
+    "props": {
+      "src": "assets/img/favorite-playstation.webp",
+      "link": {
+        "url": "/"
+      }
+    }
+  },
+  "flex-layout.col#favorite__playstation--texts": {
+    "children": [
+      "rich-text#favorite__playstation--title",
+      "rich-text#favorite__playstation--description-one",
+      "rich-text#favorite__playstation--description-two",
+      "rich-text#favorite__playstation--description-three",
+      "rich-text#favorite__playstation--description-four"
+    ]
+  },
+  "rich-text#favorite__playstation--title": {
+    "props": {
+      "text": "Playstation"
+    }
+  },
+  "rich-text#favorite__playstation--description-one": {
+    "props": {
+      "text": "Playstation 5"
+    }
+  },
+  "rich-text#favorite__playstation--description-two": {
+    "props": {
+      "text": "Juegos Playstation"
+    }
+  },
+  "rich-text#favorite__playstation--description-three": {
+    "props": {
+      "text": "Accesorios Playstation"
+    }
+  },
+  "rich-text#favorite__playstation--description-four": {
+    "props": {
+      "text": "Controles Dualsense"
+    }
+  }
+}

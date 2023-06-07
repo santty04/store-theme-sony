@@ -2,8 +2,20 @@
   "responsive-layout.desktop#home__section-1": {
     "title": "Home Section 1 Desktop",
     "children": [
-      "flex-layout.row#home__section-1",
-      "slider-layout#home__slider--info"
+      // "flex-layout.row#home__section-1",
+      "slider-layout#home__slider--info",
+      "flex-layout.row#home__info--flex",
+      "slider-layout#home__slider--promo",
+      "rich-text#home__imperdibles--title",
+      "flex-layout.row#imperdibles__section--container",
+      "image#home__image--promotional",
+      "flex-layout.row#home__section--shelf",
+      "flex-layout.row#home__section--shelf-two",
+      "flex-layout.row#home__section--shelf-three",
+      "flex-layout.row#home__section--shelf-four",
+      "flex-layout.row#home__section--shelf-five",
+      "flex-layout.row#section__favorites--title",
+      "flex-layout.row#home__section--favorites"
     ]
   }
 }

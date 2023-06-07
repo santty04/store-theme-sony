@@ -1,0 +1,85 @@
+{
+  "flex-layout.row#imperdibles__section--container": {
+    "title": "flex imperdibles",
+    "children": [
+      "flex-layout.col#flex__section--one",
+      "flex-layout.col#flex__section--two"
+    ]
+  },
+  "flex-layout.col#flex__section--one": {
+    "title": "Slider section 1",
+    "children": [
+      "image#image__flex--section-one",
+      "rich-text#flex__one--title",
+      "rich-text#flex__one--description",
+      "link#flex__one--link"
+    ]
+  },
+  "image#image__flex--section-one": {
+    "props": {
+      "src": "assets/img/imperdibles-one.webp",
+      "link": {
+        "url": "/"
+      }
+    }
+  },
+  "rich-text#flex__one--title": {
+    "props": {
+      "text": "Cómodos y ligeros, con cancelación de ruido",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "font": "t-heading-4"
+    }
+  },
+  "rich-text#flex__one--description": {
+    "props": {
+      "text": "Para disfrutar tu música favorita todo el día, sin interrupciones",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "font": "t-heading-7"
+    }
+  },
+  "link#flex__one--link": {
+    "props": {
+      "href": "/",
+      "label": "Descúbrelos >>"
+    }
+  },
+  "flex-layout.col#flex__section--two": {
+    "title": "flex section 1",
+    "children": [
+      "image#image__flex--section-two",
+      "rich-text#flex__two--title",
+      "rich-text#flex__two--description",
+      "link#flex__two--link"
+    ]
+  },
+  "image#image__flex--section-two": {
+    "props": {
+      "src": "assets/img/imperdibles-two.webp"
+    }
+  },
+  "rich-text#flex__two--title": {
+    "props": {
+      "text": "Sumerge en auténtico sonido Surround",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "font": "t-heading-4"
+    }
+  },
+  "rich-text#flex__two--description": {
+    "props": {
+      "text": "Con las nuevas Barras de Sonido Premium Serie A",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "font": "t-heading-7"
+    }
+  },
+  "link#flex__two--link": {
+    "props": {
+      "href": "/",
+      "label": "Descúbrelas >>",
+      "scrollTo": "#footer"
+    }
+  }
+}
