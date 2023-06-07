@@ -1,0 +1,7 @@
+.slideChildrenContainer :global(.vtex-store-components-3-x-imageElement) {
+  height: 130px;
+}
+.flexColChild :global(.vtex-store-link-0-x-link--button-three) {
+  background-color: orange;
+ }
+

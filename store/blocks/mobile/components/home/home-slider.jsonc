@@ -1,0 +1,188 @@
+{
+  "flex-layout.row#mobile__home--slider": {
+    "title": "home slider in mobile",
+    "children": [
+      "slider-layout#mobile__home--slider"
+    ]
+  },
+  "slider-layout#mobile__home--slider": {
+    "title": "home slider in mobile",
+    "children": [
+      "flex-layout.col#mobile__home--info-one",
+      "flex-layout.col#mobile__home--info-two",
+      "flex-layout.col#mobile__home--info-three"
+    ],
+    "props": {
+      "itemsPerPage": {
+        "desktop": 1,
+        "tablet": 1,
+        "phone": 1
+      },
+      "infinite": true,
+      "showNavigationArrows": "never",
+      "blockClass": "home__slider",
+      "autoplay": {
+        "timeout": 3000,
+        "stopOnHover": true
+      },
+      "fullWidth": true
+    }
+  },
+  "flex-layout.col#mobile__home--info-one": {
+    "children": [
+      "image#slider__image--section-one",
+      "rich-text#text__pre-header-one",
+      "rich-text#text__title-one",
+      "rich-text#text__description-one",
+      "link#home__link--boton-one"
+    ]
+  },
+  "image#slider__image--section-one": {
+    "props": {
+      "src": "assets/img/slider-section-three.webp"
+    }
+  },
+  "rich-text#text__pre-header-one": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "ZV-E1 | Cámara full-frame con lentes intercambiables",
+      "textColor": "c-on-base",
+      "font": "small"
+    }
+  },
+  "rich-text#text__title-one": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "Libera tu potencial para vlogs",
+      "textColor": "c-on-base",
+      "font": "t-heading-4"
+    }
+  },
+  "rich-text#text__description-one": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": " La cámara definitiva para creadores de contenido con funciones profesionales para lograr la máxima libertad expresiva",
+      "textColor": "c-on-base",
+      "font": "small"
+    }
+  },
+  "link#home__link--boton-one": {
+    "props": {
+      "href": "/",
+      "label": "Descúbrela ",
+      "displayMode": "button",
+      "buttonProps": {
+        "variant": "primary"
+      }
+    }
+  },
+
+
+  "flex-layout.col#mobile__home--info-two": {
+    "children": [
+      "image#slider__image--section-two",
+      "rich-text#text__pre-header-two",
+      "rich-text#text__title-two",
+      "rich-text#text__description-two",
+      "link#home__link--boton-two"
+    ]
+  },
+  "image#slider__image--section-two": {
+    "props": {
+      "src": "assets/img/slider-section-one.webp",
+      "maxHeight": "190px"
+    }
+  },
+  "rich-text#text__pre-header-two": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "Del 2 al 12 de Junio",
+      "textColor": "c-on-base",
+      "font": "small"
+    }
+  },
+  "rich-text#text__title-two": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "Regresa <br> Days of Play",
+      "textColor": "c-on-base",
+      "font": "t-heading-4"
+    }
+  },
+  "rich-text#text__description-two": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "Lo Mejor de Playstation en oferta. Hasta 50% descuento en seleccionados*",
+      "textColor": "c-on-base",
+      "font": "small"
+    }
+  },
+  "link#home__link--boton-two": {
+    "props": {
+      "href": "/",
+      "label": "Ver ofertas ",
+      "displayMode": "button",
+      "buttonProps": {
+        "variant": "primary"
+      }
+    }
+  },
+  "flex-layout.col#mobile__home--info-three": {
+    "children": [
+      "image#slider__image--section-three",
+      "rich-text#text__pre-header-three",
+      "rich-text#text__title-three",
+      "rich-text#text__description-three",
+      "link#home__link--boton-three"
+    ]
+  },
+  "image#slider__image--section-three": {
+    "props": {
+      "src": "assets/img/slider-section-two.webp"
+    }
+  },
+  "rich-text#text__pre-header-three": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "Audífonos Bluetooth WH-CH520",
+      "textColor": "c-on-base",
+      "font": "small"
+    }
+  },
+  "rich-text#text__title-three": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "¡Tu música contigo todo el día!",
+      "textColor": "c-on-base",
+      "font": "t-heading-4"
+    }
+  },
+  "rich-text#text__description-three": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": " Cómodos, fáciles de usar y con batería de larga duración",
+      "textColor": "c-on-base",
+      "font": "small"
+    }
+  },
+  "link#home__link--boton-three": {
+    "props": {
+      "href": "/",
+      "label": "Descúbrelos ",
+      "displayMode": "button",
+      "buttonProps": {
+        "variant": "primary"
+      },
+      "blockClass": "button-three"
+    }
+  }
+}

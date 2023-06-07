@@ -1,0 +1,62 @@
+{
+  "slider-layout#home__slider--info": {
+      "title": "Slider con hijos declarados",
+      "props": {
+        "itemsPerPage": {
+          "desktop": 1,
+          "tablet": 1,
+          "phone": 1
+        },
+        "infinite": true,
+        "blockClass": "home__slider--info",
+        "autoplay": {
+          "timeout": 3000,
+          "stopOnHover": true
+        }
+      },
+      "children": [
+        "info-card#home__slider--card-1",
+        "info-card#home__slider--card-2",
+        "info-card#home__slider--card-3"
+      ]
+    },
+    "info-card#home__slider--card-1": {
+      "props": {
+        "id": "info__card--one",
+        "isFullModeStyle": true,
+        "textPosition": "left",
+        "imageUrl": "assets/img/slider-section-three.webp",
+        "headline": "Clearance Sale",
+        "callToActionText": "DISCOVER",
+        "callToActionUrl": "/sale/d",
+        "blockClass": "info__card--one",
+        "textAlignment": "center"
+      }
+    },
+    "info-card#home__slider--card-2": {
+      "props": {
+        "id": "info__card--two",
+        "isFullModeStyle": true,
+        "textPosition": "left",
+        "imageUrl": "assets/img/slider-section-one.webp",
+        "headline": "Clearance Sale",
+        "callToActionText": "DISCOVER",
+        "callToActionUrl": "/sale/d",
+        "blockClass": "info__card--two",
+        "textAlignment": "center"
+      }
+    },
+    "info-card#home__slider--card-3": {
+      "props": {
+        "id": "info__card--three",
+        "isFullModeStyle": true,
+        "textPosition": "left",
+        "imageUrl": "assets/img/slider-section-two.webp",
+        "headline": "Clearance Sale",
+        "callToActionText": "DISCOVER",
+        "callToActionUrl": "/sale/d",
+        "blockClass": "info__card--three",
+        "textAlignment": "center"
+      }
+    }
+}
