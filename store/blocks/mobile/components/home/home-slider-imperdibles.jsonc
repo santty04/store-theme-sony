@@ -1,0 +1,98 @@
+{
+  "slider-layout#home__slider--imperdibles": {
+    "title": "Slider imperdibles",
+    "props": {
+      "itemsPerPage": {
+        "desktop": 2,
+        "tablet": 1,
+        "phone": 1
+      },
+      "infinite": true,
+      "blockClass": "home__slider",
+      "autoplay": {
+        "timeout": 3000,
+        "stopOnHover": true
+      }
+    },
+    "children": [
+      "flex-layout.col#slider__section--one",
+      "flex-layout.col#slider__section--two"
+    ]
+  },
+  "flex-layout.col#slider__section--one": {
+    "title": "Slider section 1",
+    "children": [
+      "image#image__slider--section-one",
+      "rich-text#section__one--title",
+      "rich-text#section__one--description",
+      "link#section__one--link"
+    ]
+  },
+  "image#image__slider--section-one": {
+    "props": {
+      "src": "assets/img/imperdibles-one.webp",
+      "link": {
+        "url": "/"
+      }
+    }
+  },
+  "rich-text#section__one--title": {
+    "props": {
+      "text": "Cómodos y ligeros, con cancelación de ruido",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "font": "t-heading-4"
+    }
+  },
+  "rich-text#section__one--description": {
+    "props": {
+      "text": "Para disfrutar tu música favorita todo el día, sin interrupciones",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "font": "t-heading-7"
+    }
+  },
+  "link#section__one--link": {
+    "props": {
+      "href": "/",
+      "label": "Descúbrelos >>"
+    }
+  },
+  "flex-layout.col#slider__section--two": {
+    "title": "Slider section 1",
+    "children": [
+      "image#image__slider--section-two",
+      "rich-text#section__two--title",
+      "rich-text#section__two--description",
+      "link#section__two--link"
+    ]
+  },
+  "image#image__slider--section-two": {
+    "props": {
+      "src": "assets/img/imperdibles-two.webp"
+    }
+  },
+  "rich-text#section__two--title": {
+    "props": {
+      "text": "Sumerge en auténtico sonido Surround",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "font": "t-heading-4"
+    }
+  },
+  "rich-text#section__two--description": {
+    "props": {
+      "text": "Con las nuevas Barras de Sonido Premium Serie A",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "font": "t-heading-7"
+    }
+  },
+  "link#section__two--link": {
+    "props": {
+      "href": "/",
+      "label": "Descúbrelas >>",
+      "scrollTo": "#footer"
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "flex-layout.row#home__section--shelf-five": {
+    "title": "home section shelf five",
+    "children": [
+      "flex-layout.col#home__section--shelf-five"
+    ],
+    "props": {
+      "border": "top"
+    }
+  },
+  "flex-layout.col#home__section--shelf-five": {
+    "children": [
+      "rich-text#section__shelf--title-five"
+    ]
+  },
+  "rich-text#section__shelf--title-five": {
+    "title": "section shelf title",
+    "props": {
+      "text": "LOS MÁS VENDIDOS",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "font": "t-heading-3"
+    }
+  }
+}
