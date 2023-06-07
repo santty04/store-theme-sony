@@ -1,6 +1,20 @@
 {
   "responsive-layout.tablet#home__section-1": {
     "title": "Section 1 Tablet Home",
-    "children": ["flex-layout.row#tablet__home__section-1"]
+    "children": [
+      "flex-layout.row#mobile__home--slider",
+      "slider-layout#home__slider--promo",
+      "rich-text#home__imperdibles--title",
+      "slider-layout#home__slider--imperdibles",
+      "image#home__image--promotional",
+      "flex-layout.row#home__section--shelf",
+      "flex-layout.row#home__section--shelf-two",
+      "flex-layout.row#home__section--shelf-three",
+      "flex-layout.row#home__section--shelf-four",
+      "flex-layout.row#home__section--shelf-five",
+      "flex-layout.row#section__favorites--title",
+      "flex-layout.row#home__section--favorites-1",
+      "flex-layout.row#home__section--favorites-2"
+    ]
   }
 }

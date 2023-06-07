@@ -1,0 +1,34 @@
+{
+  "flex-layout.row#home__section--shelf-three": {
+    "title": "home section shelf three",
+    "children": [
+      "flex-layout.col#home__section--shelf-three"
+    ],
+    "props": {
+      "border": "top"
+    }
+  },
+  "flex-layout.col#home__section--shelf-three": {
+    "children": [
+      "rich-text#section__shelf--title-three",
+      "rich-text#section__shelf--description-three"
+    ]
+  },
+  "rich-text#section__shelf--title-three": {
+    "title": "section shelf title",
+    "props": {
+      "text": "PLAYSTATION, JUEGOS Y ACCESORIOS",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "font": "t-heading-3"
+    }
+  },
+  "rich-text#section__shelf--description-three": {
+    "title": "section shelf description",
+    "props": {
+      "text": "El Mejor lugar para jugar",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
+    }
+  }
+}

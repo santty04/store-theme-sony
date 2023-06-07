@@ -1,0 +1,65 @@
+{
+  "slider-layout#home__slider--info": {
+      "title": "Slider con hijos declarados",
+      "props": {
+        "itemsPerPage": {
+          "desktop": 1,
+          "tablet": 1,
+          "phone": 1
+        },
+        "infinite": true,
+        "blockClass": "home__slider--info",
+        "autoplay": {
+          "timeout": 3000,
+          "stopOnHover": true
+        }
+      },
+      "children": [
+        "info-card#home__slider--card-1",
+        "info-card#home__slider--card-2",
+        "info-card#home__slider--card-3"
+      ]
+    },
+    "info-card#home__slider--card-1": {
+      "props": {
+        "id": "info__card--one",
+        "isFullModeStyle": true,
+        "textPosition": "left",
+        "imageUrl": "assets/img/slider-section-three.webp",
+        "headline": "Libera tu potencial para vlogs",
+        "subhead": "La cámara definitiva para creadores de contenido con funciones profesionales para lograr la máxima libertad expresiva",
+        "callToActionText": "Descúbrela",
+        "callToActionUrl": "/sale/d",
+        "blockClass": "info__card--one",
+        "textAlignment": "center"
+      }
+    },
+    "info-card#home__slider--card-2": {
+      "props": {
+        "id": "info__card--two",
+        "isFullModeStyle": true,
+        "textPosition": "left",
+        "imageUrl": "assets/img/slider-section-one.webp",
+        "headline": "Regresa <br> Days of Play",
+        "subhead": "Lo Mejor de Playstation en oferta. Hasta 50% descuento en seleccionados*",
+        "callToActionText": "Ver ofertas",
+        "callToActionUrl": "/sale/d",
+        "blockClass": "info__card--two",
+        "textAlignment": "center"
+      }
+    },
+    "info-card#home__slider--card-3": {
+      "props": {
+        "id": "info__card--three",
+        "isFullModeStyle": true,
+        "textPosition": "left",
+        "imageUrl": "assets/img/slider-section-two.webp",
+        "headline": "¡Tu música contigo todo el día!",
+        "subhead": "Cómodos, fáciles de usar y con batería de larga duración",
+        "callToActionText": "Descúbrelos",
+        "callToActionUrl": "/sale/d",
+        "blockClass": "info__card--three",
+        "textAlignment": "center"
+      }
+    }
+}

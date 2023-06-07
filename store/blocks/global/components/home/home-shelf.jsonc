@@ -1,0 +1,34 @@
+{
+  "flex-layout.row#home__section--shelf": {
+    "title": "home section shelf",
+    "children": [
+      "flex-layout.col#home__section--shelf"
+    ],
+    "props": {
+      "border": "top"
+    }
+  },
+  "flex-layout.col#home__section--shelf": {
+    "children": [
+      "rich-text#section__shelf--title",
+      "rich-text#section__shelf--description"
+    ]
+  },
+  "rich-text#section__shelf--title": {
+    "title": "section shelf title",
+    "props": {
+      "text": "OFERTAS QUE NO TE PUEDES PERDER",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "font": "t-heading-3"
+    }
+  },
+  "rich-text#section__shelf--description": {
+    "title": "section shelf description",
+    "props": {
+      "text": "Precios especiales por tiempo limitado.",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
+    }
+  }
+}
