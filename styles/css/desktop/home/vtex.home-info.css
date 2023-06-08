@@ -1,0 +1,4 @@
+.infoCardCallActionContainer--info__card--one :global(.vtex-button){
+  background-color: orange;
+}
+

@@ -59,22 +59,22 @@
   },
   "rich-text#favorite__cinema--description-one": {
     "props": {
-      "text": "Televisores Full Arrray LED"
+      "text": "- Televisores Full Arrray LED"
     }
   },
   "rich-text#favorite__cinema--description-two": {
     "props": {
-      "text": "Televisores Smart con Google TV"
+      "text": "- Televisores Smart con Google TV"
     }
   },
   "rich-text#favorite__cinema--description-three": {
     "props": {
-      "text": "Barras de Sonido y Teatros"
+      "text": "- Barras de Sonido y Teatros"
     }
   },
   "rich-text#favorite__cinema--description-four": {
     "props": {
-      "text": "Reproductores Blu-ray"
+      "text": "- Reproductores Blu-ray"
     }
   },
   // Section cams
@@ -109,22 +109,22 @@
   },
   "rich-text#favorite__cams--description-one": {
     "props": {
-      "text": "Cámaras profesionales Alpha"
+      "text": "- Cámaras profesionales Alpha"
     }
   },
   "rich-text#favorite__cams--description-two": {
     "props": {
-      "text": "Lentes G-Master"
+      "text": "- Lentes G-Master"
     }
   },
   "rich-text#favorite__cams--description-three": {
     "props": {
-      "text": "Cámaras Vlogger"
+      "text": "- Cámaras Vlogger"
     }
   },
   "rich-text#favorite__cams--description-four": {
     "props": {
-      "text": "Cámaras Cinema Line"
+      "text": "- Cámaras Cinema Line"
     }
   },
 
@@ -160,22 +160,22 @@
   },
   "rich-text#favorite__sound--description-one": {
     "props": {
-      "text": "Sistemas de audio Serie V"
+      "text": "- Sistemas de audio Serie V"
     }
   },
   "rich-text#favorite__sound--description-two": {
     "props": {
-      "text": "Sistemas de Audio Hi-res"
+      "text": "- Sistemas de Audio Hi-res"
     }
   },
   "rich-text#favorite__sound--description-three": {
     "props": {
-      "text": "Parlantes Bluetooth"
+      "text": "- Parlantes Bluetooth"
     }
   },
   "rich-text#favorite__sound--description-four": {
     "props": {
-      "text": "360 Reality Audio"
+      "text": "- 360 Reality Audio"
     }
   },
 
@@ -211,22 +211,22 @@
   },
   "rich-text#favorite__playstation--description-one": {
     "props": {
-      "text": "Playstation 5"
+      "text": "- Playstation 5"
     }
   },
   "rich-text#favorite__playstation--description-two": {
     "props": {
-      "text": "Juegos Playstation"
+      "text": "- Juegos Playstation"
     }
   },
   "rich-text#favorite__playstation--description-three": {
     "props": {
-      "text": "Accesorios Playstation"
+      "text": "- Accesorios Playstation"
     }
   },
   "rich-text#favorite__playstation--description-four": {
     "props": {
-      "text": "Controles Dualsense"
+      "text": "- Controles Dualsense"
     }
   }
 }
