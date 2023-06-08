@@ -1,0 +1,28 @@
+.container--home__text--info {
+  background-color: #212530;
+  min-height: 50px;
+  justify-content: center;
+  padding: 0;
+  opacity: .95;
+  align-items: center;
+}
+.container--home__text--info :global(.vtex-rich-text-0-x-image--home__text--info){
+  display: inline-block !important;
+  vertical-align: middle;
+  margin-right: 15px;
+}
+.container--home__text--info :global(.vtex-rich-text-0-x-wrapper--home__text--info) {
+  margin: 0;
+  color: #bcbccc;
+  font-size: 18px;
+  font-weight: 700;
+  text-align: center;
+  display: inline-block;
+  line-height: 47px;
+}
+.container--home__text--info :global(.vtex-rich-text-0-x-link--home__text--info){
+  font-size: 18px;
+  color: #5787f4;
+  text-decoration: none;
+  margin-left: 0.5em;
+}

@@ -9,7 +9,7 @@
     },
     "infinite": true,
     "blockClass": "home__slider--promo",
-    "fullWidth": false,
+    "fullWidth": true,
     "autoplay": {
       "timeout": 3000,
       "stopOnHover": true
