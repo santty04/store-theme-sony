@@ -39,3 +39,12 @@
   opacity: .9;
 }
 
+.sliderArrows--home__slider--info{
+  opacity: 0;
+  background-color: #4d5059!important;
+}
+.sliderArrows--home__slider--info:hover{
+  opacity: 1;
+  background-color: #4d5059!important;
+}
+

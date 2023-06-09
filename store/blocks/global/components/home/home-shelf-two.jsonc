@@ -5,14 +5,17 @@
       "flex-layout.col#home__section--shelf-two"
     ],
     "props": {
-      "border": "top"
+      "blockClass": "home__section--shelf-two"
     }
   },
   "flex-layout.col#home__section--shelf-two": {
     "children": [
       "rich-text#section__shelf--title-two",
       "rich-text#section__shelf--description-two"
-    ]
+    ],
+    "props": {
+      "blockClass": "section__shelf--two"
+    }
   },
   "rich-text#section__shelf--title-two": {
     "title": "section shelf title",
@@ -20,7 +23,8 @@
       "text": "CÁMARAS Y LENTES",
       "textAlignment": "CENTER",
       "textPosition": "CENTER",
-      "font": "t-heading-3"
+      "font": "t-heading-3",
+      "blockClass": "shelf__two--title"
     }
   },
   "rich-text#section__shelf--description-two": {
@@ -28,7 +32,8 @@
     "props": {
       "text": "El poder de las imágenes puede ser tuyo",
       "textAlignment": "CENTER",
-      "textPosition": "CENTER"
+      "textPosition": "CENTER",
+      "blockClass": "shelf__two--description"
     }
   }
 }
