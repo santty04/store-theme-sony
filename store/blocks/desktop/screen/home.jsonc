@@ -4,7 +4,7 @@
     "children": [
       // "flex-layout.row#home__section-1",
       "slider-layout#home__slider--info",
-      "flex-layout.row#home__info--flex",
+      "rich-text#home__section--info",
       "slider-layout#home__slider--promo",
       "rich-text#home__imperdibles--title",
       "flex-layout.row#imperdibles__section--container",

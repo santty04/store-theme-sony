@@ -4,7 +4,10 @@
     "children": [
       "flex-layout.col#flex__section--one",
       "flex-layout.col#flex__section--two"
-    ]
+    ],
+    "props": {
+      "blockClass": "flex__section--imperdibles"
+    }
   },
   "flex-layout.col#flex__section--one": {
     "title": "Slider section 1",
@@ -13,14 +16,18 @@
       "rich-text#flex__one--title",
       "rich-text#flex__one--description",
       "link#flex__one--link"
-    ]
+    ],
+    "props": {
+      "blockClass": "section__imperdibles--one"
+    }
   },
   "image#image__flex--section-one": {
     "props": {
       "src": "assets/img/imperdibles-one.webp",
       "link": {
         "url": "/"
-      }
+      },
+      "blockClass": "imperdibles__image"
     }
   },
   "rich-text#flex__one--title": {
@@ -28,7 +35,8 @@
       "text": "Cómodos y ligeros, con cancelación de ruido",
       "textAlignment": "CENTER",
       "textPosition": "CENTER",
-      "font": "t-heading-4"
+      "font": "t-heading-4",
+      "blockClass": "imperdibles__title"
     }
   },
   "rich-text#flex__one--description": {
@@ -36,13 +44,15 @@
       "text": "Para disfrutar tu música favorita todo el día, sin interrupciones",
       "textAlignment": "CENTER",
       "textPosition": "CENTER",
-      "font": "t-heading-7"
+      "font": "t-heading-7",
+      "blockClass": "imperdibles__description"
     }
   },
   "link#flex__one--link": {
     "props": {
       "href": "/",
-      "label": "Descúbrelos >>"
+      "label": "Descúbrelos >>",
+      "blockClass": "imperdibles__link"
     }
   },
   "flex-layout.col#flex__section--two": {
@@ -52,11 +62,18 @@
       "rich-text#flex__two--title",
       "rich-text#flex__two--description",
       "link#flex__two--link"
-    ]
+    ],
+    "props": {
+      "blockClass": "flex__section--imperdibles-two"
+    }
   },
   "image#image__flex--section-two": {
     "props": {
-      "src": "assets/img/imperdibles-two.webp"
+      "src": "assets/img/imperdibles-two.webp",
+      "link": {
+        "url": "/"
+      },
+      "blockClass": "imperdibles__image"
     }
   },
   "rich-text#flex__two--title": {
@@ -64,7 +81,8 @@
       "text": "Sumerge en auténtico sonido Surround",
       "textAlignment": "CENTER",
       "textPosition": "CENTER",
-      "font": "t-heading-4"
+      "font": "t-heading-4",
+      "blockClass": "imperdibles__title"
     }
   },
   "rich-text#flex__two--description": {
@@ -72,14 +90,16 @@
       "text": "Con las nuevas Barras de Sonido Premium Serie A",
       "textAlignment": "CENTER",
       "textPosition": "CENTER",
-      "font": "t-heading-7"
+      "font": "t-heading-7",
+      "blockClass": "imperdibles__description"
     }
   },
   "link#flex__two--link": {
     "props": {
       "href": "/",
       "label": "Descúbrelas >>",
-      "scrollTo": "#footer"
+      "scrollTo": "#footer",
+      "blockClass": "imperdibles__link"
     }
   }
 }

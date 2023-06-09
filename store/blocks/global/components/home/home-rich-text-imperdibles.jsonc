@@ -5,7 +5,8 @@
       "text": "Imperdibles del Mes",
       "textAlignment": "CENTER",
       "textPosition": "CENTER",
-      "font": "t-heading-2"
+      "font": "t-heading-2",
+      "blockClass": "home__imperdibles--text"
     }
   }
 }

@@ -5,13 +5,16 @@
       "flex-layout.col#home__section--shelf-five"
     ],
     "props": {
-      "border": "top"
+      "blockClass": "home__section--shelf-five"
     }
   },
   "flex-layout.col#home__section--shelf-five": {
     "children": [
       "rich-text#section__shelf--title-five"
-    ]
+    ],
+    "props": {
+      "blockClass": "section__shelf--five"
+    }
   },
   "rich-text#section__shelf--title-five": {
     "title": "section shelf title",
@@ -19,7 +22,8 @@
       "text": "LOS MÁS VENDIDOS",
       "textAlignment": "CENTER",
       "textPosition": "CENTER",
-      "font": "t-heading-3"
+      "font": "t-heading-3",
+      "blockClass": "shelf__five--title"
     }
   }
 }

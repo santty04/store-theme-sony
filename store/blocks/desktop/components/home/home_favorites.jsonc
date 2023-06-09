@@ -6,13 +6,16 @@
       "flex-layout.col#section__favorites--cams",
       "flex-layout.col#section__favorites--sound",
       "flex-layout.col#section__favorites--playstation"
-    ]
+    ],
+    "props": {
+      "blockClass": "home__section--favorites"
+    }
   },
   // title
   "flex-layout.row#section__favorites--title": {
     "title": "section favorites title",
     "props": {
-      "border": "top"
+      "blockClass": "section__favorites--title"
     },
     "children": [
       "rich-text#home__favorites--title"
@@ -40,7 +43,8 @@
       "src": "assets/img/favorite-cinema.webp",
       "link": {
         "url": "/"
-      }
+      },
+      "blockClass": "image__favorites--sony"
     }
   },
   "flex-layout.col#favorite__cinema--texts": {
@@ -54,27 +58,32 @@
   },
   "rich-text#favorite__cinema--title": {
     "props": {
-      "text": "Cine en Casa"
+      "text": "Cine en Casa",
+      "blockClass": "favorite__title"
     }
   },
   "rich-text#favorite__cinema--description-one": {
     "props": {
-      "text": "Televisores Full Arrray LED"
+      "text": "- [Televisores Full Arrray LED](/)",
+      "blockClass": "item__favorites--sony"
     }
   },
   "rich-text#favorite__cinema--description-two": {
     "props": {
-      "text": "Televisores Smart con Google TV"
+      "text": "- [Televisores Smart con Google TV](/)",
+      "blockClass": "item__favorites--sony"
     }
   },
   "rich-text#favorite__cinema--description-three": {
     "props": {
-      "text": "Barras de Sonido y Teatros"
+      "text": "- [Barras de Sonido y Teatros](/)",
+      "blockClass": "item__favorites--sony"
     }
   },
   "rich-text#favorite__cinema--description-four": {
     "props": {
-      "text": "Reproductores Blu-ray"
+      "text": "- [Reproductores Blu-ray](/)",
+      "blockClass": "item__favorites--sony"
     }
   },
   // Section cams
@@ -90,7 +99,8 @@
       "src": "assets/img/favorite-cams.webp",
       "link": {
         "url": "/"
-      }
+      },
+      "blockClass": "image__favorites--sony"
     }
   },
   "flex-layout.col#favorite__cams--texts": {
@@ -104,27 +114,32 @@
   },
   "rich-text#favorite__cams--title": {
     "props": {
-      "text": "Captura el Momento"
+      "text": "Captura el Momento",
+      "blockClass": "favorite__title"
     }
   },
   "rich-text#favorite__cams--description-one": {
     "props": {
-      "text": "Cámaras profesionales Alpha"
+      "text": "- [Cámaras profesionales Alpha](/)",
+      "blockClass": "item__favorites--sony"
     }
   },
   "rich-text#favorite__cams--description-two": {
     "props": {
-      "text": "Lentes G-Master"
+      "text": "- [Lentes G-Master](/)",
+      "blockClass": "item__favorites--sony"
     }
   },
   "rich-text#favorite__cams--description-three": {
     "props": {
-      "text": "Cámaras Vlogger"
+      "text": "- [Cámaras Vlogger](/)",
+      "blockClass": "item__favorites--sony"
     }
   },
   "rich-text#favorite__cams--description-four": {
     "props": {
-      "text": "Cámaras Cinema Line"
+      "text": "- [Cámaras Cinema Line](/)",
+      "blockClass": "item__favorites--sony"
     }
   },
 
@@ -141,7 +156,8 @@
       "src": "assets/img/favorite-sound.webp",
       "link": {
         "url": "/"
-      }
+      },
+      "blockClass": "image__favorites--sony"
     }
   },
   "flex-layout.col#favorite__sound--texts": {
@@ -155,27 +171,32 @@
   },
   "rich-text#favorite__sound--title": {
     "props": {
-      "text": "Audio Premium"
+      "text": "Audio Premium",
+      "blockClass": "favorite__title"
     }
   },
   "rich-text#favorite__sound--description-one": {
     "props": {
-      "text": "Sistemas de audio Serie V"
+      "text": "- [Sistemas de audio Serie V](/)",
+      "blockClass": "item__favorites--sony"
     }
   },
   "rich-text#favorite__sound--description-two": {
     "props": {
-      "text": "Sistemas de Audio Hi-res"
+      "text": "- [Sistemas de Audio Hi-res](/)",
+      "blockClass": "item__favorites--sony"
     }
   },
   "rich-text#favorite__sound--description-three": {
     "props": {
-      "text": "Parlantes Bluetooth"
+      "text": "- [Parlantes Bluetooth](/)",
+      "blockClass": "item__favorites--sony"
     }
   },
   "rich-text#favorite__sound--description-four": {
     "props": {
-      "text": "360 Reality Audio"
+      "text": "- [360 Reality Audio](/)",
+      "blockClass": "item__favorites--sony"
     }
   },
 
@@ -192,7 +213,8 @@
       "src": "assets/img/favorite-playstation.webp",
       "link": {
         "url": "/"
-      }
+      },
+      "blockClass": "image__favorites--sony"
     }
   },
   "flex-layout.col#favorite__playstation--texts": {
@@ -206,27 +228,32 @@
   },
   "rich-text#favorite__playstation--title": {
     "props": {
-      "text": "Playstation"
+      "text": "Playstation",
+      "blockClass": "favorite__title"
     }
   },
   "rich-text#favorite__playstation--description-one": {
     "props": {
-      "text": "Playstation 5"
+      "text": "- [Playstation 5](/)",
+      "blockClass": "item__favorites--sony"
     }
   },
   "rich-text#favorite__playstation--description-two": {
     "props": {
-      "text": "Juegos Playstation"
+      "text": "- [Juegos Playstation](/)",
+      "blockClass": "item__favorites--sony"
     }
   },
   "rich-text#favorite__playstation--description-three": {
     "props": {
-      "text": "Accesorios Playstation"
+      "text": "- [Accesorios Playstation](/)",
+      "blockClass": "item__favorites--sony"
     }
   },
   "rich-text#favorite__playstation--description-four": {
     "props": {
-      "text": "Controles Dualsense"
+      "text": "- [Controles Dualsense](/)",
+      "blockClass": "item__favorites--sony"
     }
   }
 }
