@@ -12,7 +12,8 @@
         "autoplay": {
           "timeout": 3000,
           "stopOnHover": true
-        }
+        },
+        "fullWidth": true
       },
       "children": [
         "info-card#home__slider--card-1",

@@ -9,7 +9,7 @@
     },
     "infinite": true,
     "blockClass": "home__slider--promo",
-    "fullWidth": false,
+    "fullWidth": true,
     "autoplay": {
       "timeout": 3000,
       "stopOnHover": true
@@ -23,17 +23,26 @@
 },
 "image#promo__slider--one": {
   "props": {
-    "src": "assets/img/promo-1.webp"
+    "src": "assets/img/promo-1.webp",
+    "link": {
+      "url": "/"
+    }
   }
 },
 "image#promo__slider--two": {
   "props": {
-    "src": "assets/img/promo-2.webp"
+    "src": "assets/img/promo-2.webp",
+    "link": {
+      "url": "/"
+    }
   }
 },
 "image#promo__slider--three": {
   "props": {
-    "src": "assets/img/promo-3.webp"
+    "src": "assets/img/promo-3.webp",
+    "link": {
+      "url": "/"
+    }
   }
 }
 }

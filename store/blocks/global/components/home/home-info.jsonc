@@ -1,21 +1,20 @@
 {
-  "flex-layout.row#home__info--flex": {
-    "title": "Info about free shipping",
-    "children": [
-      "rich-text#home__section--info"
-    ],
-    "props": {
-      "marginTop": 0,
-      "border": ["all"],
-      "borderWidth": 1,
-      "blockClass": "home__section--info"
-    }
-  },
+  // "flex-layout.row#home__info--flex": {
+  //   "title": "Info about free shipping",
+  //   "children": [
+  //     "rich-text#home__section--info"
+  //   ],
+  //   "props": {
+  //     "marginTop": 0,
+  //     "blockClass": "home__section--info"
+  //   }
+  // },
   "rich-text#home__section--info": {
     "props": {
-      "text": "| GRATIS Envío desde $99.000*.",
+      "text": "![carrito con caja](assets/img/Icono-Carro-con-Caja.png) | GRATIS Envío desde $99.000*. [Ver más >>](/)",
       "textAlignment": "CENTER",
-      "textPosition": "CENTER"
+      "textPosition": "CENTER",
+      "blockClass": "home__text--info"
     }
   }
 }

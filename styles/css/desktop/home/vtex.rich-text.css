@@ -1,0 +1,171 @@
+.container--home__text--info {
+  background-color: #212530;
+  min-height: 50px;
+  justify-content: center;
+  padding: 0;
+  opacity: .95;
+  align-items: center;
+}
+.container--home__text--info :global(.vtex-rich-text-0-x-image--home__text--info){
+  display: inline-block !important;
+  vertical-align: middle;
+  margin-right: 15px;
+}
+.container--home__text--info :global(.vtex-rich-text-0-x-wrapper--home__text--info) {
+  margin: 0;
+  color: #bcbccc;
+  font-size: 18px;
+  font-weight: 700;
+  text-align: center;
+  display: inline-block;
+  line-height: 47px;
+}
+.container--home__text--info :global(.vtex-rich-text-0-x-link--home__text--info){
+  font-size: 18px;
+  color: #5787f4;
+  text-decoration: none;
+  margin-left: 0.5em;
+}
+
+.wrapper--home__imperdibles--text {
+  margin: 40px auto 35px;
+  font-size: 37px;
+  line-height: 36px;
+}
+
+.paragraph--imperdibles__title {
+  font-size: 18px;
+  line-height: 26px;
+  color: #83838f;
+  font-weight: 700;
+}
+.paragraph--imperdibles__description {
+  clear: both;
+  width: 100%;
+  font-size: 14px;
+  color: #83838f;
+  margin-top: 12px;
+  line-height: 23px;
+  white-space: normal;
+}
+
+/* home section shelf */
+.paragraph--shelf__one--title {
+  font-size: 22px;
+  color: #2f353d;
+  font-weight: 700;
+  font-family: "SST W01 Bold"!important;
+  line-height: 24px;
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 0;
+}
+.paragraph--shelf__one--description{
+  font-size: 18px;
+  color: #83838f;
+  line-height: 20px;
+  margin-top: 10px;
+  text-align: center;
+  font-family: "SST W01 Roman,San Francisco,-apple-system,BlinkMacSystemFont,avenir next,avenir,helvetica neue,helvetica,ubuntu,roboto,noto,segoe ui,arial,sans-serif";
+}
+.paragraph--shelf__two--title {
+  font-size: 22px;
+  color: #2f353d;
+  font-weight: 700;
+  font-family: "SST W01 Bold"!important;
+  line-height: 24px;
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 0;
+}
+.paragraph--shelf__two--description{
+  font-size: 18px;
+  color: #83838f;
+  line-height: 20px;
+  margin-top: 10px;
+  text-align: center;
+  font-family: "SST W01 Roman,San Francisco,-apple-system,BlinkMacSystemFont,avenir next,avenir,helvetica neue,helvetica,ubuntu,roboto,noto,segoe ui,arial,sans-serif";
+}
+.paragraph--shelf__three--title {
+  font-size: 22px;
+  color: #2f353d;
+  font-weight: 700;
+  font-family: "SST W01 Bold"!important;
+  line-height: 24px;
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 0;
+}
+.paragraph--shelf__three--description{
+  font-size: 18px;
+  color: #83838f;
+  line-height: 20px;
+  margin-top: 10px;
+  text-align: center;
+  font-family: "SST W01 Roman,San Francisco,-apple-system,BlinkMacSystemFont,avenir next,avenir,helvetica neue,helvetica,ubuntu,roboto,noto,segoe ui,arial,sans-serif";
+}
+.paragraph--shelf__four--title {
+  font-size: 22px;
+  color: #2f353d;
+  font-weight: 700;
+  font-family: "SST W01 Bold"!important;
+  line-height: 24px;
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 0;
+}
+.paragraph--shelf__four--description{
+  font-size: 18px;
+  color: #83838f;
+  line-height: 20px;
+  margin-top: 10px;
+  text-align: center;
+  font-family: "SST W01 Roman,San Francisco,-apple-system,BlinkMacSystemFont,avenir next,avenir,helvetica neue,helvetica,ubuntu,roboto,noto,segoe ui,arial,sans-serif";
+}
+.paragraph--shelf__five--title {
+  font-size: 22px;
+  color: #2f353d;
+  font-weight: 700;
+  font-family: "SST W01 Bold"!important;
+  line-height: 24px;
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 0;
+}
+
+.paragraph--home__favorites--title {
+  font-size: 22px;
+  color: #2f353d;
+  font-weight: 700;
+  font-family: "SST W01 Bold"!important;
+  line-height: 24px;
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 26px !important;
+}
+
+/* section favorites sony */
+.wrapper--favorite__title{
+  font-size: 18px;
+  color: #2f353d;
+  line-height: 1 !important;
+  margin-bottom: 5px;
+}
+.link--item__favorites--sony {
+  color: #83838f;
+  font-size: 12px;
+  text-decoration: none;
+  margin-bottom: 0px;
+}
+.link--item__favorites--sony:hover {
+  color: #2f353d;
+}
+.list--item__favorites--sony {
+  margin: 5px;
+  margin-left: 0;
+  margin-block-start: 0;
+}
+.list--item__favorites--sony:first-child{
+  color: #f75229;
+}
+

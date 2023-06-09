@@ -3,6 +3,7 @@
     "title": "Section 1 Phone Home",
     "children": [
       "flex-layout.row#mobile__home--slider",
+      "rich-text#home__section--info",
       "slider-layout#home__slider--promo",
       "rich-text#home__imperdibles--title",
       "slider-layout#home__slider--imperdibles",

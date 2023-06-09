@@ -1,0 +1,15 @@
+.imageElement--imperdibles__image{
+  transition: all .25s;
+}
+.imageElement--imperdibles__image:hover{
+  opacity: .9;
+}
+.imageElement--home__image--promotional {
+  display: block;
+  max-width: 1190px;
+  margin: 0 auto;
+}
+.imageElement--image__favorites--sony {
+  height: 251px;
+  width: 251px;
+}

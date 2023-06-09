@@ -5,14 +5,17 @@
       "flex-layout.col#home__section--shelf-four"
     ],
     "props": {
-      "border": "top"
+      "blockClass": "home__section--shelf-four"
     }
   },
   "flex-layout.col#home__section--shelf-four": {
     "children": [
       "rich-text#section__shelf--title-four",
       "rich-text#section__shelf--description-four"
-    ]
+    ],
+    "props": {
+      "blockClass": "section__shelf--four"
+    }
   },
   "rich-text#section__shelf--title-four": {
     "title": "section shelf title",
@@ -20,7 +23,8 @@
       "text": "PRODUCTOS QUE TE INTERESARON",
       "textAlignment": "CENTER",
       "textPosition": "CENTER",
-      "font": "t-heading-3"
+      "font": "t-heading-3",
+      "blockClass": "shelf__four--title"
     }
   },
   "rich-text#section__shelf--description-four": {
@@ -28,7 +32,8 @@
     "props": {
       "text": "Cómpralos antes de que se agote el stock",
       "textAlignment": "CENTER",
-      "textPosition": "CENTER"
+      "textPosition": "CENTER",
+      "blockClass": "shelf__four--description"
     }
   }
 }
