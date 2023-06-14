@@ -5,11 +5,19 @@
   opacity: .9;
 }
 .imageElement--home__image--promotional {
+  width: 100%;
   display: block;
   max-width: 1190px;
   margin: 0 auto;
+  position: relative;
 }
 .imageElement--image__favorites--sony {
   height: 251px;
   width: 251px;
+}
+.image--home__prefooter--text {
+  height: 100px;
+  width: 100px;
+  margin-right: 19px;
+  vertical-align: middle;
 }

@@ -1,0 +1,22 @@
+{
+  "slider-layout#home__slider--benefits": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 1,
+        "tablet": 2,
+        "phone": 2
+      },
+      "infinite": true,
+      "showNavigationArrows": "desktopOnly",
+      "blockClass": "carousel"
+    },
+    "children": [
+      "flex-layout.col#benefits__item--one",
+      "flex-layout.col#benefits__item--two",
+      "flex-layout.col#benefits__item--three",
+      "flex-layout.col#benefits__item--four",
+      "flex-layout.col#benefits__item--five",
+      "flex-layout.col#benefits__item--six"
+    ]
+  }
+}

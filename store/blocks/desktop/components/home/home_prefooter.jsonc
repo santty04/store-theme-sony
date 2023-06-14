@@ -1,0 +1,11 @@
+{
+  "rich-text#home__prefooter": {
+    "title": "text pre-footer",
+    "props": {
+      "text": "![image pre-footer](assets/img/pre-footer.png) Regístrate y entérate de últimas novedades y especiales",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "blockClass": "home__prefooter--text"
+    }
+  }
+}

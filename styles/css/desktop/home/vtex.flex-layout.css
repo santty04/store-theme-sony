@@ -57,5 +57,26 @@
   margin-top: 2rem;
   padding   : 0;
 }
+.flexRow--home__form--register {
+  background: #f1f5f9;
+  padding: 70px 0 50px;
+  border-top: #e3e4e6;
+}
+.flexCol--benefits__item--one,
+.flexCol--benefits__item--two,
+.flexCol--benefits__item--three,
+.flexCol--benefits__item--four,
+.flexCol--benefits__item--five,
+.flexCol--benefits__item--six {
+  margin-right: 18px !important;
+}
+.flexRow--home__section--benefits {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.flexRowContent--home__section--benefits{
+  width: 80%;
+  margin: 80px auto;
+}
 
 

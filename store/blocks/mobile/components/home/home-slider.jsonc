@@ -76,7 +76,8 @@
       "displayMode": "button",
       "buttonProps": {
         "variant": "primary"
-      }
+      },
+      "blockClass": "button-one"
     }
   },
 
@@ -130,7 +131,8 @@
       "displayMode": "button",
       "buttonProps": {
         "variant": "primary"
-      }
+      },
+      "blockClass": "button-two"
     }
   },
   "flex-layout.col#mobile__home--info-three": {

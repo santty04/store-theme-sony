@@ -15,7 +15,8 @@
       "flex-layout.row#home__section--shelf-five",
       "flex-layout.row#section__favorites--title",
       "flex-layout.row#home__section--favorites-1",
-      "flex-layout.row#home__section--favorites-2"
+      "flex-layout.row#home__section--favorites-2",
+      "slider-layout#home__slider--benefits"
     ]
   }
 }
