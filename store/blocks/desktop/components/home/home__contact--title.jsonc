@@ -1,0 +1,11 @@
+{
+  "rich-text#home__contact--title": {
+    "title": "title about contact",
+    "props": {
+      "blockClass": "home__contact--title",
+      "text": "¿Necesitas información de tu compra?",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
+    }
+  }
+}

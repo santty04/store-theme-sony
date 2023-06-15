@@ -1,0 +1,174 @@
+{
+  "flex-layout.row#home__benefits": {
+    "title": "home section benefits",
+    "children": [
+      "flex-layout.col#benefits__item--one",
+      "flex-layout.col#benefits__item--two",
+      "flex-layout.col#benefits__item--three",
+      "flex-layout.col#benefits__item--four",
+      "flex-layout.col#benefits__item--five",
+      "flex-layout.col#benefits__item--six"
+    ],
+    "props": {
+      "blockClass": "home__section--benefits"
+    }
+  },
+  "flex-layout.col#benefits__item--one": {
+    "title": "benefits item one",
+    "children": [
+      "rich-text#benefits__easy--buy",
+      "rich-text#easy__buy--description"
+    ],
+    "props": {
+      "blockClass": "benefits__item--one"
+    }
+  },
+  "rich-text#benefits__easy--buy": {
+    "title": "benefits easy buy",
+    "props": {
+      "text": "![image easy buy](assets/img/como-comprar.png) <br> [Compra fácil](/)",
+      "blockClass": "easy__buy--title",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
+    }
+  },
+  "rich-text#easy__buy--description": {
+    "title": "benefits easy buy description",
+    "props": {
+      "text": "Elige tu producto, selecciona el medio de pago, la dirección de entrega y listo.",
+      "blockClass": "easy__buy--description",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
+    }
+  },
+  "flex-layout.col#benefits__item--two": {
+    "title": "benefits item two",
+    "children": [
+      "rich-text#benefits__payment--methods",
+      "rich-text#payment__methods--description"
+    ],
+    "props": {
+      "blockClass": "benefits__item--two"
+    }
+  },
+  "rich-text#benefits__payment--methods": {
+    "title": "benefits payment methods",
+    "props": {
+      "text": "![image payment methods](assets/img/medios-pago.png) <br> [Medios de pago](/)",
+      "blockClass": "easy__buy--title",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
+    }
+  },
+  "rich-text#payment__methods--description": {
+    "title": "benefits easy buy description",
+    "props": {
+      "text": "![image description](assets/img/payments2.png)",
+      "blockClass": "easy__buy--description",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
+    }
+  },
+  "flex-layout.col#benefits__item--three": {
+    "title": "benefits item three",
+    "children": [
+      "rich-text#benefits__free--shipping",
+      "rich-text#free__shipping--description"
+    ],
+    "props": {
+      "blockClass": "benefits__item--three"
+    }
+  },
+  "rich-text#benefits__free--shipping": {
+    "title": "title benefits free shiping",
+    "props": {
+      "text": "![image free shipping](assets/img/envios-pais.png) <br> [Envíos GRATIS*](/)",
+      "blockClass": "benefits__free--shipping",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
+    }
+  },
+  "rich-text#free__shipping--description": {
+    "title": "description benefits free shipping",
+    "props": {
+      "text": "*En compras superiores a $99.000. [Conoce más](/)",
+      "blockClass": "free__shipping--description",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
+    }
+  },
+  "flex-layout.col#benefits__item--four": {
+    "title": "benefits item four",
+    "children": [
+      "rich-text#benefits__fast--delivery",
+      "rich-text#fast__delivery--description"
+    ],
+    "props": {
+      "blockClass": "benefits__item--four"
+    }
+  },
+  "rich-text#benefits__fast--delivery": {
+    "title": "title benefits fast delivery",
+    "props": {
+      "text": "![image fast delivery](assets/img/icn-test.png) <br> [Tu producto rápido](/)",
+      "blockClass": "fast__delivery--title",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
+    }
+  },
+  "rich-text#fast__delivery--description": {
+    "title": "description fast delivery",
+    "props": {
+      "text": "El tiempo de entrega dependerá de la ciudad en la que te encuentres. [Conoce más](/)",
+      "blockClass": "fast__delivery--description",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
+    }
+  },
+  "flex-layout.col#benefits__item--five": {
+    "title": "benefits item five",
+    "children": [
+      "rich-text#benefits__direct--guarantee",
+      "rich-text#direct__guarantee--description"
+    ],
+    "props": {
+      "blockClass": "benefits__item--five"
+    }
+  },
+  "rich-text#benefits__direct--guarantee": {
+    "title": "title direct guaratantee",
+    "props": {
+      "text": "![image direct guarantee](assets/img/icn-test2.png) <br> [Garantía directa](/)",
+      "blockClass": "direct__guarantee--title",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
+    }
+  },
+  "rich-text#direct__guarantee--description": {
+    "title": "description direct guarantee",
+    "props": {
+      "text": "Todas tus compras cuentan con el respaldo directo de Sony.",
+      "blockClass": "direct__guarantee--description",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
+    }
+  },
+  "flex-layout.col#benefits__item--six": {
+    "title": "benefits item six",
+    "children": [
+      "rich-text#benefits__safe--purchase"
+    ],
+    "props": {
+      "blockClass": "benefits__item--six"
+    }
+  },
+  "rich-text#benefits__safe--purchase": {
+    "title": "title safe purchase",
+    "props": {
+      "blockClass": "safe__purchase--title",
+      "text": "![Image safe purchase](assets/img/compra-segura.png) <br> [Compra segura 100% certificada](/)",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
+    }
+  }
+}
