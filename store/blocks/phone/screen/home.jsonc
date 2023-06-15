@@ -4,10 +4,10 @@
     "children": [
       "flex-layout.row#mobile__home--slider",
       "rich-text#home__section--info",
-      "slider-layout#home__slider--promo",
+      "slider-layout#mobile__slider--promo",
       "rich-text#home__imperdibles--title",
       "slider-layout#home__slider--imperdibles",
-      "image#home__image--promotional",
+      "image#mobile__image--promotional",
       "flex-layout.row#home__section--shelf",
       "flex-layout.row#home__section--shelf-two",
       "flex-layout.row#home__section--shelf-three",
@@ -16,7 +16,11 @@
       "flex-layout.row#section__favorites--title",
       "flex-layout.row#home__section--favorites-1",
       "flex-layout.row#home__section--favorites-2",
-      "slider-layout#home__slider--benefits"
+      "rich-text#home__prefooter",
+      "flex-layout.row#home__form--register",
+      "slider-layout#home__slider--benefits",
+      "rich-text#home__contact--title",
+      "rich-text#home__contact--description"
     ]
   }
 }

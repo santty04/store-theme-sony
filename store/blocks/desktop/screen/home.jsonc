@@ -18,7 +18,9 @@
       "flex-layout.row#home__section--favorites",
       "rich-text#home__prefooter",
       "flex-layout.row#home__form--register",
-      "flex-layout.row#home__benefits"
+      "flex-layout.row#home__benefits",
+      "rich-text#home__contact--title",
+      "rich-text#home__contact--description"
     ]
   }
 }

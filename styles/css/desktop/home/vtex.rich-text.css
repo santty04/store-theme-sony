@@ -1,5 +1,6 @@
 .container--home__text--info {
   background-color: #212530;
+  margin-top      : 20px;
   min-height      : 50px;
   justify-content : center;
   padding         : 0;
@@ -218,27 +219,57 @@
 .link--benefits__free--shipping,
 .link--fast__delivery--title,
 .link--direct__guarantee--title {
-  color: #f75229;
-  font-size: 18px;
-  margin: 0;
-  text-align: center;
-  cursor: pointer;
+  color          : #f75229;
+  font-size      : 18px;
+  margin         : 0;
+  text-align     : center;
+  cursor         : pointer;
   text-decoration: none;
 }
+
 .link--safe__purchase--title {
-  color: #f75229;
-  font-size: 18px;
-  margin: 0;
-  text-align: center;
-  cursor: pointer;
+  color          : #f75229;
+  font-size      : 18px;
+  margin         : 0;
+  text-align     : center;
+  cursor         : pointer;
   text-decoration: none;
 }
+
 .paragraph--easy__buy--description,
 .paragraph--free__shipping--description,
 .paragraph--fast__delivery--description,
 .paragraph--direct__guarantee--description {
-  color: #83838f;
-  font-size: 12px;
-  margin: 0;
+  color     : #83838f;
+  font-size : 12px;
+  margin    : 0;
   text-align: center;
+}
+
+.link--free__shipping--description,
+.link--fast__delivery--description {
+  color          : #4572ec;
+  font-size      : 13px;
+  line-height    : 20px;
+  text-decoration: none;
+}
+
+.paragraph--home__contact--title {
+  font-size  : 27px;
+  font-weight: 700;
+  color      : #2f353d;
+}
+
+.paragraph--home__contact--description {
+  color      : #83838f;
+  margin-top : 20px;
+  font-size  : 20px;
+  line-height: 28px;
+  font-weight: 300;
+  font-family: SST W01 Light;
+}
+
+.link--home__contact--description {
+  color          : #4572ec;
+  text-decoration: none;
 }

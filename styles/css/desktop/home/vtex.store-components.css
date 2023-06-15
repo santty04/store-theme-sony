@@ -21,3 +21,27 @@
   margin-right: 19px;
   vertical-align: middle;
 }
+.infoCardCallActionContainer--info__card--one :global(.vtex-button){
+  background-color: #f25529;
+  border: none;
+  transition: .25s;
+}
+.infoCardCallActionContainer--info__card--two :global(.vtex-button){
+  background-color: #f25529;
+  border: none;
+  transition: .25s;
+}
+.infoCardCallActionContainer--info__card--three :global(.vtex-button){
+  background-color: #f25529;
+  border: none;
+  transition: .25s;
+}
+.infoCardCallActionContainer--info__card--one :global(.vtex-button):hover{
+  opacity: .8;
+}
+.infoCardCallActionContainer--info__card--two :global(.vtex-button):hover{
+  opacity: .8;
+}
+.infoCardCallActionContainer--info__card--three :global(.vtex-button):hover{
+  opacity: .8;
+}
