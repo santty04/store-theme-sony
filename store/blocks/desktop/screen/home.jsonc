@@ -15,7 +15,12 @@
       "flex-layout.row#home__section--shelf-four",
       "flex-layout.row#home__section--shelf-five",
       "flex-layout.row#section__favorites--title",
-      "flex-layout.row#home__section--favorites"
+      "flex-layout.row#home__section--favorites",
+      "rich-text#home__prefooter",
+      "flex-layout.row#home__form--register",
+      "flex-layout.row#home__benefits",
+      "rich-text#home__contact--title",
+      "rich-text#home__contact--description"
     ]
   }
 }

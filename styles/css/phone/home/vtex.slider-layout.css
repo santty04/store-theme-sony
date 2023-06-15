@@ -1,0 +1,7 @@
+.paginationDotsContainer--home__slider {
+  transform: translateY(12px);
+}
+.paginationDot--isActive {
+  background-color: #575757;
+}
+

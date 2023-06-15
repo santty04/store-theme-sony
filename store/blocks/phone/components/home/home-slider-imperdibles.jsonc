@@ -12,12 +12,31 @@
       "autoplay": {
         "timeout": 3000,
         "stopOnHover": true
-      }
+      },
+      "showNavigationArrows": "never"
     },
     "children": [
-      "flex-layout.col#slider__section--one",
-      "flex-layout.col#slider__section--two"
+      "flex-layout.row#row__slider--one",
+      "flex-layout.row#row__slider--two"
+      // "flex-layout.col#slider__section--one",
+      // "flex-layout.col#slider__section--two"
     ]
+  },
+  "flex-layout.row#row__slider--one": {
+    "children": [
+      "flex-layout.col#slider__section--one"
+    ],
+    "props": {
+      "blockClass": "row__slider--one"
+    }
+  },
+  "flex-layout.row#row__slider--two": {
+    "children": [
+      "flex-layout.col#slider__section--two"
+    ],
+    "props": {
+      "blockClass": "row__slider--two"
+    }
   },
   "flex-layout.col#slider__section--one": {
     "title": "Slider section 1",
@@ -33,7 +52,8 @@
       "src": "assets/img/imperdibles-one.webp",
       "link": {
         "url": "/"
-      }
+      },
+      "blockClass": "image__slider--section-one"
     }
   },
   "rich-text#section__one--title": {
@@ -41,7 +61,8 @@
       "text": "Cómodos y ligeros, con cancelación de ruido",
       "textAlignment": "CENTER",
       "textPosition": "CENTER",
-      "font": "t-heading-4"
+      "font": "t-heading-4",
+      "blockClass": "section__one--title"
     }
   },
   "rich-text#section__one--description": {
@@ -49,13 +70,15 @@
       "text": "Para disfrutar tu música favorita todo el día, sin interrupciones",
       "textAlignment": "CENTER",
       "textPosition": "CENTER",
-      "font": "t-heading-7"
+      "font": "t-heading-7",
+      "blockClass": "section__one--description"
     }
   },
   "link#section__one--link": {
     "props": {
       "href": "/",
-      "label": "Descúbrelos >>"
+      "label": "Descúbrelos >>",
+      "blockClass": "section__one--link"
     }
   },
   "flex-layout.col#slider__section--two": {
@@ -65,11 +88,15 @@
       "rich-text#section__two--title",
       "rich-text#section__two--description",
       "link#section__two--link"
-    ]
+    ],
+    "props": {
+      "blockClass": "slider__section--two"
+    }
   },
   "image#image__slider--section-two": {
     "props": {
-      "src": "assets/img/imperdibles-two.webp"
+      "src": "assets/img/imperdibles-two.webp",
+      "blockClass": "image__slider--section--two"
     }
   },
   "rich-text#section__two--title": {
@@ -77,7 +104,8 @@
       "text": "Sumerge en auténtico sonido Surround",
       "textAlignment": "CENTER",
       "textPosition": "CENTER",
-      "font": "t-heading-4"
+      "font": "t-heading-4",
+      "blockClass": "section__two--title"
     }
   },
   "rich-text#section__two--description": {
@@ -85,14 +113,16 @@
       "text": "Con las nuevas Barras de Sonido Premium Serie A",
       "textAlignment": "CENTER",
       "textPosition": "CENTER",
-      "font": "t-heading-7"
+      "font": "t-heading-7",
+      "blockClass": "section__two--description"
     }
   },
   "link#section__two--link": {
     "props": {
       "href": "/",
       "label": "Descúbrelas >>",
-      "scrollTo": "#footer"
+      "scrollTo": "#footer",
+      "blockClass": "section__two--link"
     }
   }
 }

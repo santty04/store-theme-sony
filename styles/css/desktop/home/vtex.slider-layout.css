@@ -40,11 +40,18 @@
 }
 
 .sliderArrows--home__slider--info{
-  opacity: 0;
   background-color: #4d5059!important;
+  width: 30px;
+  height: 52px;
+  text-align: center;
+  line-height: 52px;
+  color: #fff;
+  border-radius: 3px;
+  opacity: .3;
+  transform: translateY(-50%);
+  transition: all .25s;
 }
-.sliderArrows--home__slider--info:hover{
-  opacity: 1;
-  background-color: #4d5059!important;
+.sliderArrows--home__slider--info:hover {
+  opacity: .9;
 }
 

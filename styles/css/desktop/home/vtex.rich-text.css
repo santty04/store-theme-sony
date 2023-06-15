@@ -1,171 +1,275 @@
 .container--home__text--info {
   background-color: #212530;
-  min-height: 50px;
-  justify-content: center;
-  padding: 0;
-  opacity: .95;
-  align-items: center;
+  margin-top      : 20px;
+  min-height      : 50px;
+  justify-content : center;
+  padding         : 0;
+  opacity         : .95;
+  align-items     : center;
 }
-.container--home__text--info :global(.vtex-rich-text-0-x-image--home__text--info){
-  display: inline-block !important;
+
+.container--home__text--info :global(.vtex-rich-text-0-x-image--home__text--info) {
+  display       : inline-block !important;
   vertical-align: middle;
-  margin-right: 15px;
+  margin-right  : 15px;
 }
+
 .container--home__text--info :global(.vtex-rich-text-0-x-wrapper--home__text--info) {
-  margin: 0;
-  color: #bcbccc;
-  font-size: 18px;
+  margin     : 0;
+  color      : #bcbccc;
+  font-size  : 18px;
   font-weight: 700;
-  text-align: center;
-  display: inline-block;
+  text-align : center;
+  display    : inline-block;
   line-height: 47px;
 }
-.container--home__text--info :global(.vtex-rich-text-0-x-link--home__text--info){
-  font-size: 18px;
-  color: #5787f4;
+
+.container--home__text--info :global(.vtex-rich-text-0-x-link--home__text--info) {
+  font-size      : 18px;
+  color          : #5787f4;
   text-decoration: none;
-  margin-left: 0.5em;
+  margin-left    : 0.5em;
 }
 
 .wrapper--home__imperdibles--text {
-  margin: 40px auto 35px;
-  font-size: 37px;
+  margin     : 40px auto 35px;
+  font-size  : 37px;
   line-height: 36px;
 }
 
 .paragraph--imperdibles__title {
-  font-size: 18px;
+  font-size  : 18px;
   line-height: 26px;
-  color: #83838f;
+  color      : #83838f;
   font-weight: 700;
 }
+
 .paragraph--imperdibles__description {
-  clear: both;
-  width: 100%;
-  font-size: 14px;
-  color: #83838f;
-  margin-top: 12px;
+  clear      : both;
+  width      : 100%;
+  font-size  : 14px;
+  color      : #83838f;
+  margin-top : 12px;
   line-height: 23px;
   white-space: normal;
 }
 
 /* home section shelf */
 .paragraph--shelf__one--title {
-  font-size: 22px;
-  color: #2f353d;
-  font-weight: 700;
-  font-family: "SST W01 Bold"!important;
-  line-height: 24px;
+  font-size     : 22px;
+  color         : #2f353d;
+  font-weight   : 700;
+  font-family   : "SST W01 Bold" !important;
+  line-height   : 24px;
   text-transform: uppercase;
-  text-align: center;
-  margin-bottom: 0;
+  text-align    : center;
+  margin-bottom : 0;
 }
-.paragraph--shelf__one--description{
-  font-size: 18px;
-  color: #83838f;
+
+.paragraph--shelf__one--description {
+  font-size  : 18px;
+  color      : #83838f;
   line-height: 20px;
-  margin-top: 10px;
-  text-align: center;
+  margin-top : 10px;
+  text-align : center;
   font-family: "SST W01 Roman,San Francisco,-apple-system,BlinkMacSystemFont,avenir next,avenir,helvetica neue,helvetica,ubuntu,roboto,noto,segoe ui,arial,sans-serif";
 }
+
 .paragraph--shelf__two--title {
-  font-size: 22px;
-  color: #2f353d;
-  font-weight: 700;
-  font-family: "SST W01 Bold"!important;
-  line-height: 24px;
+  font-size     : 22px;
+  color         : #2f353d;
+  font-weight   : 700;
+  font-family   : "SST W01 Bold" !important;
+  line-height   : 24px;
   text-transform: uppercase;
-  text-align: center;
-  margin-bottom: 0;
+  text-align    : center;
+  margin-bottom : 0;
 }
-.paragraph--shelf__two--description{
-  font-size: 18px;
-  color: #83838f;
+
+.paragraph--shelf__two--description {
+  font-size  : 18px;
+  color      : #83838f;
   line-height: 20px;
-  margin-top: 10px;
-  text-align: center;
+  margin-top : 10px;
+  text-align : center;
   font-family: "SST W01 Roman,San Francisco,-apple-system,BlinkMacSystemFont,avenir next,avenir,helvetica neue,helvetica,ubuntu,roboto,noto,segoe ui,arial,sans-serif";
 }
+
 .paragraph--shelf__three--title {
-  font-size: 22px;
-  color: #2f353d;
-  font-weight: 700;
-  font-family: "SST W01 Bold"!important;
-  line-height: 24px;
+  font-size     : 22px;
+  color         : #2f353d;
+  font-weight   : 700;
+  font-family   : "SST W01 Bold" !important;
+  line-height   : 24px;
   text-transform: uppercase;
-  text-align: center;
-  margin-bottom: 0;
+  text-align    : center;
+  margin-bottom : 0;
 }
-.paragraph--shelf__three--description{
-  font-size: 18px;
-  color: #83838f;
+
+.paragraph--shelf__three--description {
+  font-size  : 18px;
+  color      : #83838f;
   line-height: 20px;
-  margin-top: 10px;
-  text-align: center;
+  margin-top : 10px;
+  text-align : center;
   font-family: "SST W01 Roman,San Francisco,-apple-system,BlinkMacSystemFont,avenir next,avenir,helvetica neue,helvetica,ubuntu,roboto,noto,segoe ui,arial,sans-serif";
 }
+
 .paragraph--shelf__four--title {
-  font-size: 22px;
-  color: #2f353d;
-  font-weight: 700;
-  font-family: "SST W01 Bold"!important;
-  line-height: 24px;
+  font-size     : 22px;
+  color         : #2f353d;
+  font-weight   : 700;
+  font-family   : "SST W01 Bold" !important;
+  line-height   : 24px;
   text-transform: uppercase;
-  text-align: center;
-  margin-bottom: 0;
+  text-align    : center;
+  margin-bottom : 0;
 }
-.paragraph--shelf__four--description{
-  font-size: 18px;
-  color: #83838f;
+
+.paragraph--shelf__four--description {
+  font-size  : 18px;
+  color      : #83838f;
   line-height: 20px;
-  margin-top: 10px;
-  text-align: center;
+  margin-top : 10px;
+  text-align : center;
   font-family: "SST W01 Roman,San Francisco,-apple-system,BlinkMacSystemFont,avenir next,avenir,helvetica neue,helvetica,ubuntu,roboto,noto,segoe ui,arial,sans-serif";
 }
+
 .paragraph--shelf__five--title {
-  font-size: 22px;
-  color: #2f353d;
-  font-weight: 700;
-  font-family: "SST W01 Bold"!important;
-  line-height: 24px;
+  font-size     : 22px;
+  color         : #2f353d;
+  font-weight   : 700;
+  font-family   : "SST W01 Bold" !important;
+  line-height   : 24px;
   text-transform: uppercase;
-  text-align: center;
-  margin-bottom: 0;
+  text-align    : center;
+  margin-bottom : 0;
 }
 
 .paragraph--home__favorites--title {
-  font-size: 22px;
-  color: #2f353d;
-  font-weight: 700;
-  font-family: "SST W01 Bold"!important;
-  line-height: 24px;
+  font-size     : 22px;
+  color         : #2f353d;
+  font-weight   : 700;
+  font-family   : "SST W01 Bold" !important;
+  line-height   : 24px;
   text-transform: uppercase;
-  text-align: center;
-  margin-bottom: 26px !important;
+  text-align    : center;
+  margin-bottom : 26px !important;
 }
 
 /* section favorites sony */
-.wrapper--favorite__title{
-  font-size: 18px;
-  color: #2f353d;
-  line-height: 1 !important;
+.wrapper--favorite__title {
+  font-size    : 18px;
+  color        : #2f353d;
+  line-height  : 1 !important;
   margin-bottom: 5px;
 }
+
 .link--item__favorites--sony {
-  color: #83838f;
-  font-size: 12px;
+  color          : #83838f;
+  font-size      : 12px;
   text-decoration: none;
-  margin-bottom: 0px;
+  margin-bottom  : 0px;
 }
+
 .link--item__favorites--sony:hover {
   color: #2f353d;
 }
+
 .list--item__favorites--sony {
-  margin: 5px;
-  margin-left: 0;
+  margin            : 5px;
+  margin-left       : 0;
   margin-block-start: 0;
 }
-.list--item__favorites--sony:first-child{
+
+.list--item__favorites--sony:first-child {
   color: #f75229;
 }
 
+/* pre-footer */
+.container--home__prefooter--text {
+  margin-top : 20px;
+  line-height: 1;
+}
+
+.container--home__prefooter--text :global(.vtex-rich-text-0-x-wrapper--home__prefooter--text) {
+  /* margin: 0; */
+  font-size  : 32px;
+  text-align : center;
+  display    : inline-block;
+  line-height: 47px;
+}
+
+.container--home__prefooter--text :global(.vtex-rich-text-0-x-image--home__prefooter--text) {
+  display       : inline-block;
+  vertical-align: middle;
+  margin-right  : 15px;
+}
+
+.image--easy__buy--title,
+.image--benefits__free--shipping,
+.image--fast__delivery--title,
+.image--direct__guarantee--title,
+.image--safe__purchase--title {
+  height: 65px;
+  width : 65px;
+}
+
+.link--easy__buy--title,
+.link--benefits__free--shipping,
+.link--fast__delivery--title,
+.link--direct__guarantee--title {
+  color          : #f75229;
+  font-size      : 18px;
+  margin         : 0;
+  text-align     : center;
+  cursor         : pointer;
+  text-decoration: none;
+}
+
+.link--safe__purchase--title {
+  color          : #f75229;
+  font-size      : 18px;
+  margin         : 0;
+  text-align     : center;
+  cursor         : pointer;
+  text-decoration: none;
+}
+
+.paragraph--easy__buy--description,
+.paragraph--free__shipping--description,
+.paragraph--fast__delivery--description,
+.paragraph--direct__guarantee--description {
+  color     : #83838f;
+  font-size : 12px;
+  margin    : 0;
+  text-align: center;
+}
+
+.link--free__shipping--description,
+.link--fast__delivery--description {
+  color          : #4572ec;
+  font-size      : 13px;
+  line-height    : 20px;
+  text-decoration: none;
+}
+
+.paragraph--home__contact--title {
+  font-size  : 27px;
+  font-weight: 700;
+  color      : #2f353d;
+}
+
+.paragraph--home__contact--description {
+  color      : #83838f;
+  margin-top : 20px;
+  font-size  : 20px;
+  line-height: 28px;
+  font-weight: 300;
+  font-family: SST W01 Light;
+}
+
+.link--home__contact--description {
+  color          : #4572ec;
+  text-decoration: none;
+}

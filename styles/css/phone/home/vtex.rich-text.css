@@ -1,0 +1,18 @@
+.paragraph--section__one--title,
+.paragraph--section__two--title {
+  font-size  : 18px;
+  line-height: 26px;
+  color      : #83838f;
+  font-weight: 700;
+}
+
+.paragraph--section__one--description,
+.paragraph--section__two--description {
+  clear      : both;
+  width      : 100%;
+  font-size  : 14px;
+  color      : #83838f;
+  margin-top : 12px;
+  line-height: 23px;
+  white-space: normal;
+}

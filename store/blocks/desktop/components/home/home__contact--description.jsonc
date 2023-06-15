@@ -1,0 +1,11 @@
+{
+  "rich-text#home__contact--description": {
+    "title": "home contact description",
+    "props": {
+      "blockClass": "home__contact--description",
+      "text": "Escríbenos a [compras.online@am.sony.com](/) <br> para solucionar tus dudas en el proceso de compra, envío, entrega o estado de tu pedido.",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
+    }
+  }
+}
