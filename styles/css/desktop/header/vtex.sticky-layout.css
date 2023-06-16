@@ -1,0 +1,74 @@
+.container--sticky-header {
+  background-color: black;
+}
+
+.container--sticky-header :global(.vtex-input__suffix) {
+  background-color: blue;
+  color           : white;
+}
+
+/* .container--sticky-header :global(.vtex-store-components-3-x-searchBarInnerContainer) {
+  width: 450px;
+} */
+.container--sticky-header :global(.vtex-input-prefix__group) {
+  border       : none;
+  border-radius: 0;
+}
+
+.container--sticky-header :global(.vtex-store-components-3-x-searchBarIcon) {
+  color: white;
+}
+
+.container--sticky-header :global(.vtex-rich-text-0-x-link),
+.container--sticky-header :global(.vtex-rich-text-0-x-paragraph) {
+  margin         : 0;
+  margin-left    : 20px;
+  font-size      : x-small;
+  color          : white;
+  text-decoration: none;
+}
+
+.container--sticky-header :global(.vtex-rich-text-0-x-link--header__one--text),
+.container--sticky-header :global(.vtex-rich-text-0-x-link--header__text--number),
+.container--sticky-header :global(.vtex-rich-text-0-x-link--header__three--text) {
+  margin-left: 0;
+}
+
+.container--sticky-header :global(.vtex-rich-text-0-x-paragraph--desktop__header--help) {
+  font-size: small;
+}
+
+.container--sticky-header :global(.vtex-rich-text-0-x-paragraph--desktop__header--seguimiento) {
+  font-size: small;
+}
+
+.container--sticky-header :global(.vtex-rich-text-0-x-link--header__text--number) {
+  font-size  : medium;
+  font-weight: 600;
+}
+
+.container--sticky-header :global(.vtex-rich-text-0-x-paragraph--header__overlay--image) {
+  display    : inline-block;
+  margin-top : 17px;
+  margin-left: 10px;
+  fill: white;
+}
+
+.container--sticky-header :global(.vtex-rich-text-0-x-image--header__overlay--image) {
+  color           : aliceblue;
+  display         : flex;
+  -webkit-box-pack: center;
+  justify-content : center;
+  transition      : .25s;
+}
+
+.container--sticky-header :global(.vtex-rich-text-0-x-image--header__overlay--image):hover {
+  background-color: rgb(69, 114, 237);
+}
+.container--sticky-header :global(.vtex-rich-text-0-x-link--overlay__account--text),
+.container--sticky-header :global(.vtex-rich-text-0-x-link--overlay__help--text),
+.container--sticky-header :global(.vtex-rich-text-0-x-link--overlay__follow--text),
+.container--sticky-header :global(.vtex-rich-text-0-x-link--overlay__login--text),
+.container--sticky-header :global(.vtex-rich-text-0-x-link--overlay__site--text) {
+  color: black;
+}

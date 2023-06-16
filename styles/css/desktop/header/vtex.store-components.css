@@ -1,0 +1,8 @@
+.imageElement--header__image--phone {
+  object-fit: cover;
+  height    : 50px;
+  width     : 50px;
+  margin: auto auto;
+  margin-left: 10px;
+  margin-right: 0;
+}
