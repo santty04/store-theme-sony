@@ -1,0 +1,133 @@
+{
+  "header": {
+    "blocks": ["header-layout.desktop", "header-layout.mobile"]
+  },
+  "header.full": {
+    "blocks": ["header-layout.desktop", "header-layout.mobile"]
+  },
+  "header-layout.desktop": {
+    "children": [
+      "sticky-layout#desktop"
+    ]
+  },
+  "sticky-layout#desktop": {
+    "props": {
+      "blockClass": "sticky-header"
+    },
+    "children": ["flex-layout.row#desktop"]
+  },
+  "flex-layout.row#desktop": {
+    "props": {
+      "horizontalAlign": "center",
+      "verticalAlign": "center",
+      "preventHorizontalStretch": true,
+      "preventVerticalStretch": true,
+      "fullWidth": true
+    },
+    "children": [
+      "flex-layout.col#logo-desktop",
+      "search-bar",
+      "flex-layout.col#text",
+      "rich-text#desktop__header--help",
+      "rich-text#desktop__header--seguimiento",
+      "login",
+      "minicart.v2"
+    ]
+  },
+  "rich-text#desktop__header--help": {
+    "props": {
+      "text": "AYUDA",
+      "blockClass": "desktop__header--help",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
+    }
+  },
+  "rich-text#desktop__header--seguimiento": {
+    "props": {
+      "text": "SEGUIMIENTO DE PRODUCTO",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "blockClass": "desktop__header--seguimiento"
+    }
+  },
+  "flex-layout.col#spacer": {
+    "props": {
+      "width": "50%"
+    }
+  },
+  "search-bar" : {
+    "props": {
+      "placeholder": "Buscar productos por nombre, código o categoría..."
+    }
+  },
+  // Parte de venta telefonica
+  "flex-layout.col#text": {
+    "title": "Seccion uno",
+    "children": [
+      "rich-text#header__one--text",
+      "rich-text#header__two--text",
+      "rich-text#header__three--text"
+    ],
+    "props": {
+      "blockClass": "header__section--text",
+      "verticalAlign": "middle"
+    }
+  },
+  "rich-text#header__one--text": {
+    "props": {
+      "text": "[VENTA TELEFONICA](tel:6017868928)",
+      "textPosition": "LEFT"
+    }
+  },
+  "rich-text#header__two--text": {
+    "props": {
+      "text": "[601 786 8928](tel:6017868928)",
+      "textPosition": "LEFT",
+      "blockClass": "header__text--number"
+    }
+  },
+  "rich-text#header__three--text": {
+    "props": {
+      "text": "[LUNES A VIERNES 8 AM A 14:59 HRS](tel:6017868928)",
+      "textPosition": "LEFT"
+    }
+  },
+  "flex-layout.col#logo-desktop": {
+    "props": {
+      "verticalAlign": "middle"
+    },
+    "children": ["logo"]
+  },
+  "logo": {
+    "props": {
+      "title": "Logo",
+      "href": "/",
+      "url": "assets/img/logo.png",
+      "width": "80"
+    }
+  },
+  "header-layout.mobile": {
+    "children": ["sticky-layout#mobile"]
+  },
+  "sticky-layout#mobile": {
+    "children": ["flex-layout.row#mobile"]
+  },
+  "flex-layout.row#mobile": {
+    "children": [
+      "drawer",
+      "logo",
+      "flex-layout.col#spacer",
+      "login",
+      "minicart.v2"
+    ],
+    "props": {
+      "blockClass": "main-header-mobile",
+      "preventHorizontalStretch": true,
+      "preserveLayoutOnMobile": true,
+      "fullWidth": true
+    }
+  },
+  "drawer": {
+    "children": []
+  }
+}
