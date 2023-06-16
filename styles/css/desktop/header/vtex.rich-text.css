@@ -1,0 +1,9 @@
+.wrapper--header__image--phone {
+  float              : left;
+  margin-top         : 5px;
+  background         : url(/assets/img/icn.png) 0 0;
+  background-position: -325px -450px;
+  width              : 25px;
+  height             : 25px;
+}
+
