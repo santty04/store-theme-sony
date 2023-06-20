@@ -9,6 +9,7 @@
     }
   },
   "flex-layout.col#home__section--shelf-four": {
+    "title": "col home section shelf four",
     "children": [
       "rich-text#section__shelf--title-four",
       "rich-text#section__shelf--description-four"

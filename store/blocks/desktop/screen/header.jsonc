@@ -1,22 +1,26 @@
 {
   "header": {
+    "title": "header",
     "blocks": [
       "header-layout.desktop",
       "header-layout.mobile"
     ]
   },
   "header.full": {
+    "title": "header full",
     "blocks": [
       "header-layout.desktop",
       "header-layout.mobile"
     ]
   },
   "header-layout.desktop": {
+    "title": "header desktop",
     "children": [
       "sticky-layout#desktop"
     ]
   },
   "sticky-layout#desktop": {
+    "title": "sticky header desktop",
     "props": {
       "blockClass": "sticky-header"
     },
@@ -25,6 +29,7 @@
     ]
   },
   "flex-layout.row#desktop": {
+    "title": "header row",
     "props": {
       "horizontalAlign": "center",
       "verticalAlign": "center",
@@ -44,12 +49,14 @@
     ]
   },
   "image#image__phone--white": {
+    "title": "image phone white",
     "props": {
       "src": "assets/img/phone-white.png",
       "blockClass": "header__image--phone"
     }
   },
   "rich-text#desktop__header--help": {
+    "title": "text help",
     "props": {
       "text": "AYUDA",
       "blockClass": "desktop__header--help",
@@ -58,6 +65,7 @@
     }
   },
   "flex-layout.col#spacer": {
+    "title": "spacer",
     "props": {
       "width": "50%"
     }
@@ -69,7 +77,7 @@
   },
   // Parte de venta telefonica
   "flex-layout.col#text": {
-    "title": "Seccion uno",
+    "title": "Section one",
     "children": [
       "rich-text#header__one--text",
       "rich-text#header__two--text",
@@ -81,24 +89,28 @@
     }
   },
   "rich-text#header__one--text": {
+    "title": "first text about phone sales",
     "props": {
       "text": "[VENTA TELEFONICA](tel:6017868928)",
       "blockClass": "header__one--text"
     }
   },
   "rich-text#header__two--text": {
+    "title": "second text about phone sales",
     "props": {
       "text": "[601 786 8928](tel:6017868928)",
       "blockClass": "header__text--number"
     }
   },
   "rich-text#header__three--text": {
+    "title": "third text about phone sales",
     "props": {
       "text": "[LUNES A VIERNES 8 AM A 14:59 HRS](tel:6017868928)",
       "blockClass": "header__three--text"
     }
   },
   "flex-layout.col#logo-desktop": {
+    "title": "logo desktop",
     "props": {
       "verticalAlign": "middle"
     },
@@ -107,6 +119,7 @@
     ]
   },
   "logo": {
+    "title": "logo",
     "props": {
       "title": "Logo",
       "href": "/",
@@ -115,16 +128,19 @@
     }
   },
   "header-layout.mobile": {
+    "title": "header mobile",
     "children": [
       "sticky-layout#mobile"
     ]
   },
   "sticky-layout#mobile": {
+    "title": "sticky layout header mobile",
     "children": [
       "flex-layout.row#mobile"
     ]
   },
   "flex-layout.row#mobile": {
+    "title": "flex row header mobile",
     "children": [
       "drawer",
       "logo",
@@ -139,22 +155,26 @@
     }
   },
   "drawer": {
+    "title": "drawer",
     "children": []
   },
   // Overlay trigger
   "overlay-trigger": {
+    "title": "overlay trigger",
     "children": [
       "rich-text#question",
       "overlay-layout"
     ]
   },
   "rich-text#question": {
+    "title": "three points for overlay trigger",
     "props": {
       "blockClass": "header__overlay--image",
       "text": "![image overlay](assets/img/bx-dots-vertical.svg)"
     }
   },
   "overlay-layout": {
+    "title": "overlay layout header",
     "props": {
       "placement": "bottom"
     },
@@ -236,6 +256,7 @@
     }
   },
   "image#overlay__image--arrow": {
+    "title": "image overlay arrow",
     "props": {
       "src": "assets/img/bx-chevron-right.svg",
       "link": {
@@ -245,6 +266,7 @@
     }
   },
   "rich-text#overlay__account--text": {
+    "title": "overlay account text",
     "props": {
       "blockClass": "overlay__account--text",
       "text": "![user image](assets/img/bxs-user.svg) [Mi cuenta](/)",
@@ -253,7 +275,7 @@
     }
   },
   "flex-layout.col#section__one--help": {
-    "title": "Col icon and text",
+    "title": "col icon and text",
     "children": [
       "rich-text#overlay__help--text"
     ],
@@ -271,6 +293,7 @@
     }
   },
   "image#help__icon--right": {
+    "title": "help icon right",
     "props": {
       "src": "assets/img/bx-chevron-right.svg",
       "link": {
@@ -280,6 +303,7 @@
     }
   },
   "rich-text#overlay__help--text": {
+    "title": "overlay help text",
     "props": {
       "blockClass": "overlay__help--text",
       "text": "![help icon](assets/img/bx-help-circle.svg) [Ayuda](/)"
@@ -304,6 +328,7 @@
     }
   },
   "image#following__icon--right": {
+    "title": "following icon right",
     "props": {
       "src": "assets/img/bx-chevron-right.svg",
       "link": {
@@ -313,19 +338,21 @@
     }
   },
   "rich-text#overlay__follow--text": {
+    "title": "overlay follow text",
     "props": {
       "blockClass": "overlay__follow--text",
       "text": "![credit card icon](assets/img/bxs-credit-card.svg) [seguimiento de pedido](/)"
     }
   },
   "rich-text#overlay__login--text": {
+    "title": "overlay login text",
     "props": {
       "blockClass": "overlay__login--text",
       "text": "![user image](assets/img/bxs-user.svg) [Login Sony](/) ![Arrow right](assets/img/bx-chevron-right.svg)"
     }
   },
   "flex-layout.col#section__one--site": {
-    "title": "Icon and text about site",
+    "title": "icon and text about site",
     "children": [
       "rich-text#overlay__site--text"
     ],
@@ -343,6 +370,7 @@
     }
   },
   "image#site__icon--right": {
+    "title": "site icon right",
     "props": {
       "src": "assets/img/bx-chevron-right.svg",
       "link": {
@@ -352,6 +380,7 @@
     }
   },
   "rich-text#overlay__site--text": {
+    "title": "overlay site text",
     "props": {
       "blockClass": "overlay__site--text",
       "text": "![world image](assets/img/bx-world.svg) [Sitio Sony](/)"

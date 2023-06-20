@@ -1,5 +1,6 @@
 {
   "slider-layout#home__slider--benefits": {
+    "title": "home slider benefits",
     "props": {
       "itemsPerPage": {
         "desktop": 1,
@@ -21,18 +22,21 @@
     ]
   },
   "flex-layout.row#row__benefits--one": {
+    "title": "row benefits one",
     "children": [
       "flex-layout.col#benefits__item--one",
       "flex-layout.col#benefits__item--two"
     ]
   },
   "flex-layout.row#row__benefits--two": {
+    "title": "row benefits two",
     "children": [
       "flex-layout.col#benefits__item--three",
       "flex-layout.col#benefits__item--four"
     ]
   },
   "flex-layout.row#row__benefits--three": {
+    "title": "row benefits three",
     "children": [
       "flex-layout.col#benefits__item--five",
       "flex-layout.col#benefits__item--six"
