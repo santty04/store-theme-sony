@@ -51,7 +51,7 @@
   display    : inline-block;
   margin-top : 17px;
   margin-left: 10px;
-  fill: white;
+  fill       : white;
 }
 
 .container--sticky-header :global(.vtex-rich-text-0-x-image--header__overlay--image) {
@@ -65,6 +65,7 @@
 .container--sticky-header :global(.vtex-rich-text-0-x-image--header__overlay--image):hover {
   background-color: rgb(69, 114, 237);
 }
+
 .container--sticky-header :global(.vtex-rich-text-0-x-link--overlay__account--text),
 .container--sticky-header :global(.vtex-rich-text-0-x-link--overlay__help--text),
 .container--sticky-header :global(.vtex-rich-text-0-x-link--overlay__follow--text),
@@ -72,3 +73,16 @@
 .container--sticky-header :global(.vtex-rich-text-0-x-link--overlay__site--text) {
   color: black;
 }
+
+.container--sticky-header :global(.vtex-rich-text-0-x-wrapper--overlay__account--text) {
+  width: 100%;
+}
+
+
+.container--sticky-header :global(.vtex-rich-text-0-x-link--overlay__account--text) {
+  margin-left: 0;
+}
+.container--sticky-header :global(.vtex-rich-text-0-x-image--overlay__account--text) {
+  left: 90px;
+}
+
