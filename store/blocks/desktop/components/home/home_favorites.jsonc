@@ -22,6 +22,7 @@
     ]
   },
   "rich-text#home__favorites--title": {
+    "title": "favorites title",
     "props": {
       "text": "FAVORITOS SONY STORE",
       "textAlignment": "CENTER",
@@ -39,6 +40,7 @@
     ]
   },
   "image#favorite__cinema--image": {
+    "title": "cinema image",
     "props": {
       "src": "assets/img/favorite-cinema.webp",
       "link": {
@@ -48,6 +50,7 @@
     }
   },
   "flex-layout.col#favorite__cinema--texts": {
+    "title": "texts about cinema",
     "children": [
       "rich-text#favorite__cinema--title",
       "rich-text#favorite__cinema--description-one",
@@ -57,30 +60,35 @@
     ]
   },
   "rich-text#favorite__cinema--title": {
+    "title": "cinema title",
     "props": {
       "text": "Cine en Casa",
       "blockClass": "favorite__title"
     }
   },
   "rich-text#favorite__cinema--description-one": {
+    "title": "cinema first description",
     "props": {
       "text": "- [Televisores Full Arrray LED](/)",
       "blockClass": "item__favorites--sony"
     }
   },
   "rich-text#favorite__cinema--description-two": {
+    "title": "cinema second description",
     "props": {
       "text": "- [Televisores Smart con Google TV](/)",
       "blockClass": "item__favorites--sony"
     }
   },
   "rich-text#favorite__cinema--description-three": {
+    "title": "cinema third description",
     "props": {
       "text": "- [Barras de Sonido y Teatros](/)",
       "blockClass": "item__favorites--sony"
     }
   },
   "rich-text#favorite__cinema--description-four": {
+    "title": "cinema fourth description",
     "props": {
       "text": "- [Reproductores Blu-ray](/)",
       "blockClass": "item__favorites--sony"
@@ -95,6 +103,7 @@
     ]
   },
   "image#favorite__cams--image": {
+    "title": "image about cams",
     "props": {
       "src": "assets/img/favorite-cams.webp",
       "link": {
@@ -104,6 +113,7 @@
     }
   },
   "flex-layout.col#favorite__cams--texts": {
+    "title": "texts about cams",
     "children": [
       "rich-text#favorite__cams--title",
       "rich-text#favorite__cams--description-one",
@@ -113,30 +123,35 @@
     ]
   },
   "rich-text#favorite__cams--title": {
+    "title": "cams title",
     "props": {
       "text": "Captura el Momento",
       "blockClass": "favorite__title"
     }
   },
   "rich-text#favorite__cams--description-one": {
+    "title": "cams first description",
     "props": {
       "text": "- [Cámaras profesionales Alpha](/)",
       "blockClass": "item__favorites--sony"
     }
   },
   "rich-text#favorite__cams--description-two": {
+    "title": "cams second description",
     "props": {
       "text": "- [Lentes G-Master](/)",
       "blockClass": "item__favorites--sony"
     }
   },
   "rich-text#favorite__cams--description-three": {
+    "title": "cams third description",
     "props": {
       "text": "- [Cámaras Vlogger](/)",
       "blockClass": "item__favorites--sony"
     }
   },
   "rich-text#favorite__cams--description-four": {
+    "title": "cams fourth description",
     "props": {
       "text": "- [Cámaras Cinema Line](/)",
       "blockClass": "item__favorites--sony"
@@ -152,6 +167,7 @@
     ]
   },
   "image#favorite__sound--image": {
+    "title": "image about sound",
     "props": {
       "src": "assets/img/favorite-sound.webp",
       "link": {
@@ -161,6 +177,7 @@
     }
   },
   "flex-layout.col#favorite__sound--texts": {
+    "title": "texts about sounds",
     "children": [
       "rich-text#favorite__sound--title",
       "rich-text#favorite__sound--description-one",
@@ -170,30 +187,35 @@
     ]
   },
   "rich-text#favorite__sound--title": {
+    "title": "sound title",
     "props": {
       "text": "Audio Premium",
       "blockClass": "favorite__title"
     }
   },
   "rich-text#favorite__sound--description-one": {
+    "title": "sound first description",
     "props": {
       "text": "- [Sistemas de audio Serie V](/)",
       "blockClass": "item__favorites--sony"
     }
   },
   "rich-text#favorite__sound--description-two": {
+    "title": "sound second description",
     "props": {
       "text": "- [Sistemas de Audio Hi-res](/)",
       "blockClass": "item__favorites--sony"
     }
   },
   "rich-text#favorite__sound--description-three": {
+    "title": "sound third description",
     "props": {
       "text": "- [Parlantes Bluetooth](/)",
       "blockClass": "item__favorites--sony"
     }
   },
   "rich-text#favorite__sound--description-four": {
+    "title": "sound fourth description",
     "props": {
       "text": "- [360 Reality Audio](/)",
       "blockClass": "item__favorites--sony"
@@ -209,6 +231,7 @@
     ]
   },
   "image#favorite__playstation--image": {
+    "title": "playstation image",
     "props": {
       "src": "assets/img/favorite-playstation.webp",
       "link": {
@@ -218,6 +241,7 @@
     }
   },
   "flex-layout.col#favorite__playstation--texts": {
+    "title": "texts about playstation",
     "children": [
       "rich-text#favorite__playstation--title",
       "rich-text#favorite__playstation--description-one",
@@ -227,30 +251,35 @@
     ]
   },
   "rich-text#favorite__playstation--title": {
+    "title": "playstation title",
     "props": {
       "text": "Playstation",
       "blockClass": "favorite__title"
     }
   },
   "rich-text#favorite__playstation--description-one": {
+    "title": "playstation first description",
     "props": {
       "text": "- [Playstation 5](/)",
       "blockClass": "item__favorites--sony"
     }
   },
   "rich-text#favorite__playstation--description-two": {
+    "title": "playstation second description",
     "props": {
       "text": "- [Juegos Playstation](/)",
       "blockClass": "item__favorites--sony"
     }
   },
   "rich-text#favorite__playstation--description-three": {
+    "title": "playstation third description",
     "props": {
       "text": "- [Accesorios Playstation](/)",
       "blockClass": "item__favorites--sony"
     }
   },
   "rich-text#favorite__playstation--description-four": {
+    "title": "playstation fourth description",
     "props": {
       "text": "- [Controles Dualsense](/)",
       "blockClass": "item__favorites--sony"

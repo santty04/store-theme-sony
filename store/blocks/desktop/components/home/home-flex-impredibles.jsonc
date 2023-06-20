@@ -22,6 +22,7 @@
     }
   },
   "image#image__flex--section-one": {
+    "title": "first image",
     "props": {
       "src": "assets/img/imperdibles-one.webp",
       "link": {
@@ -31,6 +32,7 @@
     }
   },
   "rich-text#flex__one--title": {
+    "title": "first imperdible title",
     "props": {
       "text": "Cómodos y ligeros, con cancelación de ruido",
       "textAlignment": "CENTER",
@@ -40,6 +42,7 @@
     }
   },
   "rich-text#flex__one--description": {
+    "title": "first imperdible description",
     "props": {
       "text": "Para disfrutar tu música favorita todo el día, sin interrupciones",
       "textAlignment": "CENTER",
@@ -49,6 +52,7 @@
     }
   },
   "link#flex__one--link": {
+    "title": "first imperdible link",
     "props": {
       "href": "/",
       "label": "Descúbrelos >>",
@@ -56,7 +60,7 @@
     }
   },
   "flex-layout.col#flex__section--two": {
-    "title": "flex section 1",
+    "title": "flex section 2",
     "children": [
       "image#image__flex--section-two",
       "rich-text#flex__two--title",
@@ -68,6 +72,7 @@
     }
   },
   "image#image__flex--section-two": {
+    "title": "second imperdible image",
     "props": {
       "src": "assets/img/imperdibles-two.webp",
       "link": {
@@ -77,6 +82,7 @@
     }
   },
   "rich-text#flex__two--title": {
+    "title": "second imperdible title",
     "props": {
       "text": "Sumerge en auténtico sonido Surround",
       "textAlignment": "CENTER",
@@ -86,6 +92,7 @@
     }
   },
   "rich-text#flex__two--description": {
+    "title": "second imperdible description",
     "props": {
       "text": "Con las nuevas Barras de Sonido Premium Serie A",
       "textAlignment": "CENTER",
@@ -95,6 +102,7 @@
     }
   },
   "link#flex__two--link": {
+    "title": "second imperdible link",
     "props": {
       "href": "/",
       "label": "Descúbrelas >>",
