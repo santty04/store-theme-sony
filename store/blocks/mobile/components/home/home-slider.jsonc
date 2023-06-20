@@ -29,6 +29,7 @@
     }
   },
   "flex-layout.col#mobile__home--info-one": {
+    "title": "col mobile home info one",
     "children": [
       "image#slider__image--section-one",
       "rich-text#text__pre-header-one",
@@ -38,11 +39,13 @@
     ]
   },
   "image#slider__image--section-one": {
+    "title": "slider image section one",
     "props": {
       "src": "assets/img/slider-section-three.webp"
     }
   },
   "rich-text#text__pre-header-one": {
+    "title": "text pre-header one",
     "props": {
       "textAlignment": "CENTER",
       "textPosition": "CENTER",
@@ -52,6 +55,7 @@
     }
   },
   "rich-text#text__title-one": {
+    "title": "text title one",
     "props": {
       "textAlignment": "CENTER",
       "textPosition": "CENTER",
@@ -61,6 +65,7 @@
     }
   },
   "rich-text#text__description-one": {
+    "title": "text description one",
     "props": {
       "textAlignment": "CENTER",
       "textPosition": "CENTER",
@@ -70,6 +75,7 @@
     }
   },
   "link#home__link--boton-one": {
+    "title": "home link button one",
     "props": {
       "href": "/",
       "label": "Descúbrela ",
@@ -83,6 +89,7 @@
 
 
   "flex-layout.col#mobile__home--info-two": {
+    "title": "mobile home info two",
     "children": [
       "image#slider__image--section-two",
       "rich-text#text__pre-header-two",
@@ -92,12 +99,14 @@
     ]
   },
   "image#slider__image--section-two": {
+    "title": "slider image section two",
     "props": {
       "src": "assets/img/slider-section-one.webp",
       "maxHeight": "190px"
     }
   },
   "rich-text#text__pre-header-two": {
+    "title": "text pre-header two",
     "props": {
       "textAlignment": "CENTER",
       "textPosition": "CENTER",
@@ -107,6 +116,7 @@
     }
   },
   "rich-text#text__title-two": {
+    "title": "text title two",
     "props": {
       "textAlignment": "CENTER",
       "textPosition": "CENTER",
@@ -116,6 +126,7 @@
     }
   },
   "rich-text#text__description-two": {
+    "title": "text description two",
     "props": {
       "textAlignment": "CENTER",
       "textPosition": "CENTER",
@@ -125,6 +136,7 @@
     }
   },
   "link#home__link--boton-two": {
+    "title": "home link button two",
     "props": {
       "href": "/",
       "label": "Ver ofertas ",
@@ -136,6 +148,7 @@
     }
   },
   "flex-layout.col#mobile__home--info-three": {
+    "title": "mobile home info three",
     "children": [
       "image#slider__image--section-three",
       "rich-text#text__pre-header-three",
@@ -145,11 +158,13 @@
     ]
   },
   "image#slider__image--section-three": {
+    "title": "slider image section three",
     "props": {
       "src": "assets/img/slider-section-two.webp"
     }
   },
   "rich-text#text__pre-header-three": {
+    "title": "text pre-header three",
     "props": {
       "textAlignment": "CENTER",
       "textPosition": "CENTER",
@@ -159,6 +174,7 @@
     }
   },
   "rich-text#text__title-three": {
+    "title": "text title three",
     "props": {
       "textAlignment": "CENTER",
       "textPosition": "CENTER",
@@ -168,6 +184,7 @@
     }
   },
   "rich-text#text__description-three": {
+    "title": "text description three",
     "props": {
       "textAlignment": "CENTER",
       "textPosition": "CENTER",
@@ -177,6 +194,7 @@
     }
   },
   "link#home__link--boton-three": {
+    "title": "home link button three",
     "props": {
       "href": "/",
       "label": "Descúbrelos ",

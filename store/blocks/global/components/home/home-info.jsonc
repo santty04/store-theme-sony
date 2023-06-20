@@ -10,6 +10,7 @@
   //   }
   // },
   "rich-text#home__section--info": {
+    "title": "home section info",
     "props": {
       "text": "![carrito con caja](assets/img/Icono-Carro-con-Caja.png) | GRATIS Envío desde $99.000*. [Ver más >>](/)",
       "textAlignment": "CENTER",
