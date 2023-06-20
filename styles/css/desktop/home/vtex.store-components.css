@@ -1,47 +1,66 @@
-.imageElement--imperdibles__image{
+.imageElement--imperdibles__image {
   transition: all .25s;
 }
-.imageElement--imperdibles__image:hover{
+
+.imageElement--imperdibles__image:hover {
   opacity: .9;
 }
+
 .imageElement--home__image--promotional {
-  width: 100%;
-  display: block;
+  width    : 100%;
+  display  : block;
   max-width: 1190px;
-  margin: 0 auto;
-  position: relative;
+  margin   : 0 auto;
+  position : relative;
 }
+
 .imageElement--image__favorites--sony {
   height: 251px;
-  width: 251px;
+  width : 251px;
 }
+
 .image--home__prefooter--text {
-  height: 100px;
-  width: 100px;
-  margin-right: 19px;
+  height        : 100px;
+  width         : 100px;
+  margin-right  : 19px;
   vertical-align: middle;
 }
-.infoCardCallActionContainer--info__card--one :global(.vtex-button){
+
+.infoCardCallActionContainer--info__card--one :global(.vtex-button) {
   background-color: #f25529;
-  border: none;
-  transition: .25s;
+  border          : none;
+  transition      : .25s;
 }
-.infoCardCallActionContainer--info__card--two :global(.vtex-button){
+
+.infoCardCallActionContainer--info__card--two :global(.vtex-button) {
   background-color: #f25529;
-  border: none;
-  transition: .25s;
+  border          : none;
+  transition      : .25s;
 }
-.infoCardCallActionContainer--info__card--three :global(.vtex-button){
+
+.infoCardCallActionContainer--info__card--three :global(.vtex-button) {
   background-color: #f25529;
-  border: none;
-  transition: .25s;
+  border          : none;
+  transition      : .25s;
 }
-.infoCardCallActionContainer--info__card--one :global(.vtex-button):hover{
+
+.infoCardCallActionContainer--info__card--one :global(.vtex-button):hover {
   opacity: .8;
 }
-.infoCardCallActionContainer--info__card--two :global(.vtex-button):hover{
+
+.infoCardCallActionContainer--info__card--two :global(.vtex-button):hover {
   opacity: .8;
 }
-.infoCardCallActionContainer--info__card--three :global(.vtex-button):hover{
+
+.infoCardCallActionContainer--info__card--three :global(.vtex-button):hover {
   opacity: .8;
+}
+
+.infoCardTextContainer--info__card--one {
+  position : absolute;
+  top      : 50%;
+  transform: translateY(-50%);
+  height   : auto;
+  width    : 380px;
+  padding  : 28px 42px 28px 14px;
 }

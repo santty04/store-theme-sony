@@ -1,5 +1,10 @@
 .imageElement--mobile__image--promotional {
-  width: 80%;
-  margin: 30px auto;
-  display: block;
+  margin    : 25px auto;
+  display   : block;
+  max-height: 400px;
+  width     : 60.3333%;
+}
+.imageElement--image__phone--sony {
+  width: 135px;
+  height: 135px;
 }

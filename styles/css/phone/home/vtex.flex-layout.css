@@ -3,3 +3,16 @@
     margin: 50px auto;
     max-width: 1200px;
 } */
+.flexCol--section__phone--cinema {
+  width: 140px;
+}
+.stretchChildrenWidth {
+  align-items: center;
+}
+.flexCol--section__phone--cinema,
+.flexCol--phone__phone--cams,
+.flexCol--phone__phone--sound,
+.flexCol--phone__phone--playstation {
+  align-items: center;
+  margin-top: 5px;
+}
