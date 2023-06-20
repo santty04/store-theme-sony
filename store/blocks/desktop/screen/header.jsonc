@@ -169,20 +169,32 @@
   "flex-layout.row#header__overlay--account": {
     "title": "overlay section my  account",
     "children": [
-      "rich-text#overlay__account--text"
-    ]
+      "flex-layout.col#section__one--account",
+      "flex-layout.col#section__two--account"
+    ],
+    "props": {
+      "blockClass": "header__overlay--account"
+    }
   },
   "flex-layout.row#header__overlay--help": {
     "title": "overlay section help",
     "children": [
-      "rich-text#overlay__help--text"
-    ]
+      "flex-layout.col#section__one--help",
+      "flex-layout.col#section__two--help"
+    ],
+    "props": {
+      "blockClass": "header__overlay--help"
+    }
   },
   "flex-layout.row#header__overlay--following": {
     "title": "overlay follow product",
     "children": [
-      "rich-text#overlay__follow--text"
-    ]
+      "flex-layout.col#section__one--following",
+      "flex-layout.col#section__two--following"
+    ],
+    "props": {
+      "blockClass": "header__overlay--following"
+    }
   },
   "login#desktop": {
     "props": {
@@ -194,46 +206,155 @@
       "showPasswordVerificationIntoTooltip": true
     }
   },
-  "flex-layout.row#header__overlay--login": {
-    "title": "overlay section login",
-    "children": [
-      "rich-text#overlay__login--text"
-    ]
-  },
+
   "flex-layout.row#header__overlay--site": {
     "title": "overlay sony site",
     "children": [
-      "rich-text#overlay__site--text"
-    ]
+      "flex-layout.col#section__one--site",
+      "flex-layout.col#section__two--site"
+    ],
+    "props": {
+      "blockClass": "header__overlay--site"
+    }
+  },
+  "flex-layout.col#section__one--account": {
+    "title": "Col icon and text",
+    "children": [
+      "rich-text#overlay__account--text"
+    ],
+    "props": {
+      "blockClass": "section__one--account"
+    }
+  },
+  "flex-layout.col#section__two--account": {
+    "title": "Col image arrow right",
+    "children": [
+      "image#overlay__image--arrow"
+    ],
+    "props": {
+      "blockClass": "section__two--account"
+    }
+  },
+  "image#overlay__image--arrow": {
+    "props": {
+      "src": "assets/img/bx-chevron-right.svg",
+      "link": {
+        "url": "/"
+      },
+      "blockClass": "overlay__image--arrow"
+    }
   },
   "rich-text#overlay__account--text": {
     "props": {
       "blockClass": "overlay__account--text",
-      "text": "[Mi cuenta](/) ![Arrow right](assets/img/bx-chevron-right.svg)"
+      "text": "![user image](assets/img/bxs-user.svg) [Mi cuenta](/)",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
+    }
+  },
+  "flex-layout.col#section__one--help": {
+    "title": "Col icon and text",
+    "children": [
+      "rich-text#overlay__help--text"
+    ],
+    "props": {
+      "blockClass": "section__one--help"
+    }
+  },
+  "flex-layout.col#section__two--help": {
+    "title": "col arrow right",
+    "children": [
+      "image#help__icon--right"
+    ],
+    "props": {
+      "blockClass": "section__two--help"
+    }
+  },
+  "image#help__icon--right": {
+    "props": {
+      "src": "assets/img/bx-chevron-right.svg",
+      "link": {
+        "url": "/"
+      },
+      "blockClass": "help__icon--right"
     }
   },
   "rich-text#overlay__help--text": {
     "props": {
       "blockClass": "overlay__help--text",
-      "text": "[Ayuda](/) ![Arrow right](assets/img/bx-chevron-right.svg)"
+      "text": "![help icon](assets/img/bx-help-circle.svg) [Ayuda](/)"
+    }
+  },
+  "flex-layout.col#section__one--following": {
+    "title": "Col icon and text",
+    "children": [
+      "rich-text#overlay__follow--text"
+    ],
+    "props": {
+      "blockClass": "section__one--following"
+    }
+  },
+  "flex-layout.col#section__two--following": {
+    "title": "col image chevron right",
+    "children": [
+      "image#following__icon--right"
+    ],
+    "props": {
+      "blockClass": "section__two--following"
+    }
+  },
+  "image#following__icon--right": {
+    "props": {
+      "src": "assets/img/bx-chevron-right.svg",
+      "link": {
+        "url": "/"
+      },
+      "blockClass": "following__icon--right"
     }
   },
   "rich-text#overlay__follow--text": {
     "props": {
       "blockClass": "overlay__follow--text",
-      "text": "[seguimiento de pedido](/) ![Arrow right](assets/img/bx-chevron-right.svg)"
+      "text": "![credit card icon](assets/img/bxs-credit-card.svg) [seguimiento de pedido](/)"
     }
   },
   "rich-text#overlay__login--text": {
     "props": {
       "blockClass": "overlay__login--text",
-      "text": "[Login Sony](/) ![Arrow right](assets/img/bx-chevron-right.svg)"
+      "text": "![user image](assets/img/bxs-user.svg) [Login Sony](/) ![Arrow right](assets/img/bx-chevron-right.svg)"
+    }
+  },
+  "flex-layout.col#section__one--site": {
+    "title": "Icon and text about site",
+    "children": [
+      "rich-text#overlay__site--text"
+    ],
+    "props": {
+      "blockClass": "section__one--site"
+    }
+  },
+  "flex-layout.col#section__two--site": {
+    "title": "icon chevron right",
+    "children": [
+      "image#site__icon--right"
+    ],
+    "props": {
+      "blockClass": "section__two--site"
+    }
+  },
+  "image#site__icon--right": {
+    "props": {
+      "src": "assets/img/bx-chevron-right.svg",
+      "link": {
+        "url": "/"
+      },
+      "blockClass": "site__icon--right"
     }
   },
   "rich-text#overlay__site--text": {
     "props": {
       "blockClass": "overlay__site--text",
-      "text": "[Sitio Sony](/) ![Arrow right](assets/img/bx-chevron-right.svg)"
+      "text": "![world image](assets/img/bx-world.svg) [Sitio Sony](/)"
     }
   }
 }
