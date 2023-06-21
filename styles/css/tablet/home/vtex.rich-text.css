@@ -1,0 +1,19 @@
+.paragraph--tablet__prefooter--text{
+  display: flex;
+  align-items: center;
+  line-height: 1;
+  font-size: 32px;
+  color: #2f353d;
+}
+.container--tablet__prefooter--text {
+  margin-block-start: 2em;
+  margin-block-end: 3em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+.image--tablet__prefooter--text {
+  width: 100px;
+  height: 100px;
+  margin-right: 19px;
+}
+

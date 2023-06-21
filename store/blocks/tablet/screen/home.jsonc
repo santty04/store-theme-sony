@@ -16,7 +16,7 @@
       "flex-layout.row#section__favorites--title",
       "flex-layout.row#home__section--favorites-1",
       "flex-layout.row#home__section--favorites-2",
-      "rich-text#home__prefooter",
+      "rich-text#tablet__prefooter",
       "flex-layout.row#home__form--register",
       "slider-layout#home__slider--benefits",
       "rich-text#home__contact--title",

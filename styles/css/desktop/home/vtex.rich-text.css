@@ -273,3 +273,9 @@
   color          : #4572ec;
   text-decoration: none;
 }
+@media (max-width: 1025px) {
+  .paragraph--home__contact--title {
+    margin-top: 30px;
+  }
+  
+}

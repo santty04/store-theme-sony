@@ -1,0 +1,57 @@
+{
+  "flex-layout.row#phone__form--register": {
+    "title": "home section shelf five",
+    "children": [
+      "newsletter-form#phone__register--form"
+    ],
+    "props": {
+      "blockClass": "phone__form--register"
+    }
+  },
+  "newsletter-form#phone__register--form": {
+    "title": "form for register user",
+    "children": [
+      "newsletter-input-name#phone__register--form",
+      "newsletter-input-email#phone__register--form",
+      "newsletter-checkbox-confirmation",
+      "newsletter-submit#phone__register--form"
+    ],
+    "props": {
+      "blockClass": "phone__newsletter--form"
+    }
+  },
+  "newsletter-checkbox-confirmation": {
+    "props": {
+      "checkboxLabel": "Terms and conditions",
+      "firstLabelLink": {
+        "text": "terms and conditions",
+        "url": "/"
+      },
+      "secondLabelLink": {
+        "text": "Hola",
+        "url": "/"
+      }
+    }
+  },
+  "newsletter-input-name#phone__register--form": {
+    "title": "section register name",
+    "props": {
+      "placeholderText": "Nombre",
+      "blockClass": "phone__input--name"
+    }
+  },
+  "newsletter-input-email#phone__register--form": {
+    "title": "section register email",
+    "props": {
+      "placeholderText": "Correo",
+      "blockClass": "phone__input--email"
+    }
+  },
+  "newsletter-submit#phone__register--form": {
+    "title": "button register",
+    "props": {
+      "submitButtonLabel": "Suscribirme",
+      "blockClass": "phone__button--submit"
+    }
+  }
+}

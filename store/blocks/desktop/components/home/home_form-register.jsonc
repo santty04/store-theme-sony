@@ -22,20 +22,24 @@
   "newsletter-input-name#desktop__register--form": {
     "title": "section register name",
     "props": {
-      "placeholderText": "Nombre"
+      "placeholderText": "Nombre",
+      "inputLabel": "Nombre",
+      "blockClass": "form__input--name"
     }
   },
   "newsletter-input-email#desktop__register--form": {
     "title": "section register email",
     "props": {
-      "placeholderText": "Correo"
+      "placeholderText": "Correo",
+      "inputLabel": "Email",
+      "blockClass": "form__input--email"
     }
   },
   "newsletter-submit#desktop__register--form": {
     "title": "button register",
     "props": {
-      "submitButtonLabel": "Suscribirme"
+      "submitButtonLabel": "Suscribirme",
+      "blockClass": "form__button--submit"
     }
   }
 }
-

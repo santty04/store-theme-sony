@@ -70,3 +70,25 @@
   line-height  : 1 !important;
   margin-bottom: 5px;
 }
+
+.paragraph--phone__prefooter--text {
+  display    : flex;
+  align-items: center;
+  line-height: 1;
+  font-size  : 19px;
+  text-align : center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.image--phone__prefooter--text {
+  width       : 100px;
+  height      : 100px;
+  margin-right: 10px;
+}
+.container--phone__prefooter--text {
+  justify-content: center;
+}
+.wrapper--phone__prefooter--text {
+  width: 82% !important;
+}
