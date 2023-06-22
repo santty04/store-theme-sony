@@ -22,7 +22,6 @@
       ]
     },
     "info-card#home__slider--card-1": {
-      "title": "first section slider",
       "props": {
         "id": "info__card--one",
         "isFullModeStyle": true,
@@ -37,7 +36,6 @@
       }
     },
     "info-card#home__slider--card-2": {
-      "title": "second section slider",
       "props": {
         "id": "info__card--two",
         "isFullModeStyle": true,
@@ -52,7 +50,6 @@
       }
     },
     "info-card#home__slider--card-3": {
-      "title": "third section slider",
       "props": {
         "id": "info__card--three",
         "isFullModeStyle": true,

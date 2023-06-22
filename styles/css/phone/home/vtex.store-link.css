@@ -6,3 +6,7 @@
   display        : block;
   text-align     : center;
 }
+.link--section__two--link,
+.link--section__one--link {
+  text-decoration: none;
+}

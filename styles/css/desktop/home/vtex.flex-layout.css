@@ -49,7 +49,7 @@
 
 .flexRowContent--home__section--shelf-five {
   background: #f1f5f9;
-  padding: 70px 0 50px;
+  padding   : 70px 0 50px;
   border-top: #e3e4e6;
 }
 
@@ -57,11 +57,15 @@
   margin-top: 2rem;
   padding   : 0;
 }
+
 .flexRow--home__form--register {
   background: #f1f5f9;
-  padding: 70px 0 50px;
+  max-width: 1190px;
+  height: 127px;
+  margin: 0 auto;
   border-top: #e3e4e6;
 }
+
 .flexCol--benefits__item--one,
 .flexCol--benefits__item--two,
 .flexCol--benefits__item--three,
@@ -70,13 +74,92 @@
 .flexCol--benefits__item--six {
   margin-right: 18px !important;
 }
+
 .flexRow--home__section--benefits {
   max-width: 1200px;
-  margin: 0 auto;
+  margin   : 0 auto;
 }
-.flexRowContent--home__section--benefits{
-  width: 80%;
+
+.flexRowContent--home__section--benefits {
+  width : 80%;
   margin: 80px auto;
 }
 
+.stretchChildrenWidth :global(.vtex-store-newsletter-1-x-newsletterForm--desktop__newsletter--form) {
+  padding        : 1.6em 0 2.6em !important;
+  justify-content: center;
+  display        : flex;
+  align-items    : center;
+  max-width      : 614px;
+  position       : relative;
+}
 
+.stretchChildrenWidth :global(.vtex-input__label) {
+  font-size    : 14px;
+  margin-bottom: 8px;
+  font-family  : SST W01 Bold !important;
+  font-weight  : 700;
+}
+
+.stretchChildrenWidth :global(.vtex-input-prefix__group) {
+  border-radius: 0;
+  height       : 36px;
+  border       : 1px solid #e4e7eb;
+  font-size    : 13px;
+}
+
+.stretchChildrenWidth :global(.vtex-button) {
+  background    : #f25529;
+  border        : none;
+  border-radius : 0;
+  font-size     : 13px;
+  text-transform: capitalize;
+  transition    : all .25s;
+  min-height    : 36px;
+}
+
+.stretchChildrenWidth :global(.vtex-store-newsletter-1-x-emailInputContainer) {
+  padding-left: 5px;
+  width       : 268px;
+  display     : block;
+}
+
+.stretchChildrenWidth :global(.vtex-store-newsletter-1-x-newsletterForm--desktop__newsletter--form):last-child {
+  align-items: flex-end;
+}
+
+.flexRow--home__form--register :global(.vtex-checkbox__line-container) {
+  width   : 100%;
+  margin  : 6px -470px;
+  position: absolute;
+  bottom  : 0;
+}
+.flexRow--home__form--register :global(.vtex-checkbox__label) {
+  font-size: 15px;
+  padding-bottom: 0.6rem;
+  color: #63666a;
+  margin-left: 10px
+}
+.flexRow--home__form--register :global(.vtex-store-newsletter-1-x-labelLink--desktop__desktop--form--first) {
+  color: blue;
+}
+
+
+@media (max-width: 1025px) {
+  .flexRow--home__form--register :global(.vtex-store-newsletter-1-x-emailInputContainer--form__input--email) {
+    width  : 34%;
+    display: block;
+  }
+
+  .flexRow--home__form--register :global(.vtex-store-newsletter-1-x-nameInputContainer--form__input--name) {
+    width       : 18%;
+    display     : inline-block;
+    margin-right: 0.2em;
+  }
+  .flexRow--home__form--register :global(.vtex-checkbox__line-container) {
+    width   : 100%;
+    margin  : 6px -323px;
+    position: absolute;
+    bottom  : 0;
+  }
+}

@@ -26,20 +26,29 @@
     "children": [
       "flex-layout.col#benefits__item--one",
       "flex-layout.col#benefits__item--two"
-    ]
+    ],
+    "props": {
+      "preserveLayoutOnMobile": true
+    }
   },
   "flex-layout.row#row__benefits--two": {
     "title": "row benefits two",
     "children": [
       "flex-layout.col#benefits__item--three",
       "flex-layout.col#benefits__item--four"
-    ]
+    ],
+    "props": {
+      "preserveLayoutOnMobile": true
+    }
   },
   "flex-layout.row#row__benefits--three": {
     "title": "row benefits three",
     "children": [
       "flex-layout.col#benefits__item--five",
       "flex-layout.col#benefits__item--six"
-    ]
+    ],
+    "props": {
+      "preserveLayoutOnMobile": true
+    }
   }
 }
