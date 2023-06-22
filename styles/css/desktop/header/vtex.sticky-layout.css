@@ -82,7 +82,49 @@
 .container--sticky-header :global(.vtex-rich-text-0-x-link--overlay__account--text) {
   margin-left: 0;
 }
+
 .container--sticky-header :global(.vtex-rich-text-0-x-image--overlay__account--text) {
   left: 90px;
 }
 
+.container--sticky-header :global(.vtex-rich-text-0-x-link--overlay__account--text),
+.container--sticky-header :global(.vtex-rich-text-0-x-link--overlay__help--text),
+.container--sticky-header :global(.vtex-rich-text-0-x-link--overlay__follow--text),
+.container--sticky-header :global(.vtex-rich-text-0-x-link--overlay__site--text) {
+  font-size  : 14px;
+  margin-left: 5px;
+}
+
+.container--sticky-header :global(.vtex-rich-text-0-x-link--overlay__account--text):hover,
+.container--sticky-header :global(.vtex-rich-text-0-x-link--overlay__help--text):hover,
+.container--sticky-header :global(.vtex-rich-text-0-x-link--overlay__follow--text):hover,
+.container--sticky-header :global(.vtex-rich-text-0-x-link--overlay__site--text):hover {
+  color: blue;
+}
+
+/* .container--sticky-header :global(.vtex-flex-layout-0-x-flexColChild--section__two--account) {
+  height  : 100%;
+  width   : 20%;
+  position: relative;
+  left    : 75px;
+} */
+.container--sticky-header :global(.vtex-overlay-layout-0-x-container) {
+  width: 244px;
+}
+
+.container--sticky-header :global(.vtex-store-link-0-x-buttonLink--a__site--sony) {
+  margin-left  : 10px;
+  background   : #30343d;
+  text-align   : center;
+  color        : #fff;
+  font-size    : 12px;
+  transition   : all .25s;
+  border       : none;
+  margin-top   : 10px;
+  border-radius: 0;
+  text-transform: none;
+}
+
+.container--sticky-header :global(.vtex-store-link-0-x-buttonLink--a__site--sony):hover {
+  background: #4572ed;
+}

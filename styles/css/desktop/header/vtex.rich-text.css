@@ -6,4 +6,24 @@
   width              : 25px;
   height             : 25px;
 }
-
+.image--overlay__account--text,
+.image--overlay__help--text,
+.image--overlay__follow--text,
+.image--overlay__site--text {
+  vertical-align: middle;
+}
+/* .paragraph--overlay__account--text {
+  width: 130%;
+}
+.link--overlay__account--text,
+.link--overlay__help--text,
+.link--overlay__follow--text,
+.link--overlay__site--text {
+  font-size: 14px;
+} */
+.paragraph--overlay__follow--text {
+  width: 180%;
+}
+.image--arrow__right--section {
+  margin-left: 17px;
+}
