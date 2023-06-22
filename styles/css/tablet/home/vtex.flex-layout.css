@@ -1,5 +1,10 @@
-/* Example Tablet:
-.flexRow--home__section-2 {
-    margin: 50px auto;
-    max-width: 1200px;
-} */
+.flexCol--section__favorites--cinema,
+.flexCol--section__favorites--cams {
+  align-items: center;
+}
+.flexCol--section__favorites--sound,
+.flexCol--section__favorites--playstation {
+  align-items: center;
+  margin-top: 5px;
+}
+

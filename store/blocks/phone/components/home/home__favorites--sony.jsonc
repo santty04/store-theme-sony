@@ -1,0 +1,142 @@
+{
+  "flex-layout.row#phone__section--favorites-1": {
+    "title": "phone favorites sony 1",
+    "children": [
+      "flex-layout.col#phone__favorites--cinema",
+      "flex-layout.col#phone__favorites--cams"
+    ],
+    "props": {
+      "blockClass": "phone__favorites--one",
+      "preserveLayoutOnMobile": true
+    }
+  },
+  "flex-layout.row#phone__section--favorites-2": {
+    "title": "phone favorites sony 2",
+    "children": [
+      "flex-layout.col#phone__favorites--sound",
+      "flex-layout.col#phone__favorites--playstation"
+    ],
+    "props": {
+      "blockClass": "phone__favorites--two",
+      "preserveLayoutOnMobile": true
+    }
+  },
+
+  // ----------------------------------------
+  // Section cinema
+  "flex-layout.col#phone__favorites--cinema": {
+    "title": "phone favorites cinema",
+    "children": [
+      "image#phone__cinema--image",
+      "rich-text#phone__cinema--title"
+    ],
+    "props": {
+      "blockClass": "section__phone--cinema"
+    }
+  },
+  "image#phone__cinema--image": {
+    "title": "cinema image",
+    "props": {
+      "src": "assets/img/favorite-cinema.webp",
+      "link": {
+        "url": "/"
+      },
+      "blockClass": "image__phone--sony"
+    }
+  },
+
+  "rich-text#phone__cinema--title": {
+    "title": "cinema title",
+    "props": {
+      "text": "Cine en Casa",
+      "blockClass": "phone__title"
+    }
+  },
+
+  // Section cams
+  "flex-layout.col#phone__favorites--cams": {
+    "title": "phone favorites cams",
+    "children": [
+      "image#phone__cams--image",
+      "rich-text#phone__cams--title"
+    ],
+    "props": {
+      "blockClass": "phone__phone--cams"
+    }
+  },
+  "image#phone__cams--image": {
+    "title": "image about cams",
+    "props": {
+      "src": "assets/img/favorite-cams.webp",
+      "link": {
+        "url": "/"
+      },
+      "blockClass": "image__phone--sony"
+    }
+  },
+  "rich-text#phone__cams--title": {
+    "title": "cams title",
+    "props": {
+      "text": "Captura el Momento",
+      "blockClass": "phone__title"
+    }
+  },
+
+  // Section sound
+  "flex-layout.col#phone__favorites--sound": {
+    "title": "phone favorites sound",
+    "children": [
+      "image#phone__sound--image",
+      "rich-text#phone__sound--title"
+    ],
+    "props": {
+      "blockClass": "phone__phone--sound"
+    }
+  },
+  "image#phone__sound--image": {
+    "title": "image about sound",
+    "props": {
+      "src": "assets/img/favorite-sound.webp",
+      "link": {
+        "url": "/"
+      },
+      "blockClass": "image__phone--sony"
+    }
+  },
+  "rich-text#phone__sound--title": {
+    "title": "sound title",
+    "props": {
+      "text": "Audio Premium",
+      "blockClass": "phone__title"
+    }
+  },
+
+  // Section playstation
+  "flex-layout.col#phone__favorites--playstation": {
+    "title": "phone favorites playstation",
+    "children": [
+      "image#phone__playstation--image",
+      "rich-text#phone__playstation--title"
+    ],
+    "props": {
+      "blockClass": "phone__phone--playstation"
+    }
+  },
+  "image#phone__playstation--image": {
+    "title": "playstation image",
+    "props": {
+      "src": "assets/img/favorite-playstation.webp",
+      "link": {
+        "url": "/"
+      },
+      "blockClass": "image__phone--sony"
+    }
+  },
+  "rich-text#phone__playstation--title": {
+    "title": "playstation title",
+    "props": {
+      "text": "Playstation",
+      "blockClass": "phone__title"
+    }
+  }
+}

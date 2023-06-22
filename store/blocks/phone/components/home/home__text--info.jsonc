@@ -1,0 +1,11 @@
+{
+  "rich-text#phone__section--info": {
+    "title": "home section info",
+    "props": {
+      "text": "| GRATIS Envío desde $99.000*. [Ver más >>](/)",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "blockClass": "phone__text--info"
+    }
+  }
+}

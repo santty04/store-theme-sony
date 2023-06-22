@@ -1,6 +1,6 @@
 .container--home__text--info {
   background-color: #212530;
-  margin-top      : 20px;
+  margin-top      : 0px;
   min-height      : 50px;
   justify-content : center;
   padding         : 0;
@@ -272,4 +272,10 @@
 .link--home__contact--description {
   color          : #4572ec;
   text-decoration: none;
+}
+@media (max-width: 1025px) {
+  .paragraph--home__contact--title {
+    margin-top: 30px;
+  }
+  
 }
