@@ -23,7 +23,7 @@
   "newsletter-checkbox-confirmation#phone__form--checkbox": {
     "props": {
       "blockClass": "checkbox",
-      "checkboxLabel": "He leído y acepto las políticas de privacidad",
+      "checkboxLabel": "He leído y acepto las {firstLink}",
       "firstLabelLink": {
         "text": "políticas de privacidad",
         "url": "/"
