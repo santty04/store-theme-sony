@@ -25,6 +25,11 @@
 .paginationDotsContainer--home__slider--info {
   transform: translateY(-11px);
 }
+.sliderLayoutContainer--home__slider--info :global(.vtex-store-components-3-x-infoCardTextContainer--info__card--three),
+.sliderLayoutContainer--home__slider--info :global(.vtex-store-components-3-x-infoCardTextContainer--info__card--two),
+.sliderLayoutContainer--home__slider--info :global(.vtex-store-components-3-x-infoCardTextContainer--info__card--one) {
+  margin-left: 120px;
+}
 
 /* Slider promo */
 .sliderLayoutContainer--home__slider--promo {
@@ -82,3 +87,4 @@
   max-width: 1190px;
   margin   : 0 auto;
 }
+

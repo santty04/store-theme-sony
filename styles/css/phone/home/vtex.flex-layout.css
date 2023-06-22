@@ -58,4 +58,10 @@
 .flexRowContent--phone__form--register :global(.vtex-button) {
   width: 100%;
 }
+.flexRowContent--phone__form--register :global(.vtex-checkbox__label) {
+  font-size: 15px;
+  padding-bottom: 0.6rem;
+  color: #63666a;
+  margin-left: 10px;
+}
 

@@ -13,22 +13,19 @@
     "children": [
       "newsletter-input-name#phone__register--form",
       "newsletter-input-email#phone__register--form",
-      "newsletter-checkbox-confirmation",
+      "newsletter-checkbox-confirmation#phone__form--checkbox",
       "newsletter-submit#phone__register--form"
     ],
     "props": {
       "blockClass": "phone__newsletter--form"
     }
   },
-  "newsletter-checkbox-confirmation": {
+  "newsletter-checkbox-confirmation#phone__form--checkbox": {
     "props": {
-      "checkboxLabel": "Terms and conditions",
+      "blockClass": "checkbox",
+      "checkboxLabel": "He leído y acepto las políticas de privacidad",
       "firstLabelLink": {
-        "text": "terms and conditions",
-        "url": "/"
-      },
-      "secondLabelLink": {
-        "text": "Hola",
+        "text": "políticas de privacidad",
         "url": "/"
       }
     }

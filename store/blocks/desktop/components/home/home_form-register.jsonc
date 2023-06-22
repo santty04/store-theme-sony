@@ -13,10 +13,21 @@
     "children": [
       "newsletter-input-name#desktop__register--form",
       "newsletter-input-email#desktop__register--form",
+      "newsletter-checkbox-confirmation#desktop__form--checkbox",
       "newsletter-submit#desktop__register--form"
     ],
     "props": {
       "blockClass": "desktop__newsletter--form"
+    }
+  },
+  "newsletter-checkbox-confirmation#desktop__form--checkbox": {
+    "props": {
+      "blockClass": "desktop__desktop--form",
+      "checkboxLabel": "He leído y acepto las {firstLink}",
+      "firstLabelLink": {
+        "text": "políticas de privacidad",
+        "url": "/"
+      }
     }
   },
   "newsletter-input-name#desktop__register--form": {
