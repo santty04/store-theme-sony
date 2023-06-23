@@ -1,18 +1,4 @@
 {
-  "header": {
-    "title": "header",
-    "blocks": [
-      "header-layout.desktop",
-      "header-layout.mobile"
-    ]
-  },
-  "header.full": {
-    "title": "header full",
-    "blocks": [
-      "header-layout.desktop",
-      "header-layout.mobile"
-    ]
-  },
   "header-layout.desktop": {
     "title": "header desktop",
     "children": [
@@ -119,54 +105,26 @@
   "flex-layout.col#logo-desktop": {
     "title": "logo desktop",
     "props": {
-      "verticalAlign": "middle"
+      "verticalAlign": "middle",
+      "blockClass": "flex__desktop--logo"
     },
     "children": [
-      "logo"
+      "logo#desktop__logo"
     ]
   },
-  "logo": {
+  "logo#desktop__logo": {
     "title": "logo",
     "props": {
       "title": "Logo",
       "href": "/",
       "url": "assets/img/logo.png",
-      "width": "80"
+      "width": 103,
+      "height": 18,
+      "blockClass": "logo__desktop"
     }
   },
-  "header-layout.mobile": {
-    "title": "header mobile",
-    "children": [
-      "sticky-layout#mobile"
-    ]
-  },
-  "sticky-layout#mobile": {
-    "title": "sticky layout header mobile",
-    "children": [
-      "flex-layout.row#mobile"
-    ]
-  },
-  "flex-layout.row#mobile": {
-    "title": "flex row header mobile",
-    "children": [
-      "drawer",
-      "logo",
-      "flex-layout.col#spacer",
-      "minicart.v2"
-    ],
-    "props": {
-      "blockClass": "main-header-mobile",
-      "preventHorizontalStretch": true,
-      "preserveLayoutOnMobile": true,
-      "fullWidth": true
-    }
-  },
-  "drawer": {
-    "title": "drawer",
-    "children": []
-  },
-  // Overlay trigger
-  "overlay-trigger": {
+   // Overlay trigger
+   "overlay-trigger": {
     "title": "overlay trigger",
     "children": [
       "rich-text#question",
@@ -478,7 +436,8 @@
   "rich-text#desktop__qanda--icon": {
     "title": "Q & A link",
     "props": {
-      "text": "![q and a icon](assets/img/bx-conversation.svg)"
+      "text": "[![q and a icon](assets/img/conversation-regular-24.png)](/)",
+      "blockClass": "desktop__qanda--icon"
     }
   }
 }

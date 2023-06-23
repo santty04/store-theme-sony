@@ -1,0 +1,29 @@
+.container--sticky__layout--mobile :global(.vtex-store-drawer-0-x-openIconContainer--drawer__mobile) {
+  visibility: hidden;
+}
+
+.container--sticky__layout--mobile :global(.vtex-store-drawer-0-x-openIconContainer--drawer__mobile)::after {
+  visibility       : visible;
+  display          : inline-block;
+  width            : 38px;
+  color            : transparent;
+  height           : 36px;
+  background-repeat: no-repeat;
+  background-size  : cover;
+  z-index          : 9999;
+  content          : 'Hola';
+  margin           : -7px auto;
+  background-image : url("assets/img/menu.png");
+}
+
+.container--sticky__layout--mobile :global(.vtex-flex-layout-0-x-flexRowContent--main-header-mobile) {
+  display: flex;
+}
+
+.container--sticky__layout--mobile {
+  background-color: black;
+  height          : 49px;
+}
+.container--sticky__layout--mobile :global(.vtex-store-drawer-0-x-openIconContainer--drawer__mobile) {
+  margin-top: -13px;
+}

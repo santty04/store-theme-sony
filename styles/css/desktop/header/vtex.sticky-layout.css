@@ -128,3 +128,6 @@
 .container--sticky-header :global(.vtex-store-link-0-x-buttonLink--a__site--sony):hover {
   background: #4572ed;
 }
+.container--sticky-header :global(.vtex-store-components-3-x-logoImage) {
+  margin-right: 66px;
+}
