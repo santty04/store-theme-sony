@@ -44,9 +44,16 @@
       "flex-layout.col#text",
       "rich-text#desktop__header--help",
       "overlay-trigger",
-      "login",
-      "minicart.v2"
+      "flex-layout.col#site__sony",
+      "minicart.v2#desktop__minicart",
+      "flex-layout.col#desktop__qandanswers--icon"
     ]
+  },
+  "minicart.v2#desktop__minicart": {
+    "props": {
+      "openOnHover": true,
+      "backdropMode": "none"
+    }
   },
   "image#image__phone--white": {
     "title": "image phone white",
@@ -60,7 +67,7 @@
     "props": {
       "text": "AYUDA",
       "blockClass": "desktop__header--help",
-      "textAlignment": "CENTER",
+      "textAlignment": "LEFT",
       "textPosition": "CENTER"
     }
   },
@@ -182,7 +189,7 @@
       "flex-layout.row#header__overlay--account",
       "flex-layout.row#header__overlay--help",
       "flex-layout.row#header__overlay--following",
-      "login#desktop",
+      "flex-layout.row#header__overlay--login",
       "flex-layout.row#header__overlay--site"
     ]
   },
@@ -214,6 +221,57 @@
     ],
     "props": {
       "blockClass": "header__overlay--following"
+    }
+  },
+  "flex-layout.row#header__overlay--login": {
+    "title": "overlay login",
+    "children": [
+      "flex-layout.col#overlay__login--icon",
+      "flex-layout.col#overlay__login--text",
+      "flex-layout.col#overlay__login--right"
+    ],
+    "props": {
+      "blockClass": "header__overlay--login"
+    }
+  },
+  "flex-layout.col#overlay__login--icon": {
+    "title": "login icon",
+    "children": [
+      "rich-text#overlay__login--icon"
+    ],
+    "props": {
+      "blockClass": "overlay__login--icon"
+    }
+  },
+  "rich-text#overlay__login--icon": {
+    "title": "overlay login icon",
+    "props": {
+      "text": "![icon login](assets/img/bxs-user.svg)"
+    }
+  },
+  "flex-layout.col#overlay__login--text": {
+    "title": "section text login",
+    "children": [
+      "login#desktop"
+    ],
+    "props": {
+      "blockClass": "overlay__login--text"
+    }
+  },
+  "flex-layout.col#overlay__login--right": {
+    "title": "section right login",
+    "children": [
+      "rich-text#section__arrow--right"
+    ],
+    "props": {
+      "blockClass": "section__arrow--right"
+    }
+  },
+  "rich-text#section__arrow--right": {
+    "title": "arrow right",
+    "props": {
+      "blockClass": "arrow__right--section",
+      "text": "![arrow wirght](assets/img/bx-chevron-right.svg)"
     }
   },
   "login#desktop": {
@@ -270,7 +328,7 @@
     "props": {
       "blockClass": "overlay__account--text",
       "text": "![user image](assets/img/bxs-user.svg) [Mi cuenta](/)",
-      "textAlignment": "CENTER",
+      "textAlignment": "LEFT",
       "textPosition": "CENTER"
     }
   },
@@ -341,14 +399,18 @@
     "title": "overlay follow text",
     "props": {
       "blockClass": "overlay__follow--text",
-      "text": "![credit card icon](assets/img/bxs-credit-card.svg) [seguimiento de pedido](/)"
+      "text": "![credit card icon](assets/img/bxs-credit-card.svg) [seguimiento de pedido](/)",
+      "textAlignment": "LEFT",
+      "textPosition": "CENTER"
     }
   },
   "rich-text#overlay__login--text": {
     "title": "overlay login text",
     "props": {
       "blockClass": "overlay__login--text",
-      "text": "![user image](assets/img/bxs-user.svg) [Login Sony](/) ![Arrow right](assets/img/bx-chevron-right.svg)"
+      "text": "![user image](assets/img/bxs-user.svg) [Login Sony](/) ![Arrow right](assets/img/bx-chevron-right.svg)",
+      "textAlignment": "LEFT",
+      "textPosition": "CENTER"
     }
   },
   "flex-layout.col#section__one--site": {
@@ -383,7 +445,40 @@
     "title": "overlay site text",
     "props": {
       "blockClass": "overlay__site--text",
-      "text": "![world image](assets/img/bx-world.svg) [Sitio Sony](/)"
+      "text": "![world image](assets/img/bx-world.svg) [Sitio Sony](/)",
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT"
+    }
+  },
+  // Site sony
+  "flex-layout.col#site__sony": {
+    "title": "section site sony",
+    "children": [
+      "link#button__site--sony"
+    ],
+    "props": {
+      "blockClass": "button__site--sony"
+    }
+  },
+  "link#button__site--sony": {
+    "props": {
+      "href": "/",
+      "label": "Sitio Sony",
+      "displayMode": "button",
+      "blockClass": "a__site--sony"
+    }
+  },
+  // Section Q&A
+  "flex-layout.col#desktop__qandanswers--icon": {
+    "title": "Q & A desktop icon",
+    "children": [
+      "rich-text#desktop__qanda--icon"
+    ]
+  },
+  "rich-text#desktop__qanda--icon": {
+    "title": "Q & A link",
+    "props": {
+      "text": "![q and a icon](assets/img/bx-conversation.svg)"
     }
   }
 }
