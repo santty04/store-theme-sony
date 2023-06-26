@@ -43,13 +43,22 @@
     "children": [
       "flex-layout.col#mobile__drawer",
       "flex-layout.col#mobile__logo",
+      "search-bar#mobile__header--search",
+      "rich-text#desktop__header--help",
+      "overlay-trigger",
       "flex-layout.col#mobile__minicart"
     ],
     "props": {
       "blockClass": "main-header-mobile",
       "preventHorizontalStretch": true,
       "preserveLayoutOnMobile": true,
-      "fullWidth": true
+      "fullWidth": true,
+      "colSizing": "auto"
+    }
+  },
+  "search-bar#mobile__header--search": {
+    "props": {
+      "compactMode": false
     }
   },
   "flex-layout.col#mobile__drawer": {
@@ -58,6 +67,8 @@
       "drawer"
     ],
     "props": {
+      "width": "14%",
+      "preventVerticalStretch": true,
       "blockClass": "drawer__mobile"
     }
   },
@@ -65,7 +76,11 @@
     "title": "flex logo desktop",
     "children": [
       "logo#mobile__logo"
-    ]
+    ],
+    "props": {
+      "blockClass": "col__mobile--logo",
+      "verticalAlign": "middle"
+    }
   },
   "flex-layout.col#mobile__minicart": {
     "title": "flex minicart desktop",

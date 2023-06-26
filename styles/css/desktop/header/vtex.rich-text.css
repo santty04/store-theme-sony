@@ -41,3 +41,8 @@
 .link--desktop__qanda--icon {
   margin-left: 1px;
 }
+@media (max-width: 1025px) {
+  .image--arrow__right--section {
+    margin-left: 36px;
+  }
+}

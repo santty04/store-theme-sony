@@ -1,4 +1,4 @@
-.container--sticky__layout--mobile :global(.vtex-store-drawer-0-x-openIconContainer--drawer__mobile) {
+/* .container--sticky__layout--mobile :global(.vtex-store-drawer-0-x-openIconContainer--drawer__mobile) {
   visibility: hidden;
 }
 
@@ -14,16 +14,122 @@
   content          : 'Hola';
   margin           : -7px auto;
   background-image : url("assets/img/menu.png");
-}
+} */
 
 .container--sticky__layout--mobile :global(.vtex-flex-layout-0-x-flexRowContent--main-header-mobile) {
   display: flex;
 }
 
 .container--sticky__layout--mobile {
-  background-color: black;
-  height          : 49px;
+  background-color: #000;
+  justify-content: center;
+  padding: 0;
 }
+
 .container--sticky__layout--mobile :global(.vtex-store-drawer-0-x-openIconContainer--drawer__mobile) {
-  margin-top: -13px;
+  height: 100%;
+  display: flex;
+  -webkit-box-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  align-items: center;
+  background: none;
+}
+
+/* .container--sticky__layout--mobile :global(.vtex-flex-layout-0-x-flexRowContent--main-header-mobile) {
+  justify-content: space-between;
+} */
+.container--sticky__layout--mobile :global(.vtex-store-drawer-0-x-drawer--drawer__mobile) {
+  width: 14%;
+}
+
+.container--sticky__layout--mobile :global(.vtex-rich-text-0-x-link--desktop__header--help) {
+  margin         : 0;
+  margin-left    : 20px;
+  font-size      : x-small;
+  color          : white;
+  text-decoration: none;
+}
+
+.container--sticky__layout--mobile :global(.vtex-rich-text-0-x-paragraph--header__overlay--image) {
+  display    : inline-block;
+  margin-top : 21px;
+  margin-left: 10px;
+  fill       : white;
+}
+
+.container--sticky__layout--mobile :global(.vtex-rich-text-0-x-paragraph--header__overlay--image):hover {
+  background-color: rgb(69, 114, 237);
+}
+
+.container--sticky__layout--mobile :global(.vtex-rich-text-0-x-image--header__overlay--image) {
+  color           : aliceblue;
+  display         : flex;
+  -webkit-box-pack: center;
+  justify-content : center;
+  transition      : .25s;
+}
+
+.container--sticky__layout--mobile :global(.vtex-rich-text-0-x-link--overlay__account--text),
+.container--sticky__layout--mobile :global(.vtex-rich-text-0-x-link--overlay__help--text),
+.container--sticky__layout--mobile :global(.vtex-rich-text-0-x-link--overlay__follow--text),
+.container--sticky__layout--mobile :global(.vtex-rich-text-0-x-link--overlay__login--text),
+.container--sticky__layout--mobile :global(.vtex-rich-text-0-x-link--overlay__site--text) {
+  color: black;
+}
+
+.container--sticky__layout--mobile :global(.vtex-rich-text-0-x-wrapper--overlay__account--text) {
+  width: 100%;
+}
+
+
+.container--sticky__layout--mobile :global(.vtex-rich-text-0-x-link--overlay__account--text) {
+  margin-left: 0;
+}
+
+.container--sticky__layout--mobile :global(.vtex-rich-text-0-x-image--overlay__account--text) {
+  left: 90px;
+}
+
+.container--sticky__layout--mobile :global(.vtex-rich-text-0-x-link--overlay__account--text),
+.container--sticky__layout--mobile :global(.vtex-rich-text-0-x-link--overlay__help--text),
+.container--sticky__layout--mobile :global(.vtex-rich-text-0-x-link--overlay__follow--text),
+.container--sticky__layout--mobile :global(.vtex-rich-text-0-x-link--overlay__site--text) {
+  font-size  : 14px;
+  margin-left: 5px;
+  text-decoration: none;
+}
+
+.container--sticky__layout--mobile :global(.vtex-rich-text-0-x-link--overlay__account--text):hover,
+.container--sticky__layout--mobile :global(.vtex-rich-text-0-x-link--overlay__help--text):hover,
+.container--sticky__layout--mobile :global(.vtex-rich-text-0-x-link--overlay__follow--text):hover,
+.container--sticky__layout--mobile :global(.vtex-rich-text-0-x-link--overlay__site--text):hover {
+  color: blue;
+}
+.container--sticky__layout--mobile :global(.vtex-overlay-layout-0-x-container) {
+  width: 244px;
+}
+
+.container--sticky__layout--mobile :global(.vtex-store-link-0-x-buttonLink--a__site--sony) {
+  margin-left   : 10px;
+  background    : #30343d;
+  text-align    : center;
+  color         : #fff;
+  font-size     : 12px;
+  transition    : all .25s;
+  border        : none;
+  margin-top    : 10px;
+  border-radius : 0;
+  text-transform: none;
+}
+
+.container--sticky__layout--mobile :global(.vtex-store-link-0-x-buttonLink--a__site--sony):hover {
+  background: #4572ed;
+}
+.container--sticky__layout--mobile :global(.vtex-button):hover {
+  background   : #4572ed;
+  border-radius: 0;
+}
+.container--sticky__layout--mobile :global(.vtex-store-drawer-0-x-menuIcon--drawer__mobile) {
+  margin-top: 6px;
 }

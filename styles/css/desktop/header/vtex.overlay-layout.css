@@ -20,3 +20,4 @@
 .outsideClickHandler :global(.vtex-button)::after:hover {
   color: blue;
 }
+

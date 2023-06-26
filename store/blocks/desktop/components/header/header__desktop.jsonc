@@ -25,7 +25,7 @@
     },
     "children": [
       "flex-layout.col#logo-desktop",
-      "search-bar",
+      "search-bar#desktop__header--search",
       "image#image__phone--white",
       "flex-layout.col#text",
       "rich-text#desktop__header--help",
@@ -35,10 +35,20 @@
       "flex-layout.col#desktop__qandanswers--icon"
     ]
   },
+  "search-bar#desktop__header--search": {
+    "blocks": [
+      "autocomplete-result-list.v2"
+    ],
+    "props": {
+      "openAutocompleteOnFocus": true,
+      "placeholder": "Buscar productos por nombre, código o categoría...",
+      "displayMode": "search-button",
+      "containerMode": "overlay"
+    }
+  },
   "minicart.v2#desktop__minicart": {
     "props": {
-      "openOnHover": true,
-      "backdropMode": "none"
+      "quantityDisplay": "not-empty"
     }
   },
   "image#image__phone--white": {
@@ -51,23 +61,18 @@
   "rich-text#desktop__header--help": {
     "title": "text help",
     "props": {
-      "text": "AYUDA",
+      "text": "[AYUDA](/)",
       "blockClass": "desktop__header--help",
       "textAlignment": "LEFT",
       "textPosition": "CENTER"
     }
   },
-  "flex-layout.col#spacer": {
-    "title": "spacer",
-    "props": {
-      "width": "50%"
-    }
-  },
-  "search-bar": {
-    "props": {
-      "placeholder": "Buscar productos por nombre, código o categoría..."
-    }
-  },
+  // "flex-layout.col#spacer": {
+  //   "title": "spacer",
+  //   "props": {
+  //     "width": "50%"
+  //   }
+  // },
   // Parte de venta telefonica
   "flex-layout.col#text": {
     "title": "Section one",
@@ -123,8 +128,8 @@
       "blockClass": "logo__desktop"
     }
   },
-   // Overlay trigger
-   "overlay-trigger": {
+  // Overlay trigger
+  "overlay-trigger": {
     "title": "overlay trigger",
     "children": [
       "rich-text#question",
@@ -358,15 +363,6 @@
     "props": {
       "blockClass": "overlay__follow--text",
       "text": "![credit card icon](assets/img/bxs-credit-card.svg) [seguimiento de pedido](/)",
-      "textAlignment": "LEFT",
-      "textPosition": "CENTER"
-    }
-  },
-  "rich-text#overlay__login--text": {
-    "title": "overlay login text",
-    "props": {
-      "blockClass": "overlay__login--text",
-      "text": "![user image](assets/img/bxs-user.svg) [Login Sony](/) ![Arrow right](assets/img/bx-chevron-right.svg)",
       "textAlignment": "LEFT",
       "textPosition": "CENTER"
     }
