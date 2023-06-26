@@ -1,0 +1,24 @@
+.flexColChild--section__two--account,
+.flexColChild--section__two--help,
+.flexColChild--section__two--following,
+.flexColChild--section__two--site {
+  height  : 100%;
+  width   : 20%;
+  position: relative;
+  left    : 75px;
+}
+.container--overlay__account--text {
+  width: 180%;
+}
+
+.flexRowContent--header__overlay--account,
+.flexRow--header__overlay--help{
+  margin-bottom: 10px;
+}
+.flexRow--header__overlay--following {
+  margin-bottom: 5px;
+}
+.flexRow--header__overlay--login {
+  padding-top: 5px;
+  border-top: 1px solid #e3e4e6;
+}

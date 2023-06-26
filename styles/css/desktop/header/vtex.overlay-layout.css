@@ -1,0 +1,22 @@
+.outsideClickHandler :global(.vtex-button) {
+  visibility: hidden;
+}
+.outsideClickHandler :global(.vtex-button):hover {
+  color: blue;
+}
+
+.outsideClickHandler :global(.vtex-button)::after {
+  visibility       : visible;
+  background-repeat: no-repeat;
+  content          : "Login Sony";
+  font-size        : 14px;
+  text-decoration  : none;
+  text-transform   : none;
+  margin-left      : -47px;
+  display          : block;
+  margin-top       : -30px;
+  color            : black;
+}
+.outsideClickHandler :global(.vtex-button)::after:hover {
+  color: blue;
+}
