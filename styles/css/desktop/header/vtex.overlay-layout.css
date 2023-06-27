@@ -20,4 +20,10 @@
 .outsideClickHandler :global(.vtex-button)::after:hover {
   color: blue;
 }
+@media (max-width: 1025px) {
+  .outsideClickHandler :global(.vtex-button)::after {
+    margin-left: -138px;
+    margin-top: -17px;
+  }
+}
 

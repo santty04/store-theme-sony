@@ -1,0 +1,7 @@
+.flexColChild--mobile__minicart :global(.vtex-button) {
+  background: none;
+}
+.sterchChildrenWidth :global(.vtex-button) {
+  background: none;
+}
+

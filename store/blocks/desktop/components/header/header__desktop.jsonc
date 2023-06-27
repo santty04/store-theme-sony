@@ -36,15 +36,7 @@
     ]
   },
   "search-bar#desktop__header--search": {
-    "blocks": [
-      "autocomplete-result-list.v2"
-    ],
-    "props": {
-      "openAutocompleteOnFocus": true,
-      "placeholder": "Buscar productos por nombre, código o categoría...",
-      "displayMode": "search-button",
-      "containerMode": "overlay"
-    }
+    
   },
   "minicart.v2#desktop__minicart": {
     "props": {
@@ -163,7 +155,8 @@
       "flex-layout.col#section__two--account"
     ],
     "props": {
-      "blockClass": "header__overlay--account"
+      "blockClass": "header__overlay--account",
+      "preserveLayoutOnMobile": true
     }
   },
   "flex-layout.row#header__overlay--help": {
@@ -173,7 +166,8 @@
       "flex-layout.col#section__two--help"
     ],
     "props": {
-      "blockClass": "header__overlay--help"
+      "blockClass": "header__overlay--help",
+      "preserveLayoutOnMobile": true
     }
   },
   "flex-layout.row#header__overlay--following": {
@@ -183,7 +177,8 @@
       "flex-layout.col#section__two--following"
     ],
     "props": {
-      "blockClass": "header__overlay--following"
+      "blockClass": "header__overlay--following",
+      "preserveLayoutOnMobile": true
     }
   },
   "flex-layout.row#header__overlay--login": {
@@ -194,7 +189,8 @@
       "flex-layout.col#overlay__login--right"
     ],
     "props": {
-      "blockClass": "header__overlay--login"
+      "blockClass": "header__overlay--login",
+      "preserveLayoutOnMobile": true
     }
   },
   "flex-layout.col#overlay__login--icon": {
@@ -255,7 +251,8 @@
       "flex-layout.col#section__two--site"
     ],
     "props": {
-      "blockClass": "header__overlay--site"
+      "blockClass": "header__overlay--site",
+      "preserveLayoutOnMobile": true
     }
   },
   "flex-layout.col#section__one--account": {
