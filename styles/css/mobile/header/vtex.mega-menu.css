@@ -26,12 +26,17 @@
   padding    : 0px 23px 0px 14px;
   font-weight: bold;
 }
+
 .goBackButtonText {
   display: none;
 }
+
 /* .collapsibleHeaderText--mobile__mega-menu {
   color: blue;
 } */
-/* .submenuListVertical--mobile__mega-menu:last-child .collapsibleHeaderText--mobile__mega-menu {
-  background: blue;
+/* :global(.vtex-mega-menu-2-x-collapsibleHeaderText--mobile__mega-menu):last-child {
+  color: blue;
 } */
+.submenuListVertical--mobile__mega-menu .submenuItemVertical--mobile__mega-menu:last-child .collapsibleHeaderText--mobile__mega-menu{
+  color: rgb(69, 114, 236);
+}

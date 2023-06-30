@@ -477,6 +477,13 @@
         "tagTitle": "Tv y Teatros",
         "text": "Tv y Teatros"
       },
+      "iconProps": {
+        "id": "bnd-logo",
+        "size": 16,
+        "viewBox": "0 0 16 16",
+        "activeClassName": "rebel-pink",
+        "mutedClassName": "c-action-primary"
+      },
       "blockClass": "menu__item--tv-teatros"
     },
     "blocks": [
@@ -547,7 +554,8 @@
         "noFollow": true,
         "tagTitle": "Camaras",
         "text": "Cámaras"
-      }
+      },
+      "blockClass": "item__cams"
     },
     "blocks": [
       "submenu#category__cams"
@@ -647,7 +655,8 @@
         "noFollow": true,
         "tagTitle": "Videocámaras",
         "text": "Videocámaras"
-      }
+      },
+      "blockClass": "item__videocams"
     },
     "blocks": [
       "submenu#category__videocams"
@@ -675,7 +684,8 @@
         "noFollow": true,
         "tagTitle": "Handycam",
         "text": "Handycam"
-      }
+      },
+      "blockClass": "category__handycam"
     }
   },
   "menu-item#category__videocams-accesories": {
@@ -688,7 +698,8 @@
         "noFollow": true,
         "tagTitle": "Accesorios",
         "text": "Accesorios"
-      }
+      },
+      "blockClass": "category__videocams-accesories"
     }
   },
   "menu-item#category__videocams-cinema": {
@@ -701,7 +712,8 @@
         "noFollow": true,
         "tagTitle": "Cámaras de Cine",
         "text": "Cámaras de Cine"
-      }
+      },
+      "blockClass": "category__videocams-cinema"
     }
   },
   "menu-item#department__audio": {
@@ -714,7 +726,8 @@
         "noFollow": true,
         "tagTitle": "Audio",
         "text": "Audio"
-      }
+      },
+      "blockClass": "item__audio"
     },
     "blocks": [
       "submenu#category__audio"
@@ -799,7 +812,8 @@
         "noFollow": true,
         "tagTitle": "Playstation",
         "text": "Playstation"
-      }
+      },
+      "blockClass": "item__playstation"
     },
     "blocks": [
       "submenu##category__playstation"
@@ -884,9 +898,12 @@
         "noFollow": true,
         "tagTitle": "Audio para Auto",
         "text": "Audio para Auto"
-      }
+      },
+      "blockClass": "item__audio-for-auto"
     },
-    "blocks": ["submenu#category__audio-for-auto"]
+    "blocks": [
+      "submenu#category__audio-for-auto"
+    ]
   },
   "submenu#category__audio-for-auto": {
     "children": [
