@@ -1,0 +1,32 @@
+{
+  "header": {
+    "title": "header",
+    "blocks": [
+      "header-layout.desktop",
+      "header-layout.mobile"
+    ],
+    "props": {
+      "blockClass": "header"
+    }
+  },
+  "header.full": {
+    "title": "header full",
+    "blocks": [
+      "header-layout.desktop",
+      "header-layout.mobile"
+    ],
+    "props": {
+      "blockClass": "header__full"
+    }
+  },
+
+  "header-layout.mobile": {
+    "title": "header mobile",
+    "children": [
+      "sticky-layout#mobile"
+    ],
+    "props": {
+      "blockClass": "header__mobile"
+    }
+  }
+}

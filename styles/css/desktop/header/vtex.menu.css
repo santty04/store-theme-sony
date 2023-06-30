@@ -2,3 +2,155 @@
 .styledLinkContainer {
     margin: 0 12px;
 } */
+.menuContainerNav--header__menu {
+  width: 100%;
+}
+
+.menuContainer--header__menu {
+  width          : 100%;
+  display        : flex;
+  justify-content: center;
+  margin         : 0;
+  height         : 100%;
+}
+
+.submenuContainer {
+  position  : absolute;
+  left      : 0;
+  transition: top 0.25s ease-in 0s;
+  width     : 100%;
+}
+
+.submenuWrapper {
+  padding   : 16px 0px;
+  transition: top 0.25s ease-in 0s;
+  width     : 100%;
+  text-align: center;
+  background: rgb(241, 245, 249);
+}
+
+.menuItem--category__tvs,
+.menuItem--category__teatro,
+.menuItem--category__reproductors,
+.menuItem--category__cams-lens,
+.menuItem--category__cyber-shot,
+.menuItem--category__lens,
+.menuItem--category__accesories,
+.menuItem--category__cinema,
+.menuItem--category__handycam,
+.menuItem--category__videocams-accesories,
+.menuItem--category__videocams-cinema,
+.menuItem--category__system-audio,
+.menuItem--category__wireless-speakers,
+.menuItem--category__earphones,
+.menuItem--category__walkman,
+.menuItem--category__playstation5,
+.menuItem--category__consoles,
+.menuItem--category__games,
+.menuItem--category__playstation-accesories,
+.menuItem--category__reproductors-car,
+.menuItem--category__speakers-and-amplifiers {
+  display        : inline-block;
+  cursor         : pointer;
+  width          : 142px;
+  height         : 142px;
+  margin         : 0px 8px;
+  padding        : 12px 10px;
+  vertical-align : top;
+  box-sizing     : border-box;
+  text-decoration: none;
+}
+
+.menuItem--category__tvs:hover,
+.menuItem--category__teatro:hover,
+.menuItem--category__reproductors:hover,
+.menuItem--category__cams-lens:hover,
+.menuItem--category__cyber-shot:hover,
+.menuItem--category__lens:hover,
+.menuItem--category__accesories:hover,
+.menuItem--category__cinema:hover,
+.menuItem--category__handycam:hover,
+.menuItem--category__videocams-accesories:hover,
+.menuItem--category__videocams-cinema:hover,
+.menuItem--category__system-audio:hover,
+.menuItem--category__wireless-speakers:hover,
+.menuItem--category__earphones:hover,
+.menuItem--category__walkman:hover,
+.menuItem--category__playstation5:hover,
+.menuItem--category__consoles:hover,
+.menuItem--category__games:hover,
+.menuItem--category__playstation-accesories:hover,
+.menuItem--category__reproductors-car:hover,
+.menuItem--category__speakers-and-amplifiers {
+  background: rgb(255, 255, 255);
+}
+
+.styledLinkContent--menu__item--tv-teatros {
+  position   : relative;
+  color      : #606060;
+  line-height: 1.2;
+  font-family: SST W01 Roman;
+}
+
+.styledLinkContainer--menu__item--tv-teatros,
+.styledLinkContainer--item__cams,
+.styledLinkContainer--item__videocams,
+.styledLinkContainer--item__audio,
+.styledLinkContainer--item__playstation,
+.styledLinkContainer--item__audio-for-auto {
+  transition: 0.2s ease-in;
+}
+
+.styledLinkContainer--menu__item--tv-teatros:hover,
+.styledLinkContainer--item__cams:hover,
+.styledLinkContainer--item__videocams:hover,
+.styledLinkContainer--item__audio:hover,
+.styledLinkContainer--item__playstation:hover,
+.styledLinkContainer--item__audio-for-auto:hover {
+  border-bottom: 2px solid blue;
+}
+
+.styledLinkContent {
+  position   : relative;
+  color      : #606060;
+  line-height: 1.2;
+  font-family: SST W01 Roman;
+}
+
+.styledLinkContent--category__reproductors,
+.styledLinkContent--category__tvs,
+.styledLinkContent--category__teatro,
+.styledLinkContent--category__cams-lens,
+.styledLinkContent--category__cyber-shot,
+.styledLinkContent--category__lens,
+.styledLinkContent--category__accesories,
+.styledLinkContent--category__cinema,
+.styledLinkContent--category__handycam,
+.styledLinkContent--category__videocams-accesories,
+.styledLinkContent--category__videocams-cinema,
+.styledLinkContent--category__system-audio,
+.styledLinkContent--category__wireless-speakers,
+.styledLinkContent--category__earphones,
+.styledLinkContent--category__walkman,
+.styledLinkContent--category__playstation5,
+.styledLinkContent--category__consoles,
+.styledLinkContent--category__games,
+.styledLinkContent--category__playstation-accesories,
+.styledLinkContent--category__reproductors-car,
+.styledLinkContent--category__speakers-and-amplifiers {
+  font-size  : 12px;
+  color      : rgb(96, 96, 96);
+  line-height: 15px;
+  height     : 30px;
+  justify-content: center;
+}
+.styledLinkContent--category__tvs::before {
+  content: "holaaaa";
+  background-image: url("assets/img/menu/televisores.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: transparent;
+  display: block;
+  width: 140px;
+  background-position: center;
+}

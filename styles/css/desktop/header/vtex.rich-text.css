@@ -6,12 +6,14 @@
   width              : 25px;
   height             : 25px;
 }
+
 .image--overlay__account--text,
 .image--overlay__help--text,
 .image--overlay__follow--text,
 .image--overlay__site--text {
   vertical-align: middle;
 }
+
 /* .paragraph--overlay__account--text {
   width: 130%;
 }
@@ -24,6 +26,23 @@
 .paragraph--overlay__follow--text {
   width: 180%;
 }
+
 .image--arrow__right--section {
   margin-left: 17px;
+}
+
+.image--desktop__qanda--icon {
+  display            : block;
+  margin-block-start : 0.5em;
+  margin-block-end   : 1em;
+  margin-inline-start: 0px;
+  margin-inline-end  : 0px;
+}
+.link--desktop__qanda--icon {
+  margin-left: 1px;
+}
+@media (max-width: 1025px) {
+  .image--arrow__right--section {
+    margin-left: 36px;
+  }
 }
