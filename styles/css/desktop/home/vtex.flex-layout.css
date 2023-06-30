@@ -60,9 +60,9 @@
 
 .flexRow--home__form--register {
   background: #f1f5f9;
-  max-width: 1190px;
-  height: 127px;
-  margin: 0 auto;
+  max-width : 1190px;
+  height    : 127px;
+  margin    : 0 auto;
   border-top: #e3e4e6;
 }
 
@@ -134,12 +134,14 @@
   position: absolute;
   bottom  : 0;
 }
+
 .flexRow--home__form--register :global(.vtex-checkbox__label) {
-  font-size: 15px;
+  font-size     : 15px;
   padding-bottom: 0.6rem;
-  color: #63666a;
-  margin-left: 10px
+  color         : #63666a;
+  margin-left   : 10px
 }
+
 .flexRow--home__form--register :global(.vtex-store-newsletter-1-x-labelLink--desktop__desktop--form--first) {
   color: blue;
 }
@@ -156,6 +158,7 @@
     display     : inline-block;
     margin-right: 0.2em;
   }
+
   .flexRow--home__form--register :global(.vtex-checkbox__line-container) {
     width   : 100%;
     margin  : 6px -323px;

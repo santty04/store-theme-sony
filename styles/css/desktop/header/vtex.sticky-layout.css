@@ -113,18 +113,40 @@
 }
 
 .container--sticky-header :global(.vtex-store-link-0-x-buttonLink--a__site--sony) {
-  margin-left  : 10px;
-  background   : #30343d;
-  text-align   : center;
-  color        : #fff;
-  font-size    : 12px;
-  transition   : all .25s;
-  border       : none;
-  margin-top   : 10px;
-  border-radius: 0;
+  margin-left   : 10px;
+  background    : #30343d;
+  text-align    : center;
+  color         : #fff;
+  font-size     : 12px;
+  transition    : all .25s;
+  border        : none;
+  margin-top    : 10px;
+  border-radius : 0;
   text-transform: none;
 }
 
 .container--sticky-header :global(.vtex-store-link-0-x-buttonLink--a__site--sony):hover {
   background: #4572ed;
+}
+
+.container--sticky-header :global(.vtex-store-components-3-x-logoImage) {
+  margin-right: 66px;
+}
+
+.container--sticky-header :global(.vtex-search-2-x-biggy-autocomplete) {
+  flex-direction: row;
+  margin-left   : 80px;
+  position      : absolute;
+  transition    : opacity .15s ease-in .05s, max-height .3s ease-out, padding .6s ease-out;
+  padding       : 20px 0 10px;
+  max-height    : 630px;
+  box-shadow    : 0 5px 7px rgba(0, 0, 0, .2);
+  background    : #fff;
+  overflow      : auto;
+  display       : flex;
+}
+
+.container--sticky-header :global(.vtex-button):hover {
+  background   : #4572ed;
+  border-radius: 0;
 }

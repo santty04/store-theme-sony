@@ -1,0 +1,184 @@
+{
+  "sticky-layout#mobile": {
+    "title": "sticky layout header mobile",
+    "children": [
+      "flex-layout.row#mobile"
+    ],
+    "props": {
+      "blockClass": "sticky__layout--mobile"
+    }
+  },
+  "flex-layout.row#mobile": {
+    "title": "flex row header mobile",
+    "children": [
+      "flex-layout.col#mobile__drawer",
+      "flex-layout.col#mobile__logo",
+      "flex-layout.col#mobile__header--search",
+      "flex-layout.col#mobile__header--help",
+      "flex-layout.col#mobile__overlay-trigger",
+      "flex-layout.col#mobile__minicart"
+    ],
+    "props": {
+      "preserveLayoutOnMobile": true,
+      "blockClass": "main-header-mobile",
+      "fullWidth": true,
+      "colJustify": "center"
+      // "colSizing": "auto"
+    }
+  },
+  "flex-layout.col#mobile__overlay-trigger": {
+    "title": "mobile overlay trigger",
+    "children": [
+      "overlay-trigger"
+    ],
+    "props": {
+      "blockClass": "mobile__overlay--triger",
+      "width": "10%"
+    }
+  },
+  "flex-layout.col#mobile__header--search": {
+    "title": "col mobile header search",
+    "children": [
+      "overlay-trigger#search__bar"
+    ],
+    "props": {
+      "blockClass": "col__mobile--search",
+      "width": "12%"
+    }
+  },
+  "overlay-trigger#search__bar": {
+    "title": "overlay trigger search bar",
+    "children": [
+      "rich-text#icon__search",
+      "overlay-layout#mobile__search--bar"
+    ]
+  },
+  "rich-text#icon__search": {
+    "title": "three points for overlay trigger",
+    "props": {
+      "blockClass": "header__overlay--image",
+      "text": "![image search](assets/img/search.png)"
+    }
+  },
+  "overlay-layout#mobile__search--bar": {
+    "title": "overlay layout header",
+    "props": {
+      "placement": "bottom"
+    },
+    "children": [
+      "search-bar#mobile__header--search"
+    ]
+  },
+  "search-bar#mobile__header--search": {
+    "blocks": [
+      "autocomplete-result-list.v2"
+    ],
+    "props": {
+      "openAutocompleteOnFocus": true,
+      "placeholder": "Buscar productos por nombre, código o categoría...",
+      "displayMode": "clear-button",
+      "containerMode": "container"
+    }
+  },
+  "flex-layout.col#mobile__header--help": {
+    "title": "col mobile header help",
+    "children": [
+      "rich-text#desktop__header--help"
+    ],
+    "props": {
+      "blockClass": "col__mobile--help",
+      "width": "14%"
+    }
+  },
+  "flex-layout.col#mobile__drawer": {
+    "title": "flex mobile drawer",
+    "children": [
+      "drawer"
+    ],
+    "props": {
+      "width": "14%",
+      "preventVerticalStretch": true,
+      "blockClass": "drawer__mobile"
+    }
+  },
+  "flex-layout.col#mobile__logo": {
+    "title": "flex logo desktop",
+    "children": [
+      "logo#mobile__logo"
+    ],
+    "props": {
+      "blockClass": "col__mobile--logo",
+      "verticalAlign": "middle",
+      "width": "36%"
+    }
+  },
+  "flex-layout.col#mobile__minicart": {
+    "title": "flex minicart desktop",
+    "children": [
+      "minicart.v2"
+    ],
+    "props": {
+      "blockClass": "mobile__minicart",
+      "width": "13%"
+    }
+  },
+  "logo#mobile__logo": {
+    "title": "logo",
+    "props": {
+      "title": "Logo",
+      "href": "/",
+      "url": "assets/img/logo.png",
+      "width": 80,
+      "blockClass": "logo__desktop"
+    }
+  },
+  "drawer": {
+    "title": "drawer",
+    "children": [
+      "mega-menu"
+    ],
+    "blocks": ["drawer-header#my-drawer"],
+    "props": {
+      "blockClass": "drawer__mobile"
+    }
+  },
+  "mega-menu": {
+    "title": "mobile drawer menu",
+    "props": {
+      "title": "sony mobile menu",
+      "openOnly": "vertical",
+      "blockClass": "mobile__mega-menu"
+    }
+  },
+  "drawer-header#my-drawer": {
+    "children": ["flex-layout.row#drawer-header"]
+  },
+  "flex-layout.row#drawer-header": {
+    "children": [
+      "flex-layout.col#mega-menu-go-back-btn",
+      "flex-layout.col#drawer-close-button"
+    ],
+    "props": {
+      "blockClass": "drawer-header",
+      "preventHorizontalStretch": true,
+      "preventVerticalStretch": true,
+      "preserveLayoutOnMobile": true,
+      "fullWidth": true
+    }
+  },
+  "flex-layout.col#drawer-close-button": {
+    "children": ["drawer-close-button"],
+    "props": {
+      "verticalAlign": "middle",
+      "horizontalAlign": "right"
+    }
+  },
+  "flex-layout.col#mega-menu-go-back-btn": {
+    "children": ["mega-menu-go-back-btn"],
+    "props": {
+      "verticalAlign": "middle",
+      "horizontalAlign": "left",
+      "paddingLeft": 4
+    }
+  }
+}
