@@ -1,0 +1,37 @@
+.styledLinkText {
+  font-size  : 14px;
+  color      : rgb(69, 114, 236);
+  padding    : 0px 23px 0px 0px;
+  font-weight: 400;
+}
+
+.menuItemVertical,
+.submenuItemVertical {
+  border: none;
+}
+
+.collapsibleHeaderText {
+  color          : rgb(60, 60, 65);
+  line-height    : 10px;
+  padding-left   : 0px;
+  font-size      : 14px;
+  display        : block;
+  text-decoration: none;
+}
+
+.submenuContainerTitle--mobile__mega-menu {
+  line-height: 46px;
+  font-size  : 20px;
+  color      : rgb(69, 114, 236);
+  padding    : 0px 23px 0px 14px;
+  font-weight: bold;
+}
+.goBackButtonText {
+  display: none;
+}
+/* .collapsibleHeaderText--mobile__mega-menu {
+  color: blue;
+} */
+/* .submenuListVertical--mobile__mega-menu:last-child .collapsibleHeaderText--mobile__mega-menu {
+  background: blue;
+} */

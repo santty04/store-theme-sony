@@ -2,3 +2,26 @@
 .styledLinkContainer {
     margin: 0 12px;
 } */
+.menuContainerNav--header__menu {
+  width: 100%;
+}
+
+.menuContainer--header__menu {
+  width          : 100%;
+  display        : flex;
+  justify-content: center;
+  margin         : 0;
+  height         : 100%;
+}
+
+/* .styledLinkContainer {
+  display        : inline-block;
+  cursor         : pointer;
+  width          : 142px;
+  height         : 142px;
+  margin         : 0px 8px;
+  padding        : 12px 10px;
+  vertical-align : top;
+  box-sizing     : border-box;
+  text-decoration: none;
+} */

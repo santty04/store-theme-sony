@@ -143,10 +143,11 @@
     }
   },
   "mega-menu": {
-    "title": "mobile drawe menu",
+    "title": "mobile drawer menu",
     "props": {
       "title": "sony mobile menu",
-      "openOnly": "vertical"
+      "openOnly": "vertical",
+      "blockClass": "mobile__mega-menu"
     }
   },
   "drawer-header#my-drawer": {
@@ -155,7 +156,6 @@
   "flex-layout.row#drawer-header": {
     "children": [
       "flex-layout.col#mega-menu-go-back-btn",
-      "flex-layout.col#spacer",
       "flex-layout.col#drawer-close-button"
     ],
     "props": {
@@ -179,12 +179,6 @@
       "verticalAlign": "middle",
       "horizontalAlign": "left",
       "paddingLeft": 4
-    }
-  },
-  "flex-layout.col#spacer": {
-    "title": "spacer",
-    "props": {
-      "width": "50%"
     }
   }
 }

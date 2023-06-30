@@ -17,17 +17,28 @@
 .flexColChild--col__mobile--search :global(.vtex-overlay-layout-0-x-container) {
   width: 100%;
 }
+
 .flexColChild--col__mobile--search :global(.vtex-store-components-3-x-searchBarContainer) {
-  margin: 0 auto;
+  max-width: 100%;
 }
 
 .flexColChild--col__mobile--search :global(.vtex-search-2-x-biggy-autocomplete) {
   margin-top: 0px;
 }
+
 .flexColChild--col__mobile--search :global(.vtex-input-prefix__group) {
   border-radius: 0;
-  border-color: transparent;
+  border-color : transparent;
 }
+
 .flexColChild--col__mobile--search :global(.vtex-overlay-layout-0-x-container) {
   width: 100% !important;
+}
+
+.flexRow--drawer-header {
+  width: 100%;
+}
+
+.flexRowContent--drawer-header {
+  justify-content: space-between;
 }
