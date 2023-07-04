@@ -180,5 +180,23 @@
       "horizontalAlign": "left",
       "paddingLeft": 4
     }
+  },
+  "header-row#mobile__telephone-sales": {
+    "title": "mobile section telephone sales",
+    "children": [
+      "rich-text#home__section--telephone-sales"
+    ],
+    "props": {
+      "blockClass": "row__mobile--telephone-sales"
+    }
+  },
+  "rich-text#home__section--telephone-sales": {
+    "title": "home section info",
+    "props": {
+      "text": "[Venta Telefónica ![telephone image](assets/img/phone-call.png) 601 786 8928](tel:6017868928)",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "blockClass": "mobile__telephone-sales"
+    }
   }
 }

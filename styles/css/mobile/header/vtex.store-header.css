@@ -1,0 +1,20 @@
+.headerRowContainer--row__mobile--telephone-sales {
+  display        : flex;
+  justify-content: center;
+  height         : 100%;
+  align-items    : center;
+}
+
+.headerRowContainer--row__mobile--telephone-sales :global(.vtex-rich-text-0-x-link--mobile__telephone-sales) {
+  color          : #000;
+  display        : flex;
+  align-items    : center;
+  text-decoration: none;
+  float          : left;
+}
+
+.headerRowContainer--row__mobile--telephone-sales :global(.vtex-rich-text-0-x-image--mobile__telephone-sales) {
+  width       : 17px;
+  margin-right: 5px;
+  margin-left : 5px;
+}
