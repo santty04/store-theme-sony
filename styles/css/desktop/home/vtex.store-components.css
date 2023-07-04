@@ -1,8 +1,8 @@
-.imageElement--imperdibles__image {
+.imageElement--unmissable__image {
   transition: all .25s;
 }
 
-.imageElement--imperdibles__image:hover {
+.imageElement--unmissable__image:hover {
   opacity: .9;
 }
 
