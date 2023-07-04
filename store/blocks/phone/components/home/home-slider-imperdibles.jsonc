@@ -1,6 +1,6 @@
 {
-  "slider-layout#home__slider--imperdibles": {
-    "title": "Slider imperdibles",
+  "slider-layout#home__slider--unmissable": {
+    "title": "Slider unmissable",
     "props": {
       "itemsPerPage": {
         "desktop": 2,

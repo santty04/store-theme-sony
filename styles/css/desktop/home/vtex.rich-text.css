@@ -31,20 +31,20 @@
   margin-left    : 0.5em;
 }
 
-.wrapper--home__imperdibles--text {
+.wrapper--home__unmissable--text {
   margin     : 40px auto 35px;
   font-size  : 37px;
   line-height: 36px;
 }
 
-.paragraph--imperdibles__title {
+.paragraph--unmissable__title {
   font-size  : 18px;
   line-height: 26px;
   color      : #83838f;
   font-weight: 700;
 }
 
-.paragraph--imperdibles__description {
+.paragraph--unmissable__description {
   clear      : both;
   width      : 100%;
   font-size  : 14px;
@@ -277,5 +277,5 @@
   .paragraph--home__contact--title {
     margin-top: 30px;
   }
-  
+
 }

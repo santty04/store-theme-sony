@@ -4,7 +4,7 @@
     max-width: 1200px;
 } */
 
-.flexRowContent--flex__section--imperdibles {
+.flexRowContent--flex__section--unmissable {
   transform      : translate3d(0%, 0px, 0px);
   max-width      : 1200px;
   justify-content: space-between;
@@ -14,11 +14,11 @@
   padding        : 0;
 }
 
-.flexRow--flex__section--imperdibles :global(.vtex-flex-layout-0-x-stretchChildrenWidth) {
+.flexRow--flex__section--unmissable :global(.vtex-flex-layout-0-x-stretchChildrenWidth) {
   width: 46% !important;
 }
 
-.flexColChild--section__imperdibles--one :global(.vtex-store-link-0-x-link--imperdibles__link) {
+.flexColChild--section__unmissable--one :global(.vtex-store-link-0-x-link--unmissable__link) {
   margin: 23px auto;
 }
 
