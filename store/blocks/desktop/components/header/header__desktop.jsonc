@@ -474,8 +474,8 @@
         "type": "external",
         "href": "/",
         "noFollow": true,
-        "tagTitle": "Tv y Teatros",
-        "text": "Tv y Teatros"
+        "tagTitle": "Tv y Teatro en casa",
+        "text": "Tv y Teatro en casa"
       },
       "blockClass": "menu__item--tv-teatros"
     },
@@ -490,11 +490,33 @@
   },
   "menu#category__tv-teatros": {
     "children": [
+      // "flex-layout.col#prueba__tvs",
       "menu-item#category__tvs",
       "menu-item#category__teatro",
       "menu-item#category__reproductors"
     ]
   },
+  // "flex-layout.col#prueba__tvs": {
+  //   "title": "prueba tvs",
+  //   "children": [
+  //     "rich-text#prueba__tvs",
+  //     "image#prueba__tvs"
+  //   ]
+  // },
+  // "rich-text#prueba__tvs": {
+  //   "title": "text prueba",
+  //   "props": {
+  //     "text": "Hola",
+  //     "textAlignment": "CENTER",
+  //     "textPosition": "CENTER"
+  //   }
+  // },
+  // "image#prueba__tvs": {
+  //   "title": "image prueba",
+  //   "props": {
+  //     "src": "assets/img/menu/televisores.png"
+  //   }
+  // },
   "menu-item#category__tvs": {
     "props": {
       "id": "category__tvs",
