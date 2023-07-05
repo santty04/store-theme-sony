@@ -474,15 +474,8 @@
         "type": "external",
         "href": "/",
         "noFollow": true,
-        "tagTitle": "Tv y Teatros",
-        "text": "Tv y Teatros"
-      },
-      "iconProps": {
-        "id": "bnd-logo",
-        "size": 16,
-        "viewBox": "0 0 16 16",
-        "activeClassName": "rebel-pink",
-        "mutedClassName": "c-action-primary"
+        "tagTitle": "Tv y Teatro en casa",
+        "text": "Tv y Teatro en casa"
       },
       "blockClass": "menu__item--tv-teatros"
     },

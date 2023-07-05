@@ -6,6 +6,30 @@
   width: 100%;
 }
 
+.menuContainerNav,
+.menuContainer {
+  display        : flex;
+  width          : 100%;
+  justify-content: center;
+}
+
+.menuContainer {
+  gap: 8px;
+}
+
+.menuItem {
+  width: 142px;
+}
+
+.menuItem--menu__item--tv-teatros,
+.menuItem--item__cams,
+.menuItem--item__videocams,
+.menuItem--item__audio,
+.menuItem--item__playstation,
+.menuItem--item__audio-for-auto {
+  width: auto !important;
+}
+
 .menuContainer--header__menu {
   width          : 100%;
   display        : flex;
@@ -19,6 +43,13 @@
   left      : 0;
   transition: top 0.25s ease-in 0s;
   width     : 100%;
+}
+
+.menuContainer {
+  display        : flex;
+  width          : 100%;
+  justify-content: center;
+  gap            : 8px;
 }
 
 .submenuWrapper {
@@ -50,15 +81,8 @@
 .menuItem--category__playstation-accesories,
 .menuItem--category__reproductors-car,
 .menuItem--category__speakers-and-amplifiers {
-  display        : inline-block;
-  cursor         : pointer;
-  width          : 142px;
-  height         : 142px;
-  margin         : 0px 8px;
-  padding        : 12px 10px;
-  vertical-align : top;
-  box-sizing     : border-box;
-  text-decoration: none;
+  width : 142px;
+  height: 142px;
 }
 
 .menuItem--category__tvs:hover,
@@ -81,16 +105,113 @@
 .menuItem--category__games:hover,
 .menuItem--category__playstation-accesories:hover,
 .menuItem--category__reproductors-car:hover,
-.menuItem--category__speakers-and-amplifiers {
+.menuItem--category__speakers-and-amplifiers:hover {
   background: rgb(255, 255, 255);
 }
 
-.styledLinkContent--menu__item--tv-teatros {
-  position   : relative;
-  color      : #606060;
-  line-height: 1.2;
-  font-family: SST W01 Roman;
+
+.styledLinkContainer--menu__item--tv-teatros::before {
+  content            : "";
+  background-image   : url("assets/img/menu/bx-tv.svg");
+  background-size    : contain;
+  background-repeat  : no-repeat;
+  color              : transparent;
+  display            : block;
+  width              : 45px;
+  height             : 45px;
+  margin             : 0 auto;
+  background-position: center;
+  position           : relative;
+  right              : 0px;
+  margin-top         : -15px;
+  margin-bottom      : 5px;
 }
+
+.styledLinkContainer--item__cams::before {
+  content            : "";
+  background-image   : url("assets/img/menu/bx-camera.svg");
+  background-size    : contain;
+  background-repeat  : no-repeat;
+  color              : transparent;
+  display            : block;
+  width              : 45px;
+  height             : 45px;
+  margin             : 0 auto;
+  background-position: center;
+  position           : relative;
+  right              : 0px;
+  margin-top         : -15px;
+  margin-bottom      : 5px;
+}
+
+.styledLinkContainer--item__videocams::before {
+  content            : "";
+  background-image   : url("assets/img/menu/bx-camera-movie.svg");
+  background-size    : contain;
+  background-repeat  : no-repeat;
+  color              : transparent;
+  display            : block;
+  width              : 45px;
+  height             : 45px;
+  margin             : 0 auto;
+  background-position: center;
+  position           : relative;
+  right              : 0px;
+  margin-top         : -15px;
+  margin-bottom      : 5px;
+}
+
+.styledLinkContainer--item__audio::before {
+  content            : "";
+  background-image   : url("assets/img/menu/bx-headphone.svg");
+  background-size    : contain;
+  background-repeat  : no-repeat;
+  color              : transparent;
+  display            : block;
+  width              : 45px;
+  height             : 45px;
+  margin             : 0 auto;
+  background-position: center;
+  position           : relative;
+  right              : 0px;
+  margin-top         : -15px;
+  margin-bottom      : 5px;
+}
+
+.styledLinkContainer--item__playstation::before {
+  content            : "";
+  background-image   : url("assets/img/menu/ps5.png");
+  background-size    : contain;
+  background-repeat  : no-repeat;
+  color              : transparent;
+  display            : block;
+  width              : 45px;
+  height             : 45px;
+  margin             : 0 auto;
+  background-position: center;
+  position           : relative;
+  right              : 0px;
+  margin-top         : -15px;
+  margin-bottom      : 5px;
+}
+
+.styledLinkContainer--item__audio-for-auto::before {
+  content            : "";
+  background-image   : url("assets/img/menu/bx-radio.svg");
+  background-size    : contain;
+  background-repeat  : no-repeat;
+  color              : transparent;
+  display            : block;
+  width              : 45px;
+  height             : 45px;
+  margin             : 0 auto;
+  background-position: center;
+  position           : relative;
+  right              : 0px;
+  margin-top         : -15px;
+  margin-bottom      : 5px;
+}
+
 
 .styledLinkContainer--menu__item--tv-teatros,
 .styledLinkContainer--item__cams,
@@ -98,16 +219,36 @@
 .styledLinkContainer--item__audio,
 .styledLinkContainer--item__playstation,
 .styledLinkContainer--item__audio-for-auto {
-  transition: 0.2s ease-in;
+  transition: border-bottom 3s ease-in;
+  display   : inline-block;
 }
 
-.styledLinkContainer--menu__item--tv-teatros:hover,
-.styledLinkContainer--item__cams:hover,
-.styledLinkContainer--item__videocams:hover,
-.styledLinkContainer--item__audio:hover,
-.styledLinkContainer--item__playstation:hover,
-.styledLinkContainer--item__audio-for-auto:hover {
-  border-bottom: 2px solid blue;
+
+
+.styledLinkContainer--menu__item--tv-teatros::after,
+.styledLinkContainer--item__cams::after,
+.styledLinkContainer--item__videocams::after,
+.styledLinkContainer--item__audio::after,
+.styledLinkContainer--item__playstation::after,
+.styledLinkContainer--item__audio-for-auto::after {
+  display   : block;
+  content   : "";
+  margin    : auto;
+  width     : 100%;
+  height    : 0px;
+  transition: height 0.3s;
+  background: rgb(69, 114, 237);
+  transform : rotate(180deg);
+}
+
+
+.styledLinkContainer--menu__item--tv-teatros:hover::after,
+.styledLinkContainer--item__cams:hover::after,
+.styledLinkContainer--item__videocams:hover::after,
+.styledLinkContainer--item__audio:hover::after,
+.styledLinkContainer--item__playstation:hover::after,
+.styledLinkContainer--item__audio-for-auto:hover::after {
+  height: 5px;
 }
 
 .styledLinkContent {
@@ -117,9 +258,9 @@
   font-family: SST W01 Roman;
 }
 
-.styledLinkContent--category__reproductors,
 .styledLinkContent--category__tvs,
 .styledLinkContent--category__teatro,
+.styledLinkContent--category__reproductors,
 .styledLinkContent--category__cams-lens,
 .styledLinkContent--category__cyber-shot,
 .styledLinkContent--category__lens,
@@ -138,19 +279,328 @@
 .styledLinkContent--category__playstation-accesories,
 .styledLinkContent--category__reproductors-car,
 .styledLinkContent--category__speakers-and-amplifiers {
-  font-size  : 12px;
-  color      : rgb(96, 96, 96);
-  line-height: 15px;
-  height     : 30px;
-  justify-content: center;
+  width         : 142px;
+  height        : 142px;
+  display       : flex;
+  flex-direction: column;
 }
+
+.styledLinkContainer--category__tvs,
+.styledLinkContainer--category__teatro,
+.styledLinkContainer--category__reproductors,
+.styledLinkContainer--category__cams-lens,
+.styledLinkContainer--category__cyber-shot,
+.styledLinkContainer--category__lens,
+.styledLinkContainer--category__accesories,
+.styledLinkContainer--category__cinema,
+.styledLinkContainer--category__handycam,
+.styledLinkContainer--category__videocams-accesories,
+.styledLinkContainer--category__videocams-cinema,
+.styledLinkContainer--category__system-audio,
+.styledLinkContainer--category__wireless-speakers,
+.styledLinkContainer--category__earphones,
+.styledLinkContainer--category__walkman,
+.styledLinkContainer--category__playstation5,
+.styledLinkContainer--category__consoles,
+.styledLinkContainer--category__games,
+.styledLinkContainer--category__playstation-accesories,
+.styledLinkContainer--category__reproductors-car,
+.styledLinkContainer--category__speakers-and-amplifiers {
+  display: flex;
+  margin : 0;
+}
+
+.styledLinkContent--category__reproductors,
+.styledLinkContent--category__cams-lens,
+.styledLinkContent--category__playstation-accesories,
+.styledLinkContent--category__reproductors-car,
+.styledLinkContent--category__speakers-and-amplifiers,
+.styledLinkContent--category__walkman {
+  white-space       : normal;
+  display           : -webkit-box !important;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow          : hidden;
+}
+
 .styledLinkContent--category__tvs::before {
-  content: "holaaaa";
-  background-image: url("assets/img/menu/televisores.png");
-  background-repeat: no-repeat;
-  background-size: cover;
-  color: transparent;
-  display: block;
-  width: 140px;
+  content            : "";
+  background-image   : url("assets/img/menu/televisores.png");
+  background-repeat  : no-repeat;
+  color              : transparent;
+  display            : block;
+  width              : 130px;
+  height             : 80px;
+  margin             : 0 auto;
   background-position: center;
+  position           : relative;
+  right              : 0px;
+}
+
+.styledLinkContent--category__teatro::before {
+  content            : "";
+  background-image   : url("assets/img/menu/teatro-en-casa.png");
+  background-repeat  : no-repeat;
+  color              : transparent;
+  display            : block;
+  width              : 130px;
+  height             : 80px;
+  margin             : 0 auto;
+  background-position: center;
+  position           : relative;
+  right              : 0px;
+}
+
+.styledLinkContent--category__reproductors::before {
+  content            : "";
+  background-image   : url("assets/img/menu/reproductores-Blu-ray.png");
+  background-repeat  : no-repeat;
+  color              : transparent;
+  display            : block;
+  width              : 130px;
+  height             : 80px;
+  margin             : 0 auto;
+  margin-bottom      : 30px;
+  background-position: center;
+  position           : relative;
+  right              : 0px;
+}
+
+.styledLinkContent--category__cams-lens::before {
+  content            : "";
+  background-image   : url("assets/img/menu/photo-camaras-lentes-intercambiables.png");
+  background-repeat  : no-repeat;
+  display            : block;
+  width              : 130px;
+  height             : 80px;
+  margin             : 0 auto;
+  margin-bottom      : 30px;
+  background-position: center;
+  position           : relative;
+  right              : 0px;
+}
+
+.styledLinkContent--category__cyber-shot::before {
+  content            : "";
+  background-image   : url("assets/img/menu/photo-cybershot.png");
+  background-repeat  : no-repeat;
+  display            : block;
+  width              : 130px;
+  height             : 80px;
+  margin             : 0 auto;
+  background-position: center;
+  position           : relative;
+  right              : 0px;
+}
+
+.styledLinkContent--category__lens::before {
+  content            : "";
+  background-image   : url("assets/img/menu/photo-lentes.png");
+  background-repeat  : no-repeat;
+  display            : block;
+  width              : 130px;
+  height             : 80px;
+  margin             : 0 auto;
+  background-position: center;
+  position           : relative;
+  right              : 0px;
+}
+
+.styledLinkContent--category__accesories::before {
+  content            : "";
+  background-image   : url("assets/img/menu/photo-accesorios.png");
+  background-repeat  : no-repeat;
+  display            : block;
+  width              : 130px;
+  height             : 80px;
+  margin             : 0 auto;
+  background-position: center;
+  position           : relative;
+  right              : 0px;
+}
+
+.styledLinkContent--category__cinema::before {
+  content            : "";
+  background-image   : url("assets/img/menu/camaras-cine.png");
+  background-repeat  : no-repeat;
+  display            : block;
+  width              : 130px;
+  height             : 80px;
+  margin             : 0 auto;
+  background-position: center;
+  position           : relative;
+  right              : 0px;
+}
+
+.styledLinkContent--category__handycam::before {
+  content            : "";
+  background-image   : url("assets/img/menu/video-handycam.png");
+  background-repeat  : no-repeat;
+  display            : block;
+  width              : 130px;
+  height             : 80px;
+  margin             : 0 auto;
+  background-position: center;
+  position           : relative;
+  right              : 0px;
+}
+
+.styledLinkContent--category__videocams-accesories::before {
+  content            : "";
+  background-image   : url("assets/img/menu/video-accesorios.png");
+  background-repeat  : no-repeat;
+  display            : block;
+  width              : 130px;
+  height             : 80px;
+  margin             : 0 auto;
+  background-position: center;
+  position           : relative;
+  right              : 0px;
+}
+
+.styledLinkContent--category__videocams-cinema::before {
+  content            : "";
+  background-image   : url("assets/img/menu/video-camaras-cine.png");
+  background-repeat  : no-repeat;
+  display            : block;
+  width              : 130px;
+  height             : 80px;
+  margin             : 0 auto;
+  background-position: center;
+  position           : relative;
+  right              : 0px;
+}
+
+.styledLinkContent--category__system-audio::before {
+  content            : "";
+  background-image   : url("assets/img/menu/sistemas-de-audio.png");
+  background-repeat  : no-repeat;
+  display            : block;
+  width              : 130px;
+  height             : 80px;
+  margin             : 0 auto;
+  background-position: center;
+  position           : relative;
+  right              : 0px;
+}
+
+.styledLinkContent--category__wireless-speakers::before {
+  content            : "";
+  background-image   : url("assets/img/menu/ICON-MENU-SRS-XG300.png");
+  background-repeat  : no-repeat;
+  display            : block;
+  width              : 130px;
+  height             : 80px;
+  margin             : 0 auto;
+  background-position: center;
+  position           : relative;
+  right              : 0px;
+}
+
+.styledLinkContent--category__earphones::before {
+  content            : "";
+  background-image   : url("assets/img/menu/audifonos-categoria.png");
+  background-repeat  : no-repeat;
+  display            : block;
+  width              : 130px;
+  height             : 80px;
+  margin             : 0 auto;
+  background-position: center;
+  position           : relative;
+  right              : 0px;
+}
+
+.styledLinkContent--category__walkman::before {
+  content            : "";
+  background-image   : url("assets/img/menu/reproductores-musica-digital-walkman.png");
+  background-repeat  : no-repeat;
+  display            : block;
+  width              : 130px;
+  height             : 80px;
+  margin             : 0 auto;
+  margin-bottom      : 30px;
+  background-position: center;
+  position           : relative;
+  right              : 0px;
+}
+
+.styledLinkContent--category__playstation5::before {
+  content            : "";
+  background-image   : url("assets/img/menu/menu-ps5-v1.png");
+  background-repeat  : no-repeat;
+  display            : block;
+  width              : 130px;
+  height             : 80px;
+  margin             : 0 auto;
+  background-position: center;
+  position           : relative;
+  right              : 0px;
+}
+
+.styledLinkContent--category__consoles::before {
+  content            : "";
+  background-image   : url("assets/img/menu/playstation-consolas.png");
+  background-repeat  : no-repeat;
+  display            : block;
+  width              : 130px;
+  height             : 80px;
+  margin             : 0 auto;
+  background-position: center;
+  position           : relative;
+  right              : 0px;
+}
+
+.styledLinkContent--category__games::before {
+  content            : "";
+  background-image   : url("assets/img/menu/playstation-juegos.png");
+  background-repeat  : no-repeat;
+  display            : block;
+  width              : 130px;
+  height             : 80px;
+  margin             : 0 auto;
+  background-position: center;
+  position           : relative;
+  right              : 0px;
+}
+
+.styledLinkContent--category__playstation-accesories::before {
+  content            : "";
+  background-image   : url("assets/img/menu/playstation-accesorios.png");
+  background-repeat  : no-repeat;
+  display            : block;
+  width              : 130px;
+  height             : 80px;
+  margin             : 0 auto;
+  margin-bottom      : 30px;
+  background-position: center;
+  position           : relative;
+  right              : 0px;
+}
+
+.styledLinkContent--category__reproductors-car::before {
+  content            : "";
+  background-image   : url("assets/img/menu/reproductores-automovil.png");
+  background-repeat  : no-repeat;
+  display            : block;
+  width              : 130px;
+  height             : 80px;
+  margin             : 0 auto;
+  margin-bottom      : 30px;
+  background-position: center;
+  position           : relative;
+  right              : 0px;
+}
+
+.styledLinkContent--category__speakers-and-amplifiers::before {
+  content            : "";
+  background-image   : url("assets/img/menu/audio-auto-bocinas-amplificadores.png");
+  background-repeat  : no-repeat;
+  display            : block;
+  width              : 130px;
+  height             : 80px;
+  margin             : 0 auto;
+  margin-bottom      : 30px;
+  background-position: center;
+  position           : relative;
+  right              : 0px;
 }

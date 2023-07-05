@@ -23,7 +23,8 @@
   "header-layout.mobile": {
     "title": "header mobile",
     "children": [
-      "sticky-layout#mobile"
+      "sticky-layout#mobile",
+      "header-row#mobile__telephone-sales"
     ],
     "props": {
       "blockClass": "header__mobile"
