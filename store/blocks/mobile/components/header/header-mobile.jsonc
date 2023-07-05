@@ -115,7 +115,7 @@
   "flex-layout.col#mobile__minicart": {
     "title": "flex minicart desktop",
     "children": [
-      "minicart.v2"
+      "minicart.v2#mobile__minicart"
     ],
     "props": {
       "blockClass": "mobile__minicart",
@@ -207,4 +207,5 @@
       "blockClass": "mobile__telephone-sales"
     }
   }
+
 }

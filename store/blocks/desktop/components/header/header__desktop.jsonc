@@ -32,7 +32,7 @@
       "rich-text#desktop__header--help",
       "overlay-trigger",
       "flex-layout.col#site__sony",
-      "minicart.v2#desktop__minicart",
+      "minicart.v2",
       "flex-layout.col#desktop__qandanswers--icon"
     ]
   },
@@ -47,11 +47,11 @@
       "containerMode": "overlay"
     }
   },
-  "minicart.v2#desktop__minicart": {
-    "props": {
-      "quantityDisplay": "not-empty"
-    }
-  },
+  // "minicart.v2#desktop__minicart": {
+  //   "props": {
+  //     "quantityDisplay": "not-empty"
+  //   }
+  // },
   "image#image__phone--white": {
     "title": "image phone white",
     "props": {
