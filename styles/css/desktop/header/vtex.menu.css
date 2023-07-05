@@ -6,10 +6,28 @@
   width: 100%;
 }
 
-.menuContainerNav {
+.menuContainerNav,
+.menuContainer {
   display        : flex;
-  justify-content: center;
   width          : 100%;
+  justify-content: center;
+}
+
+.menuContainer {
+  gap: 8px;
+}
+
+.menuItem {
+  width: 142px;
+}
+
+.menuItem--menu__item--tv-teatros,
+.menuItem--item__cams,
+.menuItem--item__videocams,
+.menuItem--item__audio,
+.menuItem--item__playstation,
+.menuItem--item__audio-for-auto {
+  width: auto !important;
 }
 
 .menuContainer--header__menu {
@@ -63,16 +81,8 @@
 .menuItem--category__playstation-accesories,
 .menuItem--category__reproductors-car,
 .menuItem--category__speakers-and-amplifiers {
-  /* display        : inline-block;
-  cursor         : pointer;
-  width          : 142px;
-  height         : 142px;
-  margin         : 0px 8px;
-  padding        : 12px 10px;
-  vertical-align : top;
-  box-sizing     : border-box;
-  text-decoration: none; */
-  width: 142px;
+  width : 142px;
+  height: 142px;
 }
 
 .menuItem--category__tvs:hover,
@@ -99,12 +109,6 @@
   background: rgb(255, 255, 255);
 }
 
-/* .styledLinkContent--menu__item--tv-teatros {
-  position   : relative;
-  color      : #606060;
-  line-height: 1.2;
-  font-family: SST W01 Roman;
-} */
 
 .styledLinkContainer--menu__item--tv-teatros::before {
   content            : "";
@@ -215,24 +219,11 @@
 .styledLinkContainer--item__audio,
 .styledLinkContainer--item__playstation,
 .styledLinkContainer--item__audio-for-auto {
-  display: flex;
-  margin : 0;
+  transition: border-bottom 3s ease-in;
+  display   : inline-block;
 }
 
-.styledLinkContainer--category__teatro,
-.styledLinkContainer--category__tvs,
-.styledLinkContainer--category__reproductors {
-  display: flex;
-  margin : 0;
-}
 
-.styledLinkContent--category__reproductors {
-  white-space       : normal;
-  display           : -webkit-box !important;
-  -webkit-line-clamp: 2;
-  -webkit-box-orient: vertical;
-  overflow          : hidden;
-}
 
 .styledLinkContainer--menu__item--tv-teatros::after,
 .styledLinkContainer--item__cams::after,
@@ -288,31 +279,48 @@
 .styledLinkContent--category__playstation-accesories,
 .styledLinkContent--category__reproductors-car,
 .styledLinkContent--category__speakers-and-amplifiers {
-  /* font-size      : 12px;
-  color          : rgb(96, 96, 96);
-  line-height    : 15px;
-  height         : 30px;
-  justify-content: center;
-  display        : inline-block;
-  right          : 28px; */
   width         : 142px;
   height        : 142px;
   display       : flex;
   flex-direction: column;
 }
 
-/*  */
-.styledLink--category {
+.styledLinkContainer--category__tvs,
+.styledLinkContainer--category__teatro,
+.styledLinkContainer--category__reproductors,
+.styledLinkContainer--category__cams-lens,
+.styledLinkContainer--category__cyber-shot,
+.styledLinkContainer--category__lens,
+.styledLinkContainer--category__accesories,
+.styledLinkContainer--category__cinema,
+.styledLinkContainer--category__handycam,
+.styledLinkContainer--category__videocams-accesories,
+.styledLinkContainer--category__videocams-cinema,
+.styledLinkContainer--category__system-audio,
+.styledLinkContainer--category__wireless-speakers,
+.styledLinkContainer--category__earphones,
+.styledLinkContainer--category__walkman,
+.styledLinkContainer--category__playstation5,
+.styledLinkContainer--category__consoles,
+.styledLinkContainer--category__games,
+.styledLinkContainer--category__playstation-accesories,
+.styledLinkContainer--category__reproductors-car,
+.styledLinkContainer--category__speakers-and-amplifiers {
   display: flex;
-  width  : 100%;
+  margin : 0;
 }
 
-/*  */
-
-.styledLinkContent--category__cams-lens {
-  display : inline-block;
-  position: relative;
-  right   : 45px;
+.styledLinkContent--category__reproductors,
+.styledLinkContent--category__cams-lens,
+.styledLinkContent--category__playstation-accesories,
+.styledLinkContent--category__reproductors-car,
+.styledLinkContent--category__speakers-and-amplifiers,
+.styledLinkContent--category__walkman {
+  white-space       : normal;
+  display           : -webkit-box !important;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow          : hidden;
 }
 
 .styledLinkContent--category__tvs::before {
@@ -352,16 +360,11 @@
   width              : 130px;
   height             : 80px;
   margin             : 0 auto;
+  margin-bottom      : 30px;
   background-position: center;
   position           : relative;
   right              : 0px;
 }
-
-/* .styledLinkContent--category__reproductors {
-  border   : 1px solid red;
-  width    : 100%;
-  word-wrap: break-word !important;
-} */
 
 .styledLinkContent--category__cams-lens::before {
   content            : "";
@@ -371,6 +374,7 @@
   width              : 130px;
   height             : 80px;
   margin             : 0 auto;
+  margin-bottom      : 30px;
   background-position: center;
   position           : relative;
   right              : 0px;
@@ -514,6 +518,7 @@
   width              : 130px;
   height             : 80px;
   margin             : 0 auto;
+  margin-bottom      : 30px;
   background-position: center;
   position           : relative;
   right              : 0px;
@@ -566,6 +571,7 @@
   width              : 130px;
   height             : 80px;
   margin             : 0 auto;
+  margin-bottom      : 30px;
   background-position: center;
   position           : relative;
   right              : 0px;
@@ -579,6 +585,7 @@
   width              : 130px;
   height             : 80px;
   margin             : 0 auto;
+  margin-bottom      : 30px;
   background-position: center;
   position           : relative;
   right              : 0px;
@@ -592,22 +599,8 @@
   width              : 130px;
   height             : 80px;
   margin             : 0 auto;
+  margin-bottom      : 30px;
   background-position: center;
   position           : relative;
   right              : 0px;
-}
-
-.menuContainerNav,
-.menuContainer {
-  display        : flex;
-  width          : 100%;
-  justify-content: center;
-}
-
-.menuContainer {
-  gap: 8px;
-}
-
-.menuItem {
-  width: 142px;
 }
