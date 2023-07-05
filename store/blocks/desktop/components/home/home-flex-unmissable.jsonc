@@ -1,12 +1,12 @@
 {
-  "flex-layout.row#imperdibles__section--container": {
-    "title": "flex imperdibles",
+  "flex-layout.row#unmissable__section--container": {
+    "title": "flex unmissable",
     "children": [
       "flex-layout.col#flex__section--one",
       "flex-layout.col#flex__section--two"
     ],
     "props": {
-      "blockClass": "flex__section--imperdibles"
+      "blockClass": "flex__section--unmissable"
     }
   },
   "flex-layout.col#flex__section--one": {
@@ -18,7 +18,7 @@
       "link#flex__one--link"
     ],
     "props": {
-      "blockClass": "section__imperdibles--one"
+      "blockClass": "section__unmissable--one"
     }
   },
   "image#image__flex--section-one": {
@@ -28,35 +28,35 @@
       "link": {
         "url": "/"
       },
-      "blockClass": "imperdibles__image"
+      "blockClass": "unmissable__image"
     }
   },
   "rich-text#flex__one--title": {
-    "title": "first imperdible title",
+    "title": "first unmissable title",
     "props": {
       "text": "Cómodos y ligeros, con cancelación de ruido",
       "textAlignment": "CENTER",
       "textPosition": "CENTER",
       "font": "t-heading-4",
-      "blockClass": "imperdibles__title"
+      "blockClass": "unmissable__title"
     }
   },
   "rich-text#flex__one--description": {
-    "title": "first imperdible description",
+    "title": "first unmissable description",
     "props": {
       "text": "Para disfrutar tu música favorita todo el día, sin interrupciones",
       "textAlignment": "CENTER",
       "textPosition": "CENTER",
       "font": "t-heading-7",
-      "blockClass": "imperdibles__description"
+      "blockClass": "unmissable__description"
     }
   },
   "link#flex__one--link": {
-    "title": "first imperdible link",
+    "title": "first unmissable link",
     "props": {
       "href": "/",
       "label": "Descúbrelos >>",
-      "blockClass": "imperdibles__link"
+      "blockClass": "unmissable__link"
     }
   },
   "flex-layout.col#flex__section--two": {
@@ -68,46 +68,46 @@
       "link#flex__two--link"
     ],
     "props": {
-      "blockClass": "flex__section--imperdibles-two"
+      "blockClass": "flex__section--unmissable-two"
     }
   },
   "image#image__flex--section-two": {
-    "title": "second imperdible image",
+    "title": "second unmissable image",
     "props": {
       "src": "assets/img/imperdibles-two.webp",
       "link": {
         "url": "/"
       },
-      "blockClass": "imperdibles__image"
+      "blockClass": "unmissable__image"
     }
   },
   "rich-text#flex__two--title": {
-    "title": "second imperdible title",
+    "title": "second unmissable title",
     "props": {
       "text": "Sumerge en auténtico sonido Surround",
       "textAlignment": "CENTER",
       "textPosition": "CENTER",
       "font": "t-heading-4",
-      "blockClass": "imperdibles__title"
+      "blockClass": "unmissable__title"
     }
   },
   "rich-text#flex__two--description": {
-    "title": "second imperdible description",
+    "title": "second unmissable description",
     "props": {
       "text": "Con las nuevas Barras de Sonido Premium Serie A",
       "textAlignment": "CENTER",
       "textPosition": "CENTER",
       "font": "t-heading-7",
-      "blockClass": "imperdibles__description"
+      "blockClass": "unmissable__description"
     }
   },
   "link#flex__two--link": {
-    "title": "second imperdible link",
+    "title": "second unmissable link",
     "props": {
       "href": "/",
       "label": "Descúbrelas >>",
       "scrollTo": "#footer",
-      "blockClass": "imperdibles__link"
+      "blockClass": "unmissable__link"
     }
   }
 }
