@@ -146,12 +146,7 @@
   color: blue;
 }
 
-.flexColChild--section__shelf--one,
-.flexColChild--section__shelf--two,
-.flexColChild--section__shelf--three,
-.flexColChild--section__shelf--four {
-  margin: auto;
-}
+
 
 .flexColChild--section__shelf--five :global(.vtex-product-summary-2-x-imageStackContainer) {
   height: 280px;
@@ -171,40 +166,54 @@
   overflow          : hidden;
   text-overflow     : ellipsis;
 }
+
 .flexColChild--section__shelf--five :global(.vtex-product-summary-2-x-installmentContainer) {
   display: none;
 }
+
 .flexColChild--section__shelf--five :global(.vtex-product-summary-2-x-priceContainer) {
   align-items: start;
 }
+
 .flexColChild--section__shelf--five :global(.vtex-product-summary-2-x-price_listPriceContainer) {
   text-align: start;
 }
+
 .flexColChild--section__shelf--five :global(.vtex-product-summary-2-x-sellingPriceContainer) {
-  font-size: 16px;
+  font-size  : 16px;
   font-weight: 700;
   font-family: "SST W01 Bold" !important;
-  color: #f25529;
-  height: 30px;
+  color      : #f25529;
+  height     : 30px;
   line-height: 30px;
 }
+
 .flexColChild--section__shelf--five :global(.vtex-product-summary-2-x-nameContainer) {
   justify-content: start;
 }
+
 .flexColChild--section__shelf--five :global(.vtex-reviews-and-ratings-2-x-inlineContainer) {
   margin-left: 0;
 }
+
 .flexColChild--section__shelf--five :global(.vtex-search-result-3-x-galleryItem) {
   margin: 0 5px;
   border: 1px solid transparent;
 }
+
 .flexColChild--section__shelf--five :global(.vtex-search-result-3-x-galleryItem):hover {
   border: 1px solid #e4e7eb;
 }
+
 .flexColChild--section__shelf--five :global(.vtex-product-summary-2-x-imageStackContainer):hover {
-  opacity: .5;
+  opacity   : .5;
   transition: all .25s;
 }
+.flexColChild--section__shelf--five :global(.vtex-search-result-3-x-gallery) {
+  display: flex;
+  flex-direction: row !important;
+}
+
 @media (max-width: 1025px) {
   .flexRow--home__form--register :global(.vtex-store-newsletter-1-x-emailInputContainer--form__input--email) {
     width  : 34%;
@@ -225,6 +234,14 @@
   }
 }
 
+@media (min-width: 1026px) {
+  .flexColChild--section__shelf--one,
+  .flexColChild--section__shelf--two,
+  .flexColChild--section__shelf--three,
+  .flexColChild--section__shelf--four {
+    margin: auto;
+  }
+}
 @media (min-width: 1260px) {
 
   .flexColChild--section__shelf--one,
