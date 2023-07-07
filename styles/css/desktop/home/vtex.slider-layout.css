@@ -102,6 +102,7 @@
 .sliderTrackContainer--slider__shelf--playstation,
 .sliderTrackContainer--slider__shelf--interest {
   width: 90%;
+  max-width: 90%;
 }
 
 .sliderArrows--slider__shelf--unmissable,
@@ -138,6 +139,14 @@
   margin: 0 5px;
   border: 1px solid transparent;
 }
+
+.sliderLayoutContainer--slider__shelf--unmissable :global(.vtex-slider-layout-0-x-slideChildrenContainer--slider__shelf--unmissable),
+.sliderLayoutContainer--slider__shelf--cams :global(.vtex-slider-layout-0-x-slideChildrenContainer--slider__shelf--cams),
+.sliderLayoutContainer--slider__shelf--playstation :global(.vtex-slider-layout-0-x-slideChildrenContainer--slider__shelf--playstation),
+.sliderLayoutContainer--slider__shelf--interest :global(.vtex-slider-layout-0-x-slideChildrenContainer--slider__shelf--interest) {
+  max-width: 243px;
+}
+
 .sliderLayoutContainer--slider__shelf--unmissable :global(.vtex-slider-layout-0-x-slide--slider__shelf--unmissable):hover,
 .sliderLayoutContainer--slider__shelf--cams :global(.vtex-slider-layout-0-x-slide--slider__shelf--cams):hover,
 .sliderLayoutContainer--slider__shelf--playstation :global(.vtex-slider-layout-0-x-slide--slider__shelf--playstation):hover,
@@ -169,58 +178,65 @@
   overflow          : hidden;
   text-overflow     : ellipsis;
 }
+
 .sliderLayoutContainer--slider__shelf--unmissable :global(.vtex-product-summary-2-x-nameContainer),
 .sliderLayoutContainer--slider__shelf--cams :global(.vtex-product-summary-2-x-nameContainer),
 .sliderLayoutContainer--slider__shelf--playstation :global(.vtex-product-summary-2-x-nameContainer),
 .sliderLayoutContainer--slider__shelf--interest :global(.vtex-product-summary-2-x-nameContainer) {
   justify-content: start;
 }
+
 .sliderLayoutContainer--slider__shelf--unmissable :global(.vtex-reviews-and-ratings-2-x-inlineContainer),
 .sliderLayoutContainer--slider__shelf--cams :global(.vtex-reviews-and-ratings-2-x-inlineContainer),
 .sliderLayoutContainer--slider__shelf--playstation :global(.vtex-reviews-and-ratings-2-x-inlineContainer),
 .sliderLayoutContainer--slider__shelf--interest :global(.vtex-reviews-and-ratings-2-x-inlineContainer) {
   margin-left: 0;
 }
+
 .sliderLayoutContainer--slider__shelf--unmissable :global(.vtex-product-summary-2-x-installmentContainer),
 .sliderLayoutContainer--slider__shelf--cams :global(.vtex-product-summary-2-x-installmentContainer),
 .sliderLayoutContainer--slider__shelf--playstation :global(.vtex-product-summary-2-x-installmentContainer),
 .sliderLayoutContainer--slider__shelf--interest :global(.vtex-product-summary-2-x-installmentContainer) {
   display: none;
 }
+
 .sliderLayoutContainer--slider__shelf--unmissable :global(.vtex-product-summary-2-x-priceContainer),
 .sliderLayoutContainer--slider__shelf--cams :global(.vtex-product-summary-2-x-priceContainer),
 .sliderLayoutContainer--slider__shelf--playstation :global(.vtex-product-summary-2-x-priceContainer),
 .sliderLayoutContainer--slider__shelf--interest :global(.vtex-product-summary-2-x-priceContainer) {
   align-items: start;
 }
+
 .sliderLayoutContainer--slider__shelf--unmissable :global(.vtex-product-summary-2-x-price_listPriceContainer),
 .sliderLayoutContainer--slider__shelf--cams :global(.vtex-product-summary-2-x-price_listPriceContainer),
 .sliderLayoutContainer--slider__shelf--playstation :global(.vtex-product-summary-2-x-price_listPriceContainer),
 .sliderLayoutContainer--slider__shelf--interest :global(.vtex-product-summary-2-x-price_listPriceContainer) {
   text-align: start;
 }
+
 .sliderLayoutContainer--slider__shelf--unmissable :global(.vtex-product-summary-2-x-imageStackContainer):hover,
 .sliderLayoutContainer--slider__shelf--cams :global(.vtex-product-summary-2-x-imageStackContainer):hover,
 .sliderLayoutContainer--slider__shelf--playstation :global(.vtex-product-summary-2-x-imageStackContainer):hover,
 .sliderLayoutContainer--slider__shelf--interest :global(.vtex-product-summary-2-x-imageStackContainer):hover {
-  opacity: .5;
+  opacity   : .5;
   transition: all .25s;
 }
+
 .sliderLayoutContainer--slider__shelf--unmissable :global(.vtex-product-summary-2-x-sellingPriceContainer),
 .sliderLayoutContainer--slider__shelf--cams :global(.vtex-product-summary-2-x-sellingPriceContainer),
 .sliderLayoutContainer--slider__shelf--playstation :global(.vtex-product-summary-2-x-sellingPriceContainer),
 .sliderLayoutContainer--slider__shelf--interest :global(.vtex-product-summary-2-x-sellingPriceContainer) {
-  font-size: 16px;
+  font-size  : 16px;
   font-weight: 700;
   font-family: "SST W01 Bold" !important;
-  color: #f25529;
-  height: 30px;
+  color      : #f25529;
+  height     : 30px;
   line-height: 30px;
 }
+
 .paginationDotsContainer--slider__shelf--unmissable,
 .paginationDotsContainer--slider__shelf--cams,
 .paginationDotsContainer--slider__shelf--playstation,
 .paginationDotsContainer--slider__shelf--playstation {
   transform: translateY(20px);
 }
-
