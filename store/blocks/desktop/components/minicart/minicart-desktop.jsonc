@@ -1,0 +1,88 @@
+{
+  "minicart.v2#desktop__minicart": {
+    "props": {
+      // "quantityDisplay": "not-empty",
+      "variation": "popupWithLink",
+      "linkVariationUrl": "/mi-minicart-custom",
+      "openOnHover": true,
+      "itemCountMode": "total"
+    },
+    "children": [
+      "minicart-base-content#desktop"
+    ]
+  },
+  "minicart-base-content#desktop": {
+    "blocks": [
+      "minicart-empty-state#desktop"
+    ],
+    "children": [
+      "minicart-product-list",
+      "flex-layout.row#minicart__footer--desktop"
+    ]
+  },
+  "minicart-empty-state#desktop": {
+    "children": [
+      "flex-layout.row#minicart__empty--desktop"
+    ]
+  },
+  "flex-layout.row#minicart__empty--desktop": {
+    "children": [
+      "flex-layout.col#minicart__empty--desktop"
+    ]
+  },
+  "flex-layout.col#minicart__empty--desktop": {
+    "children": [
+      "icon-cart#minicart__empty--icon-desktop",
+      "rich-text#minicart__empty--text-desktop"
+    ]
+  },
+  "icon-cart#minicart__empty--icon-desktop": {
+    "props": {
+      "size": 100
+    }
+  },
+  "rich-text#minicart__empty--text-desktop": {
+    "props": {
+      "text": "Su carrito está vacío",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
+    }
+  },
+  "flex-layout.row#minicart__footer--desktop": {
+    "props": {
+      "blockClass": "minicart-footer"
+    },
+    "children": [
+      "flex-layout.col#minicart__footer--desktop"
+    ]
+  },
+  "flex-layout.col#minicart__footer--desktop": {
+    "children": [
+      "minicart-summary#minicart__summary--desktop",
+      "minicart-checkout-button"
+    ]
+  },
+  "minicart-summary#minicart__summary--desktop": {
+    "blocks": [
+      "checkout-summary.compact#minicart__chackout--desktop"
+    ]
+  },
+  "checkout-summary.compact#minicart__chackout--desktop": {
+    "children": [
+      "summary-totalizers#minicart__totalizers--desktop"
+    ],
+    "props": {
+      "totalizersToShow": [
+        "Items",
+        "Total"
+      ]
+    }
+  },
+  "summary-totalizers#minicart__totalizers--desktop": {
+    "props": {
+      "showOriginalTotal": false,
+      "showTotal": true,
+      "showDeliveryTotal": false
+    }
+  }
+}

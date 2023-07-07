@@ -150,3 +150,6 @@
   background   : #4572ed;
   border-radius: 0;
 }
+.container--sticky-header :global(.vtex-minicart-2-x-minicartWrapperContainer) {
+  margin-left: 15px;
+}

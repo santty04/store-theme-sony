@@ -12,7 +12,8 @@
     "title": "col home section shelf four",
     "children": [
       "rich-text#section__shelf--title-four",
-      "rich-text#section__shelf--description-four"
+      "rich-text#section__shelf--description-four",
+      "list-context.product-list#shelf__interest"
     ],
     "props": {
       "blockClass": "section__shelf--four"
@@ -35,6 +36,47 @@
       "textAlignment": "CENTER",
       "textPosition": "CENTER",
       "blockClass": "shelf__four--description"
+    }
+  },
+  "list-context.product-list#shelf__interest": {
+    "blocks": [
+      "product-summary.shelf#shelf__interest"
+    ],
+    "children": [
+      "slider-layout#slider__shelf__interest"
+    ],
+    "props": {
+      "blockClass": "list__shelf--interest"
+    }
+  },
+  "product-summary.shelf#shelf__interest": {
+    "children": [
+      "stack-layout",
+      "product-summary-image",
+      "product-summary-name",
+      "product-rating-inline",
+      "product-summary-space",
+      "product-summary-price"
+    ],
+    "props": {
+      "blockClass": "product__shelf--interest"
+    }
+  },
+
+  "slider-layout#slider__shelf__interest": {
+    "props": {
+      "fullWidth": true,
+      "infinite": true,
+      "itemsPerPage": {
+        "desktop": 4,
+        "tablet": 2,
+        "phone": 2
+      },
+      "blockClass": "slider__shelf--interest",
+      "autoplay": {
+        "timeout": 3000,
+        "stopOnHover": true
+      }
     }
   }
 }
