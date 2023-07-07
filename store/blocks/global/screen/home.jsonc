@@ -7,11 +7,37 @@
       "responsive-layout.phone#home__section-1",
       "responsive-layout.mobile#phone__and__tablet",
       "flex-layout.row#home__section--global",
-      "search-result-layout.customQuery##home__search"
+      "search-result-layout.customQuery#home__search",
+      "list-context.product-list#demo1"
     ]
   },
-  "search-result-layout.customQuery##home__search": {
-    "title": "custom query home search",
+
+  "product-summary.shelf#demo1": {
+    "children": [
+      "stack-layout",
+      "product-summary-name",
+      "product-rating-inline",
+      "product-summary-space",
+      "product-summary-price",
+      "add-to-cart-button"
+    ]
+  },
+  "list-context.product-list#demo1": {
+    "blocks": [
+      "product-summary.shelf#demo1"
+    ],
+    "children": [
+      "slider-layout#demo-products"
+    ]
+  },
+  "slider-layout#demo-products": {
+    "props": {
+      "fullWidth": true,
+      "infinite": true
+    }
+  },
+
+  "search-result-layout.customQuery#home__search": {
     "props": {
       "querySchema": {
         "skusFilter": "ALL",
@@ -25,18 +51,6 @@
     ]
   },
   "search-result-layout.desktop#home__search--desktop": {
-    "title": "search result desktop",
-    "children": [
-      "rich-text#test"
-    ]
-  },
-  "search-result-layout.mobile#home__search--mobile": {
-    "title": "search result desktop",
-    "children": [
-      "flex-layout.row#home__results"
-    ]
-  },
-  "search-not-found-layout": {
     "children": [
       "rich-text#test"
     ]
@@ -46,6 +60,11 @@
       "text": "test"
     }
   },
+  "search-result-layout.mobile#home__search--mobile": {
+    "children": [
+      "flex-layout.row#home__results"
+    ]
+  },
   "flex-layout.row#home__results": {
     "children": [
       "flex-layout.col#home__results--search"
@@ -53,13 +72,18 @@
   },
   "flex-layout.col#home__results--search": {
     "children": [
-      "search-content#home__result--search"
+      "search-content#results--search"
     ]
   },
-  "search-content#home__result--search": {
-    "blocks": ["gallery", "not-found"]
+  "search-content#results--search": {
+    "blocks": [
+      "gallery",
+      "not-found"
+    ]
   },
   "gallery": {
-    "blocks": ["product-summary.shelf"]
+    "blocks": [
+      "product-summary.shelf"
+    ]
   }
 }
