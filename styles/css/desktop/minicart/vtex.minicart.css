@@ -52,6 +52,13 @@
 }
 
 .minicartCheckoutButton :global(.vtex-button__label) {
+  visibility: hidden;
+}
+.minicartCheckoutButton :global(.vtex-button__label)::before {
+  visibility: visible;
   text-transform: capitalize;
   font-weight   : 700;
+  content: "Comprar";
+  margin-left: 87px;
+  font-size: 16px;
 }

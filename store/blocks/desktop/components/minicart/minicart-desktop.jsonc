@@ -4,7 +4,8 @@
       // "quantityDisplay": "not-empty",
       "variation": "popupWithLink",
       "linkVariationUrl": "/mi-minicart-custom",
-      "openOnHover": true
+      "openOnHover": true,
+      "itemCountMode": "total"
     },
     "children": [
       "minicart-base-content#desktop"
@@ -21,26 +22,26 @@
   },
   "minicart-empty-state#desktop": {
     "children": [
-      "flex-layout.row#minicart__empty"
+      "flex-layout.row#minicart__empty--desktop"
     ]
   },
-  "flex-layout.row#minicart__empty": {
+  "flex-layout.row#minicart__empty--desktop": {
     "children": [
-      "flex-layout.col#minicart__empty"
+      "flex-layout.col#minicart__empty--desktop"
     ]
   },
-  "flex-layout.col#minicart__empty": {
+  "flex-layout.col#minicart__empty--desktop": {
     "children": [
-      "icon-cart#minicart__empty--icon",
-      "rich-text#minicart__empty--text"
+      "icon-cart#minicart__empty--icon-desktop",
+      "rich-text#minicart__empty--text-desktop"
     ]
   },
-  "icon-cart#minicart__empty--icon": {
+  "icon-cart#minicart__empty--icon-desktop": {
     "props": {
       "size": 100
     }
   },
-  "rich-text#minicart__empty--text": {
+  "rich-text#minicart__empty--text-desktop": {
     "props": {
       "text": "Su carrito está vacío",
       "textAlignment": "CENTER",
@@ -52,23 +53,23 @@
       "blockClass": "minicart-footer"
     },
     "children": [
-      "flex-layout.col#minicart-footer"
+      "flex-layout.col#minicart__footer--desktop"
     ]
   },
-  "flex-layout.col#minicart-footer": {
+  "flex-layout.col#minicart__footer--desktop": {
     "children": [
-      "minicart-summary",
+      "minicart-summary#minicart__summary--desktop",
       "minicart-checkout-button"
     ]
   },
-  "minicart-summary": {
+  "minicart-summary#minicart__summary--desktop": {
     "blocks": [
-      "checkout-summary.compact#minicart"
+      "checkout-summary.compact#minicart__chackout--desktop"
     ]
   },
-  "checkout-summary.compact#minicart": {
+  "checkout-summary.compact#minicart__chackout--desktop": {
     "children": [
-      "summary-totalizers#minicart"
+      "summary-totalizers#minicart__totalizers--desktop"
     ],
     "props": {
       "totalizersToShow": [
@@ -77,7 +78,7 @@
       ]
     }
   },
-  "summary-totalizers#minicart": {
+  "summary-totalizers#minicart__totalizers--desktop": {
     "props": {
       "showOriginalTotal": false,
       "showTotal": true,
