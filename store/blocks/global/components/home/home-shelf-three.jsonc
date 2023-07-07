@@ -12,7 +12,8 @@
     "title": "col home section shelf three",
     "children": [
       "rich-text#section__shelf--title-three",
-      "rich-text#section__shelf--description-three"
+      "rich-text#section__shelf--description-three",
+      "list-context.product-list#shelf__playstation"
     ],
     "props": {
       "blockClass": "section__shelf--three"
@@ -35,6 +36,47 @@
       "textAlignment": "CENTER",
       "textPosition": "CENTER",
       "blockClass": "shelf__three--description"
+    }
+  },
+  "list-context.product-list#shelf__playstation": {
+    "blocks": [
+      "product-summary.shelf#shelf__playstation"
+    ],
+    "children": [
+      "slider-layout#slider__shelf__playstation"
+    ],
+    "props": {
+      "blockClass": "list__shelf--playstation"
+    }
+  },
+  "product-summary.shelf#shelf__playstation": {
+    "children": [
+      "stack-layout",
+      "product-summary-image",
+      "product-summary-name",
+      "product-rating-inline",
+      "product-summary-space",
+      "product-summary-price"
+    ],
+    "props": {
+      "blockClass": "product__shelf--playstation"
+    }
+  },
+
+  "slider-layout#slider__shelf__playstation": {
+    "props": {
+      "fullWidth": true,
+      "infinite": true,
+      "itemsPerPage": {
+        "desktop": 4,
+        "tablet": 2,
+        "phone": 2
+      },
+      "blockClass": "slider__shelf--playstation",
+      "autoplay": {
+        "timeout": 3000,
+        "stopOnHover": true
+      }
     }
   }
 }

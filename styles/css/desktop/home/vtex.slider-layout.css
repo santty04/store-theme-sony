@@ -25,6 +25,7 @@
 .paginationDotsContainer--home__slider--info {
   transform: translateY(-11px);
 }
+
 .sliderLayoutContainer--home__slider--info :global(.vtex-store-components-3-x-infoCardTextContainer--info__card--three),
 .sliderLayoutContainer--home__slider--info :global(.vtex-store-components-3-x-infoCardTextContainer--info__card--two),
 .sliderLayoutContainer--home__slider--info :global(.vtex-store-components-3-x-infoCardTextContainer--info__card--one) {
@@ -86,5 +87,140 @@
 .sliderTrackContainer--home__slider--promo {
   max-width: 1190px;
   margin   : 0 auto;
+}
+
+.sliderLayoutContainer--slider__shelf--unmissable,
+.sliderLayoutContainer--slider__shelf--cams,
+.sliderLayoutContainer--slider__shelf--playstation,
+.sliderLayoutContainer--slider__shelf--interest {
+  margin-top     : 30px;
+  justify-content: center;
+}
+
+.sliderTrackContainer--slider__shelf--unmissable,
+.sliderTrackContainer--slider__shelf--cams,
+.sliderTrackContainer--slider__shelf--playstation,
+.sliderTrackContainer--slider__shelf--interest {
+  width: 90%;
+}
+
+.sliderArrows--slider__shelf--unmissable,
+.sliderArrows--slider__shelf--cams,
+.sliderArrows--slider__shelf--playstation,
+.sliderArrows--slider__shelf--interest {
+  cursor          : pointer;
+  position        : absolute;
+  z-index         : 2;
+  width           : 30px;
+  height          : 52px;
+  font-size       : 18px;
+  text-align      : center;
+  line-height     : 52px;
+  background-color: #000 !important;
+  opacity         : .3 !important;
+  color           : #fff;
+  transition      : all .25s;
+  border-radius   : 3px;
+}
+
+.sliderArrows--slider__shelf--unmissable:hover,
+.sliderArrows--slider__shelf--cams:hover,
+.sliderArrows--slider__shelf--playstation:hover,
+.sliderArrows--slider__shelf--interest:hover {
+  opacity: 1 !important;
+}
+
+.sliderLayoutContainer--slider__shelf--unmissable :global(.vtex-slider-layout-0-x-slide--slider__shelf--unmissable),
+.sliderLayoutContainer--slider__shelf--cams :global(.vtex-slider-layout-0-x-slide--slider__shelf--cams),
+.sliderLayoutContainer--slider__shelf--playstation :global(.vtex-slider-layout-0-x-slide--slider__shelf--playstation),
+.sliderLayoutContainer--slider__shelf--interest :global(.vtex-slider-layout-0-x-slide--slider__shelf--interest) {
+  width : 4.7619% !important;
+  margin: 0 5px;
+  border: 1px solid transparent;
+}
+.sliderLayoutContainer--slider__shelf--unmissable :global(.vtex-slider-layout-0-x-slide--slider__shelf--unmissable):hover,
+.sliderLayoutContainer--slider__shelf--cams :global(.vtex-slider-layout-0-x-slide--slider__shelf--cams):hover,
+.sliderLayoutContainer--slider__shelf--playstation :global(.vtex-slider-layout-0-x-slide--slider__shelf--playstation):hover,
+.sliderLayoutContainer--slider__shelf--interest :global(.vtex-slider-layout-0-x-slide--slider__shelf--interest):hover {
+  border: 1px solid #e4e7eb;
+}
+
+.sliderLayoutContainer--slider__shelf--unmissable :global(.vtex-product-summary-2-x-imageWrapper),
+.sliderLayoutContainer--slider__shelf--cams :global(.vtex-product-summary-2-x-imageWrapper),
+.sliderLayoutContainer--slider__shelf--playstation :global(.vtex-product-summary-2-x-imageWrapper),
+.sliderLayoutContainer--slider__shelf--interest :global(.vtex-product-summary-2-x-imageWrapper) {
+  min-height: 290px;
+}
+
+.sliderLayoutContainer--slider__shelf--unmissable :global(.vtex-product-summary-2-x-brandName),
+.sliderLayoutContainer--slider__shelf--cams :global(.vtex-product-summary-2-x-brandName),
+.sliderLayoutContainer--slider__shelf--playstation :global(.vtex-product-summary-2-x-brandName),
+.sliderLayoutContainer--slider__shelf--interest :global(.vtex-product-summary-2-x-brandName) {
+  font-size         : 13px;
+  line-height       : 18px;
+  color             : #2f353d;
+  overflow-wrap     : break-word;
+  font-weight       : 400;
+  height            : 37px;
+  font-family       : SST W01 Roman, SST W01 Medium, Microsoft JhengHei, Hiragino Kaku Gothic ProN, Heiti TC, Roboto, Droid, Helvetica Neue, Helvetica, Arial, sans-serif !important;
+  display           : -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow          : hidden;
+  text-overflow     : ellipsis;
+}
+.sliderLayoutContainer--slider__shelf--unmissable :global(.vtex-product-summary-2-x-nameContainer),
+.sliderLayoutContainer--slider__shelf--cams :global(.vtex-product-summary-2-x-nameContainer),
+.sliderLayoutContainer--slider__shelf--playstation :global(.vtex-product-summary-2-x-nameContainer),
+.sliderLayoutContainer--slider__shelf--interest :global(.vtex-product-summary-2-x-nameContainer) {
+  justify-content: start;
+}
+.sliderLayoutContainer--slider__shelf--unmissable :global(.vtex-reviews-and-ratings-2-x-inlineContainer),
+.sliderLayoutContainer--slider__shelf--cams :global(.vtex-reviews-and-ratings-2-x-inlineContainer),
+.sliderLayoutContainer--slider__shelf--playstation :global(.vtex-reviews-and-ratings-2-x-inlineContainer),
+.sliderLayoutContainer--slider__shelf--interest :global(.vtex-reviews-and-ratings-2-x-inlineContainer) {
+  margin-left: 0;
+}
+.sliderLayoutContainer--slider__shelf--unmissable :global(.vtex-product-summary-2-x-installmentContainer),
+.sliderLayoutContainer--slider__shelf--cams :global(.vtex-product-summary-2-x-installmentContainer),
+.sliderLayoutContainer--slider__shelf--playstation :global(.vtex-product-summary-2-x-installmentContainer),
+.sliderLayoutContainer--slider__shelf--interest :global(.vtex-product-summary-2-x-installmentContainer) {
+  display: none;
+}
+.sliderLayoutContainer--slider__shelf--unmissable :global(.vtex-product-summary-2-x-priceContainer),
+.sliderLayoutContainer--slider__shelf--cams :global(.vtex-product-summary-2-x-priceContainer),
+.sliderLayoutContainer--slider__shelf--playstation :global(.vtex-product-summary-2-x-priceContainer),
+.sliderLayoutContainer--slider__shelf--interest :global(.vtex-product-summary-2-x-priceContainer) {
+  align-items: start;
+}
+.sliderLayoutContainer--slider__shelf--unmissable :global(.vtex-product-summary-2-x-price_listPriceContainer),
+.sliderLayoutContainer--slider__shelf--cams :global(.vtex-product-summary-2-x-price_listPriceContainer),
+.sliderLayoutContainer--slider__shelf--playstation :global(.vtex-product-summary-2-x-price_listPriceContainer),
+.sliderLayoutContainer--slider__shelf--interest :global(.vtex-product-summary-2-x-price_listPriceContainer) {
+  text-align: start;
+}
+.sliderLayoutContainer--slider__shelf--unmissable :global(.vtex-product-summary-2-x-imageStackContainer):hover,
+.sliderLayoutContainer--slider__shelf--cams :global(.vtex-product-summary-2-x-imageStackContainer):hover,
+.sliderLayoutContainer--slider__shelf--playstation :global(.vtex-product-summary-2-x-imageStackContainer):hover,
+.sliderLayoutContainer--slider__shelf--interest :global(.vtex-product-summary-2-x-imageStackContainer):hover {
+  opacity: .5;
+  transition: all .25s;
+}
+.sliderLayoutContainer--slider__shelf--unmissable :global(.vtex-product-summary-2-x-sellingPriceContainer),
+.sliderLayoutContainer--slider__shelf--cams :global(.vtex-product-summary-2-x-sellingPriceContainer),
+.sliderLayoutContainer--slider__shelf--playstation :global(.vtex-product-summary-2-x-sellingPriceContainer),
+.sliderLayoutContainer--slider__shelf--interest :global(.vtex-product-summary-2-x-sellingPriceContainer) {
+  font-size: 16px;
+  font-weight: 700;
+  font-family: "SST W01 Bold" !important;
+  color: #f25529;
+  height: 30px;
+  line-height: 30px;
+}
+.paginationDotsContainer--slider__shelf--unmissable,
+.paginationDotsContainer--slider__shelf--cams,
+.paginationDotsContainer--slider__shelf--playstation,
+.paginationDotsContainer--slider__shelf--playstation {
+  transform: translateY(20px);
 }
 

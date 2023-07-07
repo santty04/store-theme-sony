@@ -12,7 +12,8 @@
     "title": "col home section shelf two",
     "children": [
       "rich-text#section__shelf--title-two",
-      "rich-text#section__shelf--description-two"
+      "rich-text#section__shelf--description-two",
+      "list-context.product-list#shelf__cams"
     ],
     "props": {
       "blockClass": "section__shelf--two"
@@ -35,6 +36,47 @@
       "textAlignment": "CENTER",
       "textPosition": "CENTER",
       "blockClass": "shelf__two--description"
+    }
+  },
+  "list-context.product-list#shelf__cams": {
+    "blocks": [
+      "product-summary.shelf#shelf__cams"
+    ],
+    "children": [
+      "slider-layout#slider__shelf__cams"
+    ],
+    "props": {
+      "blockClass": "list__shelf--cams"
+    }
+  },
+  "product-summary.shelf#shelf__cams": {
+    "children": [
+      "stack-layout",
+      "product-summary-image",
+      "product-summary-name",
+      "product-rating-inline",
+      "product-summary-space",
+      "product-summary-price"
+    ],
+    "props": {
+      "blockClass": "product__shelf--cams"
+    }
+  },
+
+  "slider-layout#slider__shelf__cams": {
+    "props": {
+      "fullWidth": true,
+      "infinite": true,
+      "itemsPerPage": {
+        "desktop": 4,
+        "tablet": 2,
+        "phone": 2
+      },
+      "blockClass": "slider__shelf--cams",
+      "autoplay": {
+        "timeout": 3000,
+        "stopOnHover": true
+      }
     }
   }
 }

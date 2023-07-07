@@ -146,7 +146,65 @@
   color: blue;
 }
 
+.flexColChild--section__shelf--one,
+.flexColChild--section__shelf--two,
+.flexColChild--section__shelf--three,
+.flexColChild--section__shelf--four {
+  margin: auto;
+}
 
+.flexColChild--section__shelf--five :global(.vtex-product-summary-2-x-imageStackContainer) {
+  height: 280px;
+}
+
+.flexColChild--section__shelf--five :global(.vtex-product-summary-2-x-brandName) {
+  font-size         : 13px;
+  line-height       : 18px;
+  color             : #2f353d;
+  overflow-wrap     : break-word;
+  font-weight       : 400;
+  height            : 37px;
+  font-family       : SST W01 Roman, SST W01 Medium, Microsoft JhengHei, Hiragino Kaku Gothic ProN, Heiti TC, Roboto, Droid, Helvetica Neue, Helvetica, Arial, sans-serif !important;
+  display           : -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow          : hidden;
+  text-overflow     : ellipsis;
+}
+.flexColChild--section__shelf--five :global(.vtex-product-summary-2-x-installmentContainer) {
+  display: none;
+}
+.flexColChild--section__shelf--five :global(.vtex-product-summary-2-x-priceContainer) {
+  align-items: start;
+}
+.flexColChild--section__shelf--five :global(.vtex-product-summary-2-x-price_listPriceContainer) {
+  text-align: start;
+}
+.flexColChild--section__shelf--five :global(.vtex-product-summary-2-x-sellingPriceContainer) {
+  font-size: 16px;
+  font-weight: 700;
+  font-family: "SST W01 Bold" !important;
+  color: #f25529;
+  height: 30px;
+  line-height: 30px;
+}
+.flexColChild--section__shelf--five :global(.vtex-product-summary-2-x-nameContainer) {
+  justify-content: start;
+}
+.flexColChild--section__shelf--five :global(.vtex-reviews-and-ratings-2-x-inlineContainer) {
+  margin-left: 0;
+}
+.flexColChild--section__shelf--five :global(.vtex-search-result-3-x-galleryItem) {
+  margin: 0 5px;
+  border: 1px solid transparent;
+}
+.flexColChild--section__shelf--five :global(.vtex-search-result-3-x-galleryItem):hover {
+  border: 1px solid #e4e7eb;
+}
+.flexColChild--section__shelf--five :global(.vtex-product-summary-2-x-imageStackContainer):hover {
+  opacity: .5;
+  transition: all .25s;
+}
 @media (max-width: 1025px) {
   .flexRow--home__form--register :global(.vtex-store-newsletter-1-x-emailInputContainer--form__input--email) {
     width  : 34%;
@@ -164,5 +222,15 @@
     margin  : 6px -323px;
     position: absolute;
     bottom  : 0;
+  }
+}
+
+@media (min-width: 1260px) {
+
+  .flexColChild--section__shelf--one,
+  .flexColChild--section__shelf--two,
+  .flexColChild--section__shelf--three,
+  .flexColChild--section__shelf--four {
+    width: 80em;
   }
 }
