@@ -1,0 +1,301 @@
+{
+  "disclosure-layout-group#footer__menu--group": {
+    "children": [
+      "disclosure-layout#buy__online",
+      "disclosure-layout#community",
+      "disclosure-layout#news"
+    ]
+  },
+  "disclosure-layout#buy__online": {
+    "children": [
+      "disclosure-trigger#buy__online",
+      "disclosure-content#buy__online"
+    ]
+  },
+  "disclosure-trigger#buy__online": {
+    "children": [
+      "rich-text#buy__online"
+    ]
+  },
+  "rich-text#buy__online": {
+    "props": {
+      "text": "Compra online"
+    }
+  },
+  "disclosure-content#buy__online": {
+    "children": [
+      "menu#buy__online"
+    ]
+  },
+  "menu#buy__online": {
+    "children": [
+      "menu-item#footer__online-store",
+      "menu-item#footer__help--sony-store",
+      "menu-item#footer__pqrs",
+      "menu-item#footer__policies-exchange",
+      "menu-item#footer__terms-conds",
+      "menu-item#footer__warranty-sony",
+      "menu-item#footer__superintendence",
+      "menu-item#footer__consumer-statute",
+      "menu-item#footer__digital-tv"
+    ],
+    "props": {
+      "orientation": "vertical"
+    }
+  },
+  "menu-item#footer__online-store": {
+    "props": {
+      "id": "menu-online-store",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "tagTitle": "Tienda en linea",
+        "text": "Tienda en linea"
+      }
+    }
+  },
+  "menu-item#footer__help--sony-store": {
+    "props": {
+      "id": "menu-help-sony-store",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "tagTitle": "Ayuda Sony Store",
+        "text": "Ayuda Sony Store"
+      }
+    }
+  },
+  "menu-item#footer__pqrs": {
+    "props": {
+      "id": "menu-pqrs",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "tagTitle": "Peticiones, Quejas o Reclamos (PQRs)",
+        "text": "Peticiones, Quejas o Reclamos (PQRs)"
+      }
+    }
+  },
+  "menu-item#footer__policies-exchange": {
+    "props": {
+      "id": "menu-policies-exchange",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "tagTitle": "Políticas de cambio y devoluciones",
+        "text": "Políticas de cambio y devoluciones"
+      }
+    }
+  },
+  "menu-item#footer__terms-conds": {
+    "props": {
+      "id": "menu-terms-and-conds",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "tagTitle": "Términos y condiciones",
+        "text": "Términos y condiciones"
+      }
+    }
+  },
+  "menu-item#footer__warranty-sony": {
+    "props": {
+      "id": "menu-warranty-sony",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "tagTitle": "Mi garantía Sony",
+        "text": "Mi garantía Sony"
+      }
+    }
+  },
+  "menu-item#footer__superintendence": {
+    "props": {
+      "id": "menu-superintendence",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "tagTitle": "Superintendencia de Industria y comercio",
+        "text": "Superintendencia de Industria y comercio"
+      }
+    }
+  },
+  "menu-item#footer__consumer-statute": {
+    "props": {
+      "id": "menu-consumer-statute",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "tagTitle": "Estatuto del consumidor",
+        "text": "Estatuto del consumidor"
+      }
+    }
+  },
+  "menu-item#footer__digital-tv": {
+    "props": {
+      "id": "menu-digital-tv",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "tagTitle": "Todo lo que debes saber sobre la Television Digital Terrestre",
+        "text": "Todo lo que debes saber sobre la Television Digital Terrestre"
+      }
+    }
+  },
+  "disclosure-layout#community": {
+    "children": [
+      "disclosure-trigger#community",
+      "disclosure-content#community"
+    ]
+  },
+  "disclosure-trigger#community": {
+    "children": [
+      "rich-text#community"
+    ]
+  },
+  "rich-text#community": {
+    "props": {
+      "text": "Comunidad"
+    }
+  },
+  "disclosure-content#community": {
+    "children": [
+      "menu#community"
+    ]
+  },
+  "menu#community": {
+    "children": [
+      "menu-item#footer__blog-playstation",
+      "menu-item#footer__community-alpha",
+      "menu-item#footer__help-my-product"
+    ],
+    "props": {
+      "orientation": "vertical"
+    }
+  },
+  "menu-item#footer__blog-playstation": {
+    "props": {
+      "id": "menu-digital-tv",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "tagTitle": "Blog PlayStation",
+        "text": "Blog PlayStation"
+      }
+    }
+  },
+  "menu-item#footer__community-alpha": {
+    "props": {
+      "id": "menu-digital-tv",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "tagTitle": "Comunidad Alpha",
+        "text": "Comunidad Alpha"
+      }
+    }
+  },
+  "menu-item#footer__help-my-product": {
+    "props": {
+      "id": "menu-digital-tv",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "tagTitle": "Ayuda con mi producto",
+        "text": "Ayuda con mi producto"
+      }
+    }
+  },
+  "disclosure-layout#news": {
+    "children": [
+      "disclosure-trigger#news",
+      "disclosure-content#news"
+    ]
+  },
+  "disclosure-trigger#news": {
+    "children": [
+      "rich-text#news"
+    ]
+  },
+  "rich-text#news": {
+    "props": {
+      "text": "Noticias e Información"
+    }
+  },
+  "disclosure-content#news": {
+    "children": [
+      "menu#news"
+    ]
+  },
+  "menu#news": {
+    "children": [
+      "menu-item#footer__about-sony",
+      "menu-item#footer__information-corporate",
+      "menu-item#footer__press",
+      "menu-item#footer__environment-sony"
+    ],
+    "props": {
+      "orientation": "vertical"
+    }
+  },
+  "menu-item#footer__about-sony": {
+    "props": {
+      "id": "menu-about-sony",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "tagTitle": "Acerca de Sony",
+        "text": "Acerca de Sony"
+      }
+    }
+  },
+  "menu-item#footer__information-corporate": {
+    "props": {
+      "id": "menu-information-corporate",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "tagTitle": "Información Corporativa",
+        "text": "Información Corporativa"
+      }
+    }
+  },
+  "menu-item#footer__press": {
+    "props": {
+      "id": "menu-press",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "tagTitle": "Centro de Prensa",
+        "text": "Centro de Prensa"
+      }
+    }
+  },
+  "menu-item#footer__environment-sony": {
+    "props": {
+      "id": "menu-environment-sony",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "tagTitle": "Sony y el Medio Ambiente",
+        "text": "Sony y el Medio Ambiente"
+      }
+    }
+  }
+}

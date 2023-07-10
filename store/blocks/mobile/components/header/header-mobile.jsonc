@@ -135,7 +135,7 @@
   "drawer": {
     "title": "drawer",
     "children": [
-      "mega-menu"
+      "vtex.mega-menu@2.x:mega-menu"
     ],
     "blocks": [
       "drawer-header#my-drawer"
@@ -144,7 +144,7 @@
       "blockClass": "drawer__mobile"
     }
   },
-  "mega-menu": {
+  "vtex.mega-menu@2.x:mega-menu": {
     "title": "mobile drawer menu",
     "props": {
       "title": "sony mobile menu",

@@ -1,0 +1,31 @@
+{
+  "footer": {
+    "title": "footer",
+    "blocks": [
+      "footer-layout.desktop",
+      "footer-layout.mobile"
+    ]
+  },
+  "footer-layout.desktop": {
+    "children": [
+      "flex-layout.row#footer"
+    ]
+  },
+  "flex-layout.row#footer": {
+    "children": [
+      "rich-text#test"
+    ]
+  },
+  "rich-text#test": {
+    "props": {
+      "text": "text"
+    }
+  },
+
+  "footer-layout.mobile": {
+    "title": "footer mobile",
+    "children": [
+      "disclosure-layout-group#footer__menu--group"
+    ]
+  }
+}
