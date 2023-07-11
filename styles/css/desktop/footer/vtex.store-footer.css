@@ -1,11 +1,12 @@
 .footerLayout {
   background-color: #1f2024;
-  padding: 40px 0 28px;
-  margin-top: 30px;
+  padding         : 40px 0 28px;
+  margin-top      : 30px;
 }
+
 .footerLayout :global(.vtex-flex-layout-0-x-flexRow--footer__row--desktop) {
-  max-width: 1190px;
-  margin: 0 auto;
+  max-width     : 1190px;
+  margin        : 0 auto;
   padding-bottom: 40px;
 }
 
@@ -14,4 +15,3 @@
     padding: 6px 0 28px;
   }
 }
-
