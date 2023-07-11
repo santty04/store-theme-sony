@@ -1,0 +1,375 @@
+{
+  "flex-layout.row#footer": {
+    "children": [
+      "flex-layout.col#desktop__footer--distributor",
+      "flex-layout.col#desktop__footer--buy-online",
+      "flex-layout.col#desktop__footer--community",
+      "flex-layout.col#desktop__footer--news"
+    ],
+    "props": {
+      "blockClass": "footer__row--desktop"
+    }
+  },
+  "flex-layout.col#desktop__footer--distributor": {
+    "children": [
+      "rich-text#distributor__title"
+    ],
+    "props": {
+      "blockClass": [
+        "footer__col",
+        "footer__col--distributor"
+      ]
+    }
+  },
+  "rich-text#distributor__title": {
+    "title": "distributor title",
+    "props": {
+      "text": "Busca un distribuidor",
+      "blockClass": [
+        "desktop__footer--title",
+        "footer__distributor--title"
+      ]
+    }
+  },
+  "flex-layout.col#desktop__footer--buy-online": {
+    "children": [
+      "rich-text#buy_online__title",
+      "rich-text#help__sony",
+      "rich-text#desktop__pqrs",
+      "rich-text#desktop__policies",
+      "rich-text#desktop__warranty-sony",
+      "rich-text#desktop__superintendence",
+      "rich-text#desktop__consumer-statute",
+      "rich-text#desktop__digital-tv"
+    ],
+    "props": {
+      "blockClass": [
+        "footer__col",
+        "footer__col--buy-online"
+      ]
+    }
+  },
+  "rich-text#buy_online__title": {
+    "title": "title buy online",
+    "props": {
+      "text": "Compra Online",
+      "blockClass": [
+        "desktop__footer--title",
+        "footer__buy-online--title"
+      ]
+    }
+  },
+  "rich-text#help__sony": {
+    "title": "help sony store",
+    "props": {
+      "text": "[Ayuda Sony Store](/)",
+      "blockClass": [
+        "footer__item",
+        "footer__item--help-sony"
+      ]
+    }
+  },
+  "rich-text#desktop__pqrs": {
+    "title": "pqrs sony",
+    "props": {
+      "text": "[Peticiones, Quejas o Reclamos (PQRs)](/)",
+      "blockClass": [
+        "footer__item",
+        "footer__item--pqrs"
+      ]
+    }
+  },
+  "rich-text#desktop__policies": {
+    "title": "policies sony",
+    "props": {
+      "text": "[Políticas de cambio y devoluciones](/)",
+      "blockClass": [
+        "footer__item",
+        "footer__item--policies"
+      ]
+    }
+  },
+  "rich-text#desktop__warranty-sony": {
+    "title": "desktop warranty sony",
+    "props": {
+      "text": "[Mi garantía Sony](/)",
+      "blockClass": [
+        "footer__item",
+        "footer__item--warranty"
+      ]
+    }
+  },
+  "rich-text#desktop__superintendence": {
+    "title": "desktop superintendence sony",
+    "props": {
+      "text": "[Superintendencia de Industria y Comercio](/)",
+      "blockClass": [
+        "footer__item",
+        "footer__item--superintendence"
+      ]
+    }
+  },
+  "rich-text#desktop__consumer-statute": {
+    "title": "desktop consumer statute",
+    "props": {
+      "text": "[Estatuto del consumidor](/)",
+      "blockClass": [
+        "footer__item",
+        "footer__item--consumer-statute"
+      ]
+    }
+  },
+  "rich-text#desktop__digital-tv": {
+    "title": "desktop digital tv",
+    "props": {
+      "text": "[Todo lo que debes saber sobre la Televisión Digital Terrestre](/)",
+      "blockClass": [
+        "footer__item",
+        "footer__item--digital-tv"
+      ]
+    }
+  },
+  "flex-layout.col#desktop__footer--community": {
+    "title": "List desktop footer community",
+    "children": [
+      "rich-text#desktop__community--title",
+      "rich-text#desktop__blog-playstation",
+      "rich-text#desktop__community-alpha",
+      "rich-text#desktop__help-product"
+    ],
+    "props": {
+      "blockClass": [
+        "footer__col",
+        "footer__col--community"
+      ]
+    }
+  },
+  "rich-text#desktop__community--title": {
+    "title": "title community section",
+    "props": {
+      "text": "Comunidad",
+      "blockClass": [
+        "desktop__footer--title",
+        "footer__community--title"
+      ]
+    }
+  },
+  "rich-text#desktop__blog-playstation": {
+    "title": "desktop footer blog playstation",
+    "props": {
+      "text": "[Blog PlayStation](/)",
+      "blockClass": [
+        "footer__item",
+        "footer__item--blog"
+      ]
+    }
+  },
+  "rich-text#desktop__community-alpha": {
+    "title": "desktop footer alpha",
+    "props": {
+      "text": "[Comunidad Alpha](/)",
+      "blockClass": [
+        "footer__item",
+        "footer__item--alpha"
+      ]
+    }
+  },
+  "rich-text#desktop__help-product": {
+    "title": "desktop footer help with my product",
+    "props": {
+      "text": "[Ayuda con mi producto](/)",
+      "blockClass": [
+        "footer__item",
+        "footer__item--help-product"
+      ]
+    }
+  },
+  "flex-layout.col#desktop__footer--news": {
+    "title": "list desktop footer news",
+    "children": [
+      "rich-text#desktop__news--title",
+      "rich-text#desktop__about-sony",
+      "rich-text#desktop__information-corporate",
+      "rich-text#desktop__press",
+      "rich-text#desktop__environment-sony"
+    ],
+    "props": {
+      "blockClass": [
+        "footer__col",
+        "footer__col--news"
+      ]
+    }
+  },
+  "rich-text#desktop__news--title": {
+    "title": "desktop footer news title",
+    "props": {
+      "text": "Noticias e Información",
+      "blockClass": [
+        "desktop__footer--title",
+        "footer__title--news"
+      ]
+    }
+  },
+  "rich-text#desktop__about-sony": {
+    "title": "desktop footer about sony",
+    "props": {
+      "text": "[Acerca de Sony](/)",
+      "blockClass": [
+        "footer__item",
+        "footer__item--about-sony"
+      ]
+    }
+  },
+  "rich-text#desktop__information-corporate": {
+    "title": "desktop footer information corporate",
+    "props": {
+      "text": "[Información Corporativa](/)",
+      "blockClass": [
+        "footer__item",
+        "footer__item--info-corp"
+      ]
+    }
+  },
+  "rich-text#desktop__press": {
+    "title": "desktop footer press center",
+    "props": {
+      "text": "[Centro de Prensa](/)",
+      "blockClass": [
+        "footer__item",
+        "footer__item--press"
+      ]
+    }
+  },
+  "rich-text#desktop__environment-sony": {
+    "title": "desktop footer environment sony",
+    "props": {
+      "text": "[Sony y el medio ambiente](/)",
+      "blockClass": [
+        "footer__item",
+        "footer__item--enviroment"
+      ]
+    }
+  },
+  "flex-layout.row#footer-2": {
+    "title": "flex row footer 2",
+    "children": [
+      "flex-layout.col#footer__section--country",
+      "flex-layout.col#section__contact--professionals",
+      "flex-layout.col#section__contact",
+      "flex-layout.col#section__contact--networks"
+    ],
+    "props": {
+      "blockClass": "footer__row--desktop-2"
+    }
+  },
+  "flex-layout.col#footer__section--country": {
+    "title": "flex col footer section country",
+    "children": [
+      "link#button__country"
+    ],
+    "props": {
+      "blockClass": "footer__section--country"
+    }
+  },
+  "link#button__country": {
+    "title": "button country",
+    "props": {
+      "href": "/",
+      "label": "Colombia",
+      "displayMode": "button",
+      "blockClass": "button__country"
+    }
+  },
+  "flex-layout.col#section__contact--professionals": {
+    "title": "flex col section contact professionals",
+    "children": [
+      "rich-text#footer__text--professionals"
+    ],
+    "props": {
+      "blockClass": "section__contact--professionals"
+    }
+  },
+  "flex-layout.col#section__contact": {
+    "title": "flex col section contact",
+    "children": [
+      "rich-text#footer__text--contact"
+    ],
+    "props": {
+      "blockClass": "section__contact"
+    }
+  },
+  "flex-layout.col#section__contact--networks": {
+    "title": "flex col section contact networks",
+    "children": [
+      "social-networks"
+    ],
+    "props": {
+      "blockClass": "social-network"
+    }
+  },
+  "rich-text#footer__text--professionals": {
+    "title": "text professionals",
+    "props": {
+      "text": "[Para Profesionales](/)",
+      "textAlignment": "RIGHT",
+      "textPosition": "RIGHT",
+      "blockClass": ["footer__item", "footer__text--professionals"]
+    }
+  },
+  "rich-text#footer__text--contact": {
+    "title": "text contact",
+    "props": {
+      "text": "[Contacto](/)",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "blockClass": ["footer__item", "footer__text--contact"]
+    }
+  },
+  "flex-layout.row#footer-3": {
+    "title": "flex row information business",
+    "children": [
+      "rich-text#first__text",
+      "flex-layout.col#section__second--text",
+      "rich-text#third__text"
+    ],
+    "props": {
+      "blockClass": "layout__row--footer3",
+      "preserveLayoutOnMobile": true
+    }
+  },
+  "rich-text#first__text": {
+    "title": "first about all rights reserved",
+    "props": {
+      "text": "© 2023 SONY LATIN AMERICA, INC. TODOS LOS DERECHOS RESERVADOS.",
+      "blockClass": "footer__first--text"
+    }
+  },
+  "flex-layout.col#section__second--text": {
+    "title": "column second text with links",
+    "children": ["rich-text#col__first--text", "rich-text#col__second--text"],
+    "props": {
+      "blockClass": "footer__second--col"
+    }
+  },
+  "rich-text#col__first--text": {
+    "title": "text about privacy policies, first section",
+    "props": {
+      "text": "[Política de Privacidad en Línea de Sony Latin America, Inc](/)",
+      "blockClass": "col__first--text"
+    }
+  },
+  "rich-text#col__second--text": {
+    "title": "text about privacy policies, second section",
+    "props": {
+      "text": "[© 2023 Sony Latin America, Inc. Todos los Derechos Reservados.](/)",
+      "blockClass": "col__second--text"
+    }
+  },
+  "rich-text#third__text": {
+    "title": "last section texts footer",
+    "props": {
+      "text": "SONY INTERAMERICAN S.A SUCURSAL COLOMBIA | NIT 800185150-2  KM 1.5 Vía Funza Siberia, Parque Industrial San Diego Bodega 6C | E-mail [Compras.OnLine@am.sony.com](/) | TELEFONO DE LINEA DE ATENCION: Bogotá (786 8928), Nacional (01 800 5189714) - lunes a viernes 9 AM a 6 PM.",
+      "blockClass": "third__text"
+    }
+  }
+}

@@ -1,0 +1,22 @@
+.link--button__country {
+  background-color: #3c3c42;
+  transition      : all .25s;
+  text-decoration : none;
+  color           : #f0f8ff;
+  border          : none;
+  border-radius   : 0;
+  text-transform  : capitalize;
+  width           : 202px;
+  margin-top      : 1.5rem;
+  margin-bottom   : 1.5rem;
+}
+
+.link--button__country:hover {
+  background: #504d56;
+  cursor    : pointer;
+}
+@media (max-width: 1025px) {
+  .link--button__country {
+    width: 202px !important;
+  }
+}

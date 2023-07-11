@@ -17,3 +17,10 @@
   font-weight       : 500;
   color             : #3f3f40;
 }
+
+.childrenContainer :global(.vtex-product-list-0-x-unitPriceContainer) {
+  display: none;
+}
+.childrenContainer :global(.vtex-product-list-0-x-productPriceContainer) {
+  display: none;
+}
