@@ -209,8 +209,9 @@
   opacity   : .5;
   transition: all .25s;
 }
+
 .flexColChild--section__shelf--five :global(.vtex-search-result-3-x-gallery) {
-  display: flex;
+  display       : flex;
   flex-direction: row !important;
 }
 
@@ -235,14 +236,28 @@
 }
 
 @media (min-width: 1026px) {
+
   .flexColChild--section__shelf--one,
   .flexColChild--section__shelf--two,
   .flexColChild--section__shelf--three,
   .flexColChild--section__shelf--four {
     margin: auto;
+    width : 60em;
   }
 }
-@media (min-width: 1260px) {
+
+@media (min-width: 1200px) {
+
+  .flexColChild--section__shelf--one,
+  .flexColChild--section__shelf--two,
+  .flexColChild--section__shelf--three,
+  .flexColChild--section__shelf--four {
+    margin: auto;
+    width : 70em;
+  }
+}
+
+@media (min-width: 1340px) {
 
   .flexColChild--section__shelf--one,
   .flexColChild--section__shelf--two,
