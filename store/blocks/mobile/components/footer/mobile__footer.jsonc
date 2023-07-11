@@ -1,33 +1,74 @@
 {
   "disclosure-layout-group#footer__menu--group": {
+    "title": "footer menu group",
     "children": [
       "disclosure-layout#buy__online",
       "disclosure-layout#community",
-      "disclosure-layout#news"
-    ]
+      "disclosure-layout#news",
+      "flex-layout.row#social__networks"
+    ],
+    "props": {
+      "blockClass": "footer__menu--group"
+    }
   },
   "disclosure-layout#buy__online": {
+    "title": "disclosure layout buy online",
     "children": [
       "disclosure-trigger#buy__online",
       "disclosure-content#buy__online"
-    ]
+    ],
+    "props": {
+      "blockClass": "layout__buy--online"
+    }
   },
   "disclosure-trigger#buy__online": {
+    "title": "disclosure trigger buy online",
     "children": [
-      "rich-text#buy__online"
-    ]
+      "rich-text#buy__online",
+      "disclosure-state-indicator"
+    ],
+    "props": {
+      "blockClass": "trigger__buy--online"
+    }
+  },
+  "disclosure-state-indicator": {
+    "title": "disclosure state indicator",
+    "props": {
+      "Show": "icon-caret#down",
+      "Hide": "icon-caret#up",
+      "blockClass": "disclosure__state--indicator"
+    }
+  },
+  "icon-caret#down": {
+    "title": "icon caret down",
+    "props": {
+      "orientation": "down"
+    }
+  },
+  "icon-caret#up": {
+    "title": "icon caret up",
+    "props": {
+      "orientation": "up"
+    }
   },
   "rich-text#buy__online": {
+    "title": "text buy online",
     "props": {
-      "text": "Compra online"
+      "text": "Compra online",
+      "blockClass": ["title__footer", "text__buy--online"]
     }
   },
   "disclosure-content#buy__online": {
+    "title": "disclosure content buy online",
     "children": [
       "menu#buy__online"
-    ]
+    ],
+    "props": {
+      "blockClass": "content__buy--online"
+    }
   },
   "menu#buy__online": {
+    "title": "menu buy online",
     "children": [
       "menu-item#footer__online-store",
       "menu-item#footer__help--sony-store",
@@ -40,7 +81,8 @@
       "menu-item#footer__digital-tv"
     ],
     "props": {
-      "orientation": "vertical"
+      "orientation": "vertical",
+      "blockClass": ["menu__footer", "menu__buy--online"]
     }
   },
   "menu-item#footer__online-store": {
@@ -52,7 +94,8 @@
         "href": "#",
         "tagTitle": "Tienda en linea",
         "text": "Tienda en linea"
-      }
+      },
+      "blockClass": ["menu__item--footer", "footer__online--store"]
     }
   },
   "menu-item#footer__help--sony-store": {
@@ -64,7 +107,8 @@
         "href": "#",
         "tagTitle": "Ayuda Sony Store",
         "text": "Ayuda Sony Store"
-      }
+      },
+      "blockClass": ["menu__item--footer", "footer__help--sony"]
     }
   },
   "menu-item#footer__pqrs": {
@@ -76,7 +120,8 @@
         "href": "#",
         "tagTitle": "Peticiones, Quejas o Reclamos (PQRs)",
         "text": "Peticiones, Quejas o Reclamos (PQRs)"
-      }
+      },
+      "blockClass": ["menu__item--footer", "footer__pqrs"]
     }
   },
   "menu-item#footer__policies-exchange": {
@@ -88,7 +133,8 @@
         "href": "#",
         "tagTitle": "Políticas de cambio y devoluciones",
         "text": "Políticas de cambio y devoluciones"
-      }
+      },
+      "blockClass": ["menu__item--footer", "footer__policies__exchange"]
     }
   },
   "menu-item#footer__terms-conds": {
@@ -100,7 +146,8 @@
         "href": "#",
         "tagTitle": "Términos y condiciones",
         "text": "Términos y condiciones"
-      }
+      },
+      "blockClass": ["menu__item--footer", "footer__terms--conds"]
     }
   },
   "menu-item#footer__warranty-sony": {
@@ -112,7 +159,8 @@
         "href": "#",
         "tagTitle": "Mi garantía Sony",
         "text": "Mi garantía Sony"
-      }
+      },
+      "blockClass": ["menu__item--footer", "footer__warranty--sony"]
     }
   },
   "menu-item#footer__superintendence": {
@@ -124,7 +172,8 @@
         "href": "#",
         "tagTitle": "Superintendencia de Industria y comercio",
         "text": "Superintendencia de Industria y comercio"
-      }
+      },
+      "blockClass": ["menu__item--footer", "footer__superintendence"]
     }
   },
   "menu-item#footer__consumer-statute": {
@@ -136,7 +185,8 @@
         "href": "#",
         "tagTitle": "Estatuto del consumidor",
         "text": "Estatuto del consumidor"
-      }
+      },
+      "blockClass": ["menu__item--footer", "footer__consumer--statute"]
     }
   },
   "menu-item#footer__digital-tv": {
@@ -148,38 +198,56 @@
         "href": "#",
         "tagTitle": "Todo lo que debes saber sobre la Television Digital Terrestre",
         "text": "Todo lo que debes saber sobre la Television Digital Terrestre"
-      }
+      },
+      "blockClass": ["menu__item--footer", "footer__digital--tv"]
     }
   },
   "disclosure-layout#community": {
+    "title": "disclosure layout community",
     "children": [
       "disclosure-trigger#community",
       "disclosure-content#community"
-    ]
+    ],
+    "props": {
+      "blockClass": "disclosure__layout--community"
+    }
   },
   "disclosure-trigger#community": {
+    "title": "disclosure trigger community",
     "children": [
-      "rich-text#community"
-    ]
+      "rich-text#community",
+      "disclosure-state-indicator"
+    ],
+    "props": {
+      "blockClass": "disclosure__trigger--community"
+    }
   },
   "rich-text#community": {
+    "title": "text community",
     "props": {
-      "text": "Comunidad"
+      "text": "Comunidad",
+      "blockClass": ["title__footer", "text__community"]
     }
   },
   "disclosure-content#community": {
+    "title": "disclosure content community",
     "children": [
       "menu#community"
-    ]
+    ],
+    "props": {
+      "blockClass": "disclosure__content--community"
+    }
   },
   "menu#community": {
+    "title": "menu community",
     "children": [
       "menu-item#footer__blog-playstation",
       "menu-item#footer__community-alpha",
       "menu-item#footer__help-my-product"
     ],
     "props": {
-      "orientation": "vertical"
+      "orientation": "vertical",
+      "blockClass": ["menu__footer", "menu__community"]
     }
   },
   "menu-item#footer__blog-playstation": {
@@ -191,7 +259,8 @@
         "href": "#",
         "tagTitle": "Blog PlayStation",
         "text": "Blog PlayStation"
-      }
+      },
+      "blockClass": ["menu__item--footer", "footer__blog--playstation"]
     }
   },
   "menu-item#footer__community-alpha": {
@@ -203,7 +272,8 @@
         "href": "#",
         "tagTitle": "Comunidad Alpha",
         "text": "Comunidad Alpha"
-      }
+      },
+      "blockClass": ["menu__item--footer", "footer__community--alpha"]
     }
   },
   "menu-item#footer__help-my-product": {
@@ -215,31 +285,45 @@
         "href": "#",
         "tagTitle": "Ayuda con mi producto",
         "text": "Ayuda con mi producto"
-      }
+      },
+      "blockClass": ["menu__item--footer", "footer__help-my-product"]
     }
   },
   "disclosure-layout#news": {
+    "title": "disclosure layout news",
     "children": [
       "disclosure-trigger#news",
       "disclosure-content#news"
-    ]
+    ],
+    "props": {
+      "blockClass": "disclosure__layout--news"
+    }
   },
   "disclosure-trigger#news": {
+    "title": "disclosure trigger news",
     "children": [
-      "rich-text#news"
-    ]
+      "rich-text#news",
+      "disclosure-state-indicator"
+    ],
+    "props": {
+      "blockClass": "disclosure__trigger--news"
+    }
   },
   "rich-text#news": {
+    "title": "text news",
     "props": {
-      "text": "Noticias e Información"
+      "text": "Noticias e Información",
+      "blockClass": ["title__footer", "text__news"]
     }
   },
   "disclosure-content#news": {
+    "title": "disclosure content news",
     "children": [
       "menu#news"
     ]
   },
   "menu#news": {
+    "title": "menu news",
     "children": [
       "menu-item#footer__about-sony",
       "menu-item#footer__information-corporate",
@@ -247,7 +331,8 @@
       "menu-item#footer__environment-sony"
     ],
     "props": {
-      "orientation": "vertical"
+      "orientation": "vertical",
+      "blockClass": ["menu__footer", "menu__news"]
     }
   },
   "menu-item#footer__about-sony": {
@@ -259,7 +344,8 @@
         "href": "#",
         "tagTitle": "Acerca de Sony",
         "text": "Acerca de Sony"
-      }
+      },
+      "blockClass": ["menu__item--footer", "footer__about--sony"]
     }
   },
   "menu-item#footer__information-corporate": {
@@ -271,7 +357,8 @@
         "href": "#",
         "tagTitle": "Información Corporativa",
         "text": "Información Corporativa"
-      }
+      },
+      "blockClass": ["menu__item--footer", "footer__information--corporate"]
     }
   },
   "menu-item#footer__press": {
@@ -283,7 +370,8 @@
         "href": "#",
         "tagTitle": "Centro de Prensa",
         "text": "Centro de Prensa"
-      }
+      },
+      "blockClass": ["menu__item--footer", "footer__press"]
     }
   },
   "menu-item#footer__environment-sony": {
@@ -295,7 +383,25 @@
         "href": "#",
         "tagTitle": "Sony y el Medio Ambiente",
         "text": "Sony y el Medio Ambiente"
-      }
+      },
+      "blockClass": ["menu__item--footer", "footer__environment--sony"]
+    }
+  },
+  "flex-layout.row#social__networks": {
+    "title": "layout section social networks",
+    "children": [
+      "social-networks"
+    ]
+  },
+  "social-networks": {
+    "title": "social networks",
+    "props": {
+      "socialNetworks": [
+        { "url": "https://facebook.com/foo", "name": "Facebook" },
+        { "url": "https://twitter.com/foo", "name": "Twitter" },
+        { "url": "https://youtube.com/foo", "name": "Youtube" },
+        { "url": "https://instagram.com/foo", "name": "Instagram" }
+      ]
     }
   }
 }

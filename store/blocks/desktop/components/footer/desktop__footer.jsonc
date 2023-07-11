@@ -1,0 +1,157 @@
+{
+  "flex-layout.row#footer": {
+    "children": [
+      "flex-layout.col#desktop__footer--distributor",
+      "flex-layout.col#desktop__footer--buy-online",
+      "flex-layout.col#desktop__footer--community",
+      "flex-layout.col#desktop__footer--news"
+    ],
+    "props": {
+      "blockClass": "footer__row--desktop"
+    }
+  },
+  "flex-layout.col#desktop__footer--distributor": {
+    "children": [
+      "rich-text#distributor__title"
+    ]
+  },
+  "rich-text#distributor__title": {
+    "title": "distributor title",
+    "props": {
+      "text": "Busca un distribuidor"
+    }
+  },
+  "flex-layout.col#desktop__footer--buy-online": {
+    "children": [
+      "rich-text#buy_online__title",
+      "rich-text#help__sony",
+      "rich-text#desktop__pqrs",
+      "rich-text#desktop__policies",
+      "rich-text#desktop__warranty-sony",
+      "rich-text#desktop__superintendence",
+      "rich-text#desktop__consumer-statute",
+      "rich-text#desktop__digital-tv"
+    ]
+  },
+  "rich-text#buy_online__title": {
+    "title": "title buy online",
+    "props": {
+      "text": "Compra Online"
+    }
+  },
+  "rich-text#help__sony": {
+    "title": "help sony store",
+    "props": {
+      "text": "[Ayuda Sony Store](/)"
+    }
+  },
+  "rich-text#desktop__pqrs": {
+    "title": "pqrs sony",
+    "props": {
+      "text": "[Peticiones, Quejas o Reclamos (PQRs)](/)"
+    }
+  },
+  "rich-text#desktop__policies": {
+    "title": "policies sony",
+    "props": {
+      "text": "[Políticas de cambio y devoluciones](/)"
+    }
+  },
+  "rich-text#desktop__warranty-sony": {
+    "title": "desktop warranty sony",
+    "props": {
+      "text": "[Mi garantía Sony](/)"
+    }
+  },
+  "rich-text#desktop__superintendence": {
+    "title": "desktop superintendence sony",
+    "props": {
+      "text": "[Superintendencia de Industria y Comercio](/)"
+    }
+  },
+  "rich-text#desktop__consumer-statute": {
+    "title": "desktop consumer statute",
+    "props": {
+      "text": "[Estatuto del consumidor](/)"
+    }
+  },
+  "rich-text#desktop__digital-tv": {
+    "title": "desktop digital tv",
+    "props": {
+      "text": "[Todo lo que debes saber sobre la Televisión Digital Terrestre](/)"
+    }
+  },
+  "flex-layout.col#desktop__footer--community": {
+    "title": "List desktop footer community",
+    "children": [
+      "rich-text#desktop__community--title",
+      "rich-text#desktop__blog-playstation",
+      "rich-text#desktop__community-alpha",
+      "rich-text#desktop__help-product"
+    ]
+  },
+  "rich-text#desktop__community--title": {
+    "title": "title community section",
+    "props": {
+      "text": "Comunidad"
+    }
+  },
+  "rich-text#desktop__blog-playstation": {
+    "title": "desktop footer blog playstation",
+    "props": {
+      "text": "[Blog PlayStation](/)"
+    }
+  },
+  "rich-text#desktop__community-alpha": {
+    "title": "desktop footer alpha",
+    "props": {
+      "text": "[Comunidad Alpha](/)"
+    }
+  },
+  "rich-text#desktop__help-product": {
+    "title": "desktop footer help with my product",
+    "props": {
+      "text": "[Ayuda con mi producto](/)"
+    }
+  },
+  "flex-layout.col#desktop__footer--news": {
+    "title": "list desktop footer news",
+    "children": [
+      "rich-text#desktop__news--title",
+      "rich-text#desktop__about-sony",
+      "rich-text#desktop__information-corporate",
+      "rich-text#desktop__press",
+      "rich-text#desktop__environment-sony"
+    ]
+  },
+  "rich-text#desktop__news--title": {
+    "title": "desktop footer news title",
+    "props": {
+      "text": "Noticias e Información"
+    }
+  },
+  "rich-text#desktop__about-sony": {
+    "title": "desktop footer about sony",
+    "props": {
+      "text": "[Acerca de Sony](/)"
+    }
+  },
+  "rich-text#desktop__information-corporate": {
+    "title": "desktop footer information corporate",
+    "props": {
+      "text": "[Información Corporativa](/)"
+    }
+  },
+  "rich-text#desktop__press": {
+    "title": "desktop footer press center",
+    "props": {
+      "text": "[Centro de Prensa](/)"
+    }
+  },
+  "rich-text#desktop__environment-sony": {
+    "title": "desktop footer environment sony",
+    "props": {
+      "text": "[Sony y el medio ambiente](/)"
+    }
+  }
+}

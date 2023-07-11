@@ -1,4 +1,12 @@
-/* Example desktop:
-.flexCol--footer__main--column2{
-    padding-bottom: 80px;
-} */
+.footerLayout--footer__layout--mobile {
+  background-color: #1f2024;
+  margin-top: 30px;
+}
+.socialNetworksContainer {
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+  display: flex;
+  justify-content: center;
+  
+}
+
