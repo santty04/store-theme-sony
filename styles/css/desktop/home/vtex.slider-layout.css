@@ -101,7 +101,7 @@
 .sliderTrackContainer--slider__shelf--cams,
 .sliderTrackContainer--slider__shelf--playstation,
 .sliderTrackContainer--slider__shelf--interest {
-  width: 90%;
+  width    : 90%;
   max-width: 90%;
 }
 
@@ -239,4 +239,14 @@
 .paginationDotsContainer--slider__shelf--playstation,
 .paginationDotsContainer--slider__shelf--playstation {
   transform: translateY(20px);
+}
+
+@media (max-width: 1200px) {
+
+  .sliderLayoutContainer--slider__shelf--unmissable :global(.vtex-product-summary-2-x-imageWrapper),
+  .sliderLayoutContainer--slider__shelf--cams :global(.vtex-product-summary-2-x-imageWrapper),
+  .sliderLayoutContainer--slider__shelf--playstation :global(.vtex-product-summary-2-x-imageWrapper),
+  .sliderLayoutContainer--slider__shelf--interest :global(.vtex-product-summary-2-x-imageWrapper) {
+    min-height: 215px;
+  }
 }
