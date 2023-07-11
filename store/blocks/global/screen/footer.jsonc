@@ -8,10 +8,12 @@
   },
   "footer-layout.desktop": {
     "children": [
-      "flex-layout.row#footer"
+      "flex-layout.row#footer",
+      "flex-layout.row#footer-2",
+      "flex-layout.row#footer-3"
     ]
   },
-  
+
   "rich-text#test": {
     "props": {
       "text": "text"

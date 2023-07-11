@@ -1,12 +1,17 @@
-.footerLayout--footer__layout--mobile {
+.footerLayout {
   background-color: #1f2024;
+  padding: 40px 0 28px;
   margin-top: 30px;
 }
-.socialNetworksContainer {
-  margin-top: 1.5rem;
-  margin-bottom: 1.5rem;
-  display: flex;
-  justify-content: center;
-  
+.footerLayout :global(.vtex-flex-layout-0-x-flexRow--footer__row--desktop) {
+  max-width: 1190px;
+  margin: 0 auto;
+  padding-bottom: 40px;
+}
+
+@media (max-width: 1025px) {
+  .footerLayout {
+    padding: 6px 0 28px;
+  }
 }
 

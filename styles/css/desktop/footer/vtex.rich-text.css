@@ -1,4 +1,74 @@
-.paragraph--title__footer {
+.paragraph--desktop__footer--title {
+  font-size    : 15px;
+  margin-bottom: 16px;
+  color        : #83838f;
+  cursor       : default;
+}
+
+.link--footer__item {
+  font-size      : 13px;
+  line-height    : 0px;
+  color          : #e4e7eb;
+  white-space    : normal;
+  transition     : all .25s;
+  text-decoration: none;
+}
+
+.link--footer__item:hover {
   color: #83838f;
 }
 
+.container--footer__item--blog {
+  margin-top: -20px;
+}
+
+.container--footer__item--alpha {
+  margin-top: -54px;
+}
+
+.container--footer__item--help-product {
+  margin-top: -88px;
+}
+
+.container--footer__item--about-sony {
+  margin-top: -8px;
+}
+
+.container--footer__item--info-corp {
+  margin-top: -31px;
+}
+
+.container--footer__item--press {
+  margin-top: -54px;
+}
+
+.container--footer__item--enviroment {
+  margin-top: -80px;
+}
+
+.container--footer__text--professionals,
+.container--footer__text--contact {
+  margin-top   : 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.wrapper--footer__first--text .paragraph {
+  color      : #83838f;
+  font-size  : 9px;
+  text-align : initial;
+  line-height: 16px;
+}
+
+.wrapper--col__first--text .link,
+.wrapper--col__second--text .link {
+  text-decoration: unset;
+  color          : #fff;
+  text-transform : uppercase;
+  font-size: 9px;
+}
+.paragraph--third__text,
+.link--third__text {
+  font-size: 9px;
+  color: #83838f;
+  text-decoration: none;
+}

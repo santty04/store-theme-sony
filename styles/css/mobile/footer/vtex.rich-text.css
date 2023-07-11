@@ -1,0 +1,14 @@
+.paragraph--title__footer {
+  color: #83838f;
+}
+
+@media (max-width: 1025px) {
+  .container--footer__first--text,
+  .container--col__first--text,
+  .container--col__second--text,
+  .container--third__text {
+    justify-content: center !important;
+    margin: 0;
+  }
+}
+
