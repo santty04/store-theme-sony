@@ -2,22 +2,46 @@
   "store.search": {
     "blocks": [
       "search-result-layout"
-    ]
+    ],
+    "props": {
+      "context": {
+        "skusFilter": "ALL_AVAILABLE",
+        "simulationBehavior": "default"
+      }
+    }
   },
   "store.search#category": {
     "blocks": [
       "search-result-layout"
-    ]
+    ],
+    "props": {
+      "context": {
+        "skusFilter": "ALL_AVAILABLE",
+        "simulationBehavior": "default"
+      }
+    }
   },
   "store.search#subcategory": {
     "blocks": [
       "search-result-layout"
-    ]
+    ],
+    "props": {
+      "context": {
+        "skusFilter": "ALL_AVAILABLE",
+        "simulationBehavior": "default"
+      }
+    }
   },
   "store.search#brand": {
     "blocks": [
       "search-result-layout"
-    ]
+    ],
+    "props": {
+      "context": {
+        "skusFilter": "ALL_AVAILABLE",
+        "simulationBehavior": "default"
+      }
+    }
   },
   "search-result-layout": {
     "blocks": [
@@ -25,25 +49,5 @@
       "search-result-layout.mobile",
       "search-not-found-layout"
     ]
-  },
-  "search-result-layout.desktop": {
-    "children": [
-      "rich-text#desktop__response"
-    ]
-  },
-  "search-result-layout.mobile": {
-    "children": [
-      "rich-text#mobile__response"
-    ]
-  },
-  "rich-text#desktop__response": {
-    "props": {
-      "text": "# Soy la busqueda de desktop"
-    }
-  },
-  "rich-text#mobile__response": {
-    "props": {
-      "text": "# Soy la busqueda de mobile"
-    }
   }
 }
