@@ -1,0 +1,496 @@
+{
+  "data": {
+    "categories": [
+      {
+        "id": 1,
+        "name": "Electrodomésticos",
+        "href": "/electrodomesticos",
+        "children": [
+          {
+            "id": 2,
+            "name": "Robot Aspiradora",
+            "href": "/electrodomesticos/robot-aspiradora"
+          },
+          {
+            "id": 3,
+            "name": "Lavaplatos",
+            "href": "/electrodomesticos/lavaplatos"
+          },
+          {
+            "id": 4,
+            "name": "Hornos",
+            "href": "/electrodomesticos/hornos"
+          },
+          {
+            "id": 5,
+            "name": "Campanas",
+            "href": "/electrodomesticos/campanas"
+          },
+          {
+            "id": 6,
+            "name": "Microondas",
+            "href": "/electrodomesticos/microondas"
+          },
+          {
+            "id": 7,
+            "name": "Estufas de empotrar",
+            "href": "/electrodomesticos/estufas-de-empotrar"
+          },
+          {
+            "id": 8,
+            "name": "Mesones",
+            "href": "/electrodomesticos/mesones"
+          },
+          {
+            "id": 9,
+            "name": "De Paso",
+            "href": "/electrodomesticos/de-paso"
+          },
+          {
+            "id": 10,
+            "name": "De Acumulación",
+            "href": "/electrodomesticos/de-acumulacion"
+          },
+          {
+            "id": 11,
+            "name": "Lavadoras",
+            "href": "/electrodomesticos/lavadoras"
+          },
+          {
+            "id": 12,
+            "name": "Lavadora Secadora",
+            "href": "/electrodomesticos/lavadora-secadora"
+          },
+          {
+            "id": 13,
+            "name": "On-Off",
+            "href": "/electrodomesticos/on-off"
+          },
+          {
+            "id": 14,
+            "name": "Inverter",
+            "href": "/electrodomesticos/inverter"
+          },
+          {
+            "id": 15,
+            "name": "Neveras",
+            "href": "/electrodomesticos/neveras"
+          },
+          {
+            "id": 16,
+            "name": "Cavas y Minibares",
+            "href": "/electrodomesticos/cavas-y-minibares"
+          },
+          {
+            "id": 17,
+            "name": "Nevecones",
+            "href": "/electrodomesticos/nevecones"
+          },
+          {
+            "id": 18,
+            "name": "Congeladores",
+            "href": "/electrodomesticos/congeladores"
+          },
+          {
+            "id": 19,
+            "name": "Freidoras",
+            "href": "/electrodomesticos/freidoras"
+          },
+          {
+            "id": 20,
+            "name": "Estufas",
+            "href": "/electrodomesticos/estufas"
+          },
+          {
+            "id": 2023,
+            "name": "Sartenes",
+            "href": "/electrodomesticos/sartenes"
+          },
+          {
+            "id": 2024,
+            "name": "Ollas",
+            "href": "/electrodomesticos/ollas"
+          }
+        ]
+      },
+      {
+        "id": 21,
+        "name": "Moda para Hombre",
+        "href": "/moda-para-hombre",
+        "children": [
+          {
+            "id": 22,
+            "name": "Casual",
+            "href": "/moda-para-hombre/casual"
+          },
+          {
+            "id": 23,
+            "name": "Formal",
+            "href": "/moda-para-hombre/formal"
+          },
+          {
+            "id": 24,
+            "name": "Sport",
+            "href": "/moda-para-hombre/sport"
+          }
+        ]
+      },
+      {
+        "id": 123,
+        "name": "Electricos",
+        "href": "/electricos",
+        "children": [
+          {
+            "id": 1231,
+            "name": "Electricos Hijo",
+            "href": "/electricos/electricos-hijo"
+          },
+          {
+            "id": 2042,
+            "name": "Orma Carbono9",
+            "href": "/electricos/orma-carbono9"
+          },
+          {
+            "id": 2043,
+            "name": "Orma Carbono9",
+            "href": "/electricos/orma-carbono9"
+          },
+          {
+            "id": 2044,
+            "name": "Orma Carbono9",
+            "href": "/electricos/orma-carbono9"
+          },
+          {
+            "id": 2045,
+            "name": "productTest1",
+            "href": "/electricos/producttest1"
+          },
+          {
+            "id": 2046,
+            "name": "Orma Carbono10",
+            "href": "/electricos/orma-carbono10"
+          },
+          {
+            "id": 2047,
+            "name": "Orma Carbono10",
+            "href": "/electricos/orma-carbono10"
+          },
+          {
+            "id": 2048,
+            "name": "Orma Carbono11",
+            "href": "/electricos/orma-carbono11"
+          },
+          {
+            "id": 2049,
+            "name": "Orma Carbono14",
+            "href": "/electricos/orma-carbono14"
+          }
+        ]
+      },
+      {
+        "id": 2000,
+        "name": "mujer",
+        "href": "/mujer",
+        "children": [
+          {
+            "id": 2065,
+            "name": "Maquillaje",
+            "href": "/mujer/maquillaje"
+          }
+        ]
+      },
+      {
+        "id": 2001,
+        "name": "Bolsos",
+        "href": "/bolsos",
+        "children": []
+      },
+      {
+        "id": 2013,
+        "name": "Perfumes",
+        "href": "/perfumes",
+        "children": [
+          {
+            "id": 2014,
+            "name": "Mujer",
+            "href": "/perfumes/mujer"
+          }
+        ]
+      },
+      {
+        "id": 2015,
+        "name": "Medicamentos",
+        "href": "/medicamentos",
+        "children": [
+          {
+            "id": 2016,
+            "name": "Tercera edad",
+            "href": "/medicamentos/tercera-edad"
+          }
+        ]
+      },
+      {
+        "id": 2018,
+        "name": "Departamento",
+        "href": "/departamento",
+        "children": [
+          {
+            "id": 2019,
+            "name": "Categoría",
+            "href": "/departamento/categoria"
+          },
+          {
+            "id": 2021,
+            "name": "SubCategoría",
+            "href": "/departamento/subcategoria"
+          }
+        ]
+      },
+      {
+        "id": 2022,
+        "name": "MORADO",
+        "href": "/morado",
+        "children": []
+      },
+      {
+        "id": 2025,
+        "name": "Mens",
+        "href": "/mens",
+        "children": [
+          {
+            "id": 2026,
+            "name": "Clothing",
+            "href": "/mens/clothing"
+          }
+        ]
+      },
+      {
+        "id": 2029,
+        "name": "Challenge",
+        "href": "/challenge",
+        "children": [
+          {
+            "id": 2037,
+            "name": "name1",
+            "href": "/challenge/name1"
+          },
+          {
+            "id": 2038,
+            "name": "name1",
+            "href": "/challenge/name1"
+          },
+          {
+            "id": 2050,
+            "name": "Orma Carbono16",
+            "href": "/challenge/orma-carbono16"
+          },
+          {
+            "id": 2052,
+            "name": "Orma Carbono15",
+            "href": "/challenge/orma-carbono15"
+          },
+          {
+            "id": 2053,
+            "name": "Orma Carbono15",
+            "href": "/challenge/orma-carbono15"
+          },
+          {
+            "id": 2058,
+            "name": "Orma Carbono15",
+            "href": "/challenge/orma-carbono15"
+          },
+          {
+            "id": 2059,
+            "name": "Orma Carbono15",
+            "href": "/challenge/orma-carbono15"
+          }
+        ]
+      },
+      {
+        "id": 2030,
+        "name": "Challenge",
+        "href": "/challenge",
+        "children": []
+      },
+      {
+        "id": 2031,
+        "name": "challenge1",
+        "href": "/challenge1",
+        "children": [
+          {
+            "id": 2032,
+            "name": "category1",
+            "href": "/challenge1/category1"
+          }
+        ]
+      },
+      {
+        "id": 2035,
+        "name": "Orma Carbono6",
+        "href": "/orma-carbono6",
+        "children": []
+      },
+      {
+        "id": 2036,
+        "name": "Orma Carbono7",
+        "href": "/orma-carbono7",
+        "children": []
+      },
+      {
+        "id": 2039,
+        "name": "Orma Carbono8",
+        "href": "/orma-carbono8",
+        "children": []
+      },
+      {
+        "id": 2040,
+        "name": "Orma Carbono8",
+        "href": "/orma-carbono8",
+        "children": []
+      },
+      {
+        "id": 2041,
+        "name": "Orma Carbono8",
+        "href": "/orma-carbono8",
+        "children": []
+      },
+      {
+        "id": 2051,
+        "name": "Orma Carbono16",
+        "href": "/orma-carbono16",
+        "children": []
+      },
+      {
+        "id": 2054,
+        "name": "",
+        "href": "/",
+        "children": [
+          {
+            "id": 2055,
+            "name": "challenge1",
+            "href": "//challenge1"
+          }
+        ]
+      },
+      {
+        "id": 2060,
+        "name": "demo",
+        "href": "/demo",
+        "children": [
+          {
+            "id": 2061,
+            "name": "demo2",
+            "href": "/demo/demo2"
+          },
+          {
+            "id": 2063,
+            "name": "demoAPI",
+            "href": "/demo/demoapi"
+          }
+        ]
+      },
+      {
+        "id": 2066,
+        "name": "testEstilos",
+        "href": "/testestilos",
+        "children": []
+      },
+      {
+        "id": 2067,
+        "name": "testEstilosHijos",
+        "href": "/testestiloshijos",
+        "children": []
+      },
+      {
+        "id": 2068,
+        "name": "testEstilosHijos",
+        "href": "/testestiloshijos",
+        "children": [
+          {
+            "id": 2069,
+            "name": "testEstilosHijo",
+            "href": "/testestiloshijos/testestiloshijo"
+          }
+        ]
+      },
+      {
+        "id": 123321,
+        "name": "EjemploEstilos",
+        "href": "/ejemploestilos",
+        "children": []
+      },
+      {
+        "id": 1233212,
+        "name": "EjemploEstilos",
+        "href": "/ejemploestilos",
+        "children": []
+      },
+      {
+        "id": 4369,
+        "name": "Einzelwaschtische",
+        "href": "/einzelwaschtische",
+        "children": []
+      },
+      {
+        "id": 1233213,
+        "name": "EstilosTest",
+        "href": "/estilostest",
+        "children": []
+      },
+      {
+        "id": 1233214,
+        "name": "EstilosTest",
+        "href": "/estilostest",
+        "children": []
+      },
+      {
+        "id": 1233215,
+        "name": "EstilosMIn",
+        "href": "/estilosmin",
+        "children": []
+      },
+      {
+        "id": 1233216,
+        "name": "EstilosMInDos",
+        "href": "/estilosmindos",
+        "children": []
+      },
+      {
+        "id": 1233217,
+        "name": "EstilosBrand",
+        "href": "/estilosbrand",
+        "children": []
+      },
+      {
+        "id": 1233218,
+        "name": "Material Estilos",
+        "href": "/material-estilos",
+        "children": []
+      },
+      {
+        "id": 1233219,
+        "name": "Material Estilos",
+        "href": "/material-estilos",
+        "children": []
+      },
+      {
+        "id": 1233220,
+        "name": "LENTES PROPIO",
+        "href": "/lentes-propio",
+        "children": []
+      },
+      {
+        "id": 1233221,
+        "name": "LENTES PROPIO",
+        "href": "/lentes-propio",
+        "children": []
+      },
+      {
+        "id": 3000205,
+        "name": "LENTES PROPIO",
+        "href": "/lentes-propio",
+        "children": []
+      }
+    ]
+  }
+}
