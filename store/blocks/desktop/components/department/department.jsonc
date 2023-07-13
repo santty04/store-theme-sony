@@ -114,12 +114,12 @@
       "search-content"
     ]
   },
-  "gallery-layout-switcher": {
-    "children": [
-      "gallery-layout-option#grid__two-columns",
-      "gallery-layout-option#grid__one-column"
-    ]
-  },
+  // "gallery-layout-switcher": {
+  //   "children": [
+  //     "gallery-layout-option#grid__two-columns",
+  //     "gallery-layout-option#grid__one-column"
+  //   ]
+  // },
   "gallery-layout-option#grid__two-columns": {
     "props": {
       "name": "grid-two-columns",
