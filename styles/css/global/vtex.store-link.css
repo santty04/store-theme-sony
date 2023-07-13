@@ -1,0 +1,16 @@
+.label--button__country {
+  display: flex;
+  padding-left: 10px;
+  margin-top: 7px;
+}
+.label--button__country::before {
+  content:'test';
+  color: transparent;
+  background-image: url(assets/img/colombia.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 20%;
+  height: 20px;
+  margin-right: 11px;
+  margin-top: -3px;
+}

@@ -25,6 +25,13 @@
   gap: 12px;
   padding-left: 44px;
 }
+.flexRowContent--footer__menu--content {
+  flex-direction: column;
+}
+.flexRowContent--footer__menu--content .stretchChildrenWidth {
+  width: 100% !important;
+  border-bottom: 1px solid #3c3c42;
+}
 @media (max-width: 1025px) {
   .flexCol--footer__second--col {
     flex-direction: column;
