@@ -81,11 +81,11 @@
   },
   "search-content#results--search": {
     "blocks": [
-      "gallery",
+      "gallery#shelf",
       "not-found"
     ]
   },
-  "gallery": {
+  "gallery#shelf": {
     "blocks": [
       "product-summary.shelf#product__summary--shelf"
     ]

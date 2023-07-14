@@ -1,0 +1,7 @@
+.flexRow--home__section--shelf :global(.vtex-store-components-3-x-container)
+.flexRow--home__section--shelf-two :global(.vtex-store-components-3-x-container)
+.flexRow--home__section--shelf-three :global(.vtex-store-components-3-x-container)
+.flexRow--home__section--shelf-four :global(.vtex-store-components-3-x-container) {
+  padding-left : 1rem;
+  padding-right: 1rem;
+}
