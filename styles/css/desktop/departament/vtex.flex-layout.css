@@ -1,0 +1,40 @@
+.flexRow--preheader__section--department :global(.vtex-store-components-3-x-container) {
+  background   : #f1f4f9;
+  height       : 250px;
+  margin-bottom: 30px;
+}
+
+.flexRow--preheader__section--department .vtex-flex-layout-0-x-stretchChildrenWidth {
+  width: 100% !important;
+}
+
+.flexRow--department__orderby-title :global(.vtex-search-result-3-x-orderByButton) {
+  width: 220px;
+}
+
+.flexRow--department__orderby-title :global(.vtex-search-result-3-x-galleryTitle--layout) {
+  margin-top: 0;
+}
+
+.flexColChild--preheader__col--department {
+  margin-top: 10px;
+}
+
+.flexRowContent--department__orderby-title {
+  flex-direction: column;
+}
+
+.flexColChild--preheader__col--department :global(.vtex-breadcrumb-1-x-container) {
+  text-transform: uppercase;
+  font-size     : 12px;
+}
+
+.flexColChild--preheader__col--department :global(.vtex-breadcrumb-1-x-link--1) {
+  color: #4572ed;
+}
+
+.flexColChild--preheader__col--department :global(.vtex-breadcrumb-1-x-container),
+.flexColChild--preheader__col--department :global(.vtex-breadcrumb-1-x-homeLink),
+.flexColChild--preheader__col--department :global(.vtex-breadcrumb-1-x-arrow--1) {
+  color: #4572ed;
+}

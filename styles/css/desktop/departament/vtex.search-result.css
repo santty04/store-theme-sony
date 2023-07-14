@@ -52,3 +52,15 @@
   font-size: 25px;
   color: #4572ed;
 }
+.loadingOverlay--desktop__result--department :global(.vtex-flex-layout-0-x-flexRow--home__form--register) {
+  width: 100% !important;
+  margin: 0;
+  max-width: 100%;
+}
+.loadingOverlay--desktop__result--department :global(.vtex-flex-layout-0-x-flexRow--home__form--register) :global(.vtex-store-components-3-x-container) {
+  padding: 0
+}
+.galleryLayoutSwitcher {
+  justify-content: end;
+  margin-bottom: 20px;
+}
