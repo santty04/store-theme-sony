@@ -2,66 +2,136 @@
   "store.search#department": {
     "blocks": [
       "search-result-layout#department"
-    ]
+    ],
+    "props": {
+      "blockClass": "store__search--department"
+    }
   },
   "search-result-layout#department": {
     "blocks": [
       "search-result-layout.desktop#department",
       "search-result-layout.mobile#department",
       "search-not-found-layout"
-    ]
+    ],
+    "props": {
+      "blockClass": "result__layout--department"
+    }
   },
   "search-result-layout.desktop#department": {
     "children": [
+      "flex-layout.row#department__section",
+      "flex-layout.row#gallery__switcher",
+      "flex-layout.row#desktop__results--department",
+      "rich-text#home__prefooter",
+      "flex-layout.row#home__form--register",
+      "flex-layout.row#home__benefits",
+      "rich-text#home__contact--title",
+      "rich-text#home__contact--description"
+    ],
+    "props": {
+      "blockClass": "desktop__result--department",
+      "pagination": "show-more",
+      "preventRouteChange": false,
+      "defaultGalleryLayout": "grid"
+    }
+  },
+  "flex-layout.row#department__section": {
+    "children": [
+      "flex-layout.col#department__col--section"
+    ],
+    "props": {
+      "blockClass": "preheader__section--department"
+    }
+  },
+  "flex-layout.row#gallery__switcher": {
+    "children": [
+      "gallery-layout-switcher"
+    ],
+    "props": {
+      "blockClass": "preheader__row--switcher"
+    }
+  },
+  "flex-layout.col#department__col--section": {
+    "children": [
       "flex-layout.row#department__breadcrumb",
-      "flex-layout.row#department__filter",
-      "flex-layout.row#department__results--desktop"
-    ]
+      "flex-layout.row#department__orderby"
+    ],
+    "props": {
+      "blockClass": "preheader__col--department"
+    }
   },
   "flex-layout.row#department__breadcrumb": {
     "children": [
       "flex-layout.col#department__breadcrumb"
-    ]
+    ],
+    "props": {
+      "blockClass": "row__department--breadcrumb"
+    }
   },
   "flex-layout.col#department__breadcrumb": {
     "children": [
       "breadcrumb.search"
-    ]
+    ],
+    "props": {
+      "blockClass": "col__department--breadcrumb"
+    }
   },
   "breadcrumb.search": {
     "props": {
       "showOnMobile": true
     }
   },
-  "flex-layout.row#department__results--desktop": {
+  "flex-layout.row#department__orderby": {
     "children": [
-      // "flex-layout.col#department__filter"
-      "flex-layout.col#department__results"
-    ]
+      "search-title.v2",
+      "order-by.v2"
+    ],
+    "props": {
+      "blockClass": "department__orderby-title"
+    }
   },
-  // "flex-layout.col#department__filter": {
-  //   "children": [
-  //     "filter-navigator.v3"
-  //   ],
-  //   "props": {
-  //     "width": "25%"
-  //   }
-  // },
+  "flex-layout.row#desktop__results--department": {
+    "children": [
+      "flex-layout.col#department__filter",
+      "flex-layout.col#department__results"
+    ],
+    "props": {
+      "blockClass": "desktop__results--department"
+    }
+  },
+  "flex-layout.col#department__filter": {
+    "children": [
+      "filter-navigator.v3"
+    ],
+    "props": {
+      "width": "25%",
+      "blockClass": "col__department--filter"
+    }
+  },
   "flex-layout.row#department__filter": {
     "children": [
       "filter-navigator.v3"
-    ]
+    ],
+    "props": {
+      "blockClass": "row__department--filter"
+    }
   },
   "flex-layout.col#department__results": {
     "children": [
       "search-content"
-    ]
+    ],
+    "props": {
+      "blockClass": "col__department--results"
+    }
   },
   "search-content": {
     "blocks": [
       "gallery#department",
       "not-found"
-    ]
+    ],
+    "props": {
+      "blockClass": "search-content__department"
+    }
   },
   "gallery#department": {
     "props": {
@@ -102,34 +172,74 @@
   },
   "search-result-layout.mobile#department": {
     "children": [
-      "flex-layout.row#department__breadcrumb",
+      "flex-layout.row#department__section",
+      "flex-layout.row#gallery__switcher",
       "flex-layout.row#department__filter",
       "flex-layout.row#department__results"
-    ]
+    ],
+    "props": {
+      "blockClass": "layout__mobile--department"
+    }
   },
   "flex-layout.row#department__results": {
     "title": "department results",
     "children": [
       // "gallery-layout-switcher",
       "search-content"
-    ]
-  },
-  // "gallery-layout-switcher": {
-  //   "children": [
-  //     "gallery-layout-option#grid__two-columns",
-  //     "gallery-layout-option#grid__one-column"
-  //   ]
-  // },
-  "gallery-layout-option#grid__two-columns": {
+    ],
     "props": {
-      "name": "grid-two-columns",
-      "blockClass": "grid__selector--two-columns"
+      "blockClass": "mobile__department--results"
     }
   },
-  "gallery-layout-option#grid__one-column": {
+  "gallery-layout-switcher": {
+    "children": [
+      /*
+        * For accessibility purposes, it is fundamental to define the layout options following the same ordering used to declare them in step 2.
+        */
+      "gallery-layout-option#grid",
+      "gallery-layout-option#list"
+    ]
+  },
+  "gallery-layout-option#grid": {
     "props": {
-      "name": "grid-one-column",
-      "blockClass": "grid__selector--one-column"
+      "name": "grid"
+    },
+    "children": [
+      "icon-grid",
+      "responsive-layout.desktop#textOptionGrid"
+    ]
+  },
+  "gallery-layout-option#list": {
+    "props": {
+      "name": "list"
+    },
+    "children": [
+      "icon-inline-grid",
+      "responsive-layout.desktop#textOptionList"
+    ]
+  },
+  "responsive-layout.desktop#textOptionGrid": {
+    "children": [
+      "rich-text#option-grid"
+    ]
+  },
+  "responsive-layout.desktop#textOptionList": {
+    "children": [
+      "rich-text#option-list"
+    ]
+  },
+  "rich-text#option-grid": {
+    "props": {
+      "text": "Grid",
+      "textColor": "c-auto",
+      "blockClass": "layout-option"
+    }
+  },
+  "rich-text#option-list": {
+    "props": {
+      "text": "List",
+      "textColor": "c-auto",
+      "blockClass": "layout-option"
     }
   }
 }
