@@ -1,0 +1,22 @@
+{
+  "store.product": {
+    "children": [
+      // "flex-layout.row#product__breadcrumb",
+      // "flex-layout.row#product__info",
+      // "flex-layout.row#product__tabs",
+      "product-details"
+    ]
+  }
+  // "flex-layout.row#product__breadcrumb": {
+  //   "title": "breadcrumb product",
+  //   "children": [
+  //     ""
+  //   ]
+  // },
+  // "flex-layout.row#product__info": {
+  //   "title": "information general pdp"
+  // },
+  // "flex-layout.row#product__tabs": {
+  //   "title": "plus information"
+  // }
+}
