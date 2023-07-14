@@ -1,6 +1,12 @@
 .paragraph--title__footer {
   color: #83838f;
 }
+/* .paragraph--footer__first--text {
+  line-height: 12px !important;
+}
+.paragraph--col__second--text {
+  line-height: 0.8;
+} */
 
 @media (max-width: 1025px) {
   .container--footer__first--text,

@@ -2,10 +2,8 @@
   "disclosure-layout-group#footer__menu--group": {
     "title": "footer menu group",
     "children": [
-      "disclosure-layout#distributor",
-      "disclosure-layout#buy__online",
-      "disclosure-layout#community",
-      "disclosure-layout#news",
+      "flex-layout.row#content__footer--menu",
+
       "flex-layout.row#section__country",
       "flex-layout.row#section__contact",
       "flex-layout.row#social__networks",
@@ -15,6 +13,27 @@
       "blockClass": "footer__menu--group"
     }
   },
+  "flex-layout.row#content__footer--menu": {
+    "children": [
+      "flex-layout.col#distributor",
+      "flex-layout.col#buy__online",
+      "flex-layout.col#community",
+      "flex-layout.col#news"
+    ],
+    "props": {
+      "blockClass": "footer__menu--content"
+    }
+  },
+  "flex-layout.col#distributor": {
+    "title": "flex col section distributor",
+    "children": [
+      "disclosure-layout#distributor"
+    ],
+    "props": {
+      "blockClass": "footer__menu--title",
+      "preserveLayoutOnMobile": true
+    }
+  },
   "disclosure-layout#distributor": {
     "title": "disclosure layout search a distributor",
     "children": [
@@ -22,6 +41,7 @@
       "disclosure-content#search__distributor"
     ]
   },
+
   "disclosure-trigger#search__distributor": {
     "title": "disclosure trigger search a distributor",
     "children": [
@@ -47,6 +67,16 @@
         "title__footer",
         "text__buy--online"
       ]
+    }
+  },
+  "flex-layout.col#buy__online": {
+    "title": "flex col section distributor",
+    "children": [
+      "disclosure-layout#buy__online"
+    ],
+    "props": {
+      "blockClass": "footer__menu--title",
+      "preserveLayoutOnMobile": true
     }
   },
   "disclosure-layout#buy__online": {
@@ -273,6 +303,16 @@
       ]
     }
   },
+  "flex-layout.col#community": {
+    "title": "flex col section distributor",
+    "children": [
+      "disclosure-layout#community"
+    ],
+    "props": {
+      "blockClass": "footer__menu--title",
+      "preserveLayoutOnMobile": true
+    }
+  },
   "disclosure-layout#community": {
     "title": "disclosure layout community",
     "children": [
@@ -373,6 +413,16 @@
         "menu__item--footer",
         "footer__help-my-product"
       ]
+    }
+  },
+  "flex-layout.col#news": {
+    "title": "flex col section distributor",
+    "children": [
+      "disclosure-layout#news"
+    ],
+    "props": {
+      "blockClass": "footer__menu--title",
+      "preserveLayoutOnMobile": true
     }
   },
   "disclosure-layout#news": {
