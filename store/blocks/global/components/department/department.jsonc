@@ -193,7 +193,12 @@
       "flex-layout.row#department__section",
       "flex-layout.row#gallery__switcher",
       "flex-layout.row#department__filter",
-      "flex-layout.row#department__results"
+      "flex-layout.row#department__results",
+      "rich-text#phone__prefooter",
+      "flex-layout.row#phone__form--register",
+      "slider-layout#home__slider--benefits",
+      "rich-text#home__contact--title",
+      "rich-text#home__contact--description"
     ],
     "props": {
       "blockClass": "layout__mobile--department"
