@@ -1,5 +1,6 @@
 {
   "store.search#department": {
+    "title": "store search",
     "blocks": [
       "search-result-layout#department"
     ],
@@ -8,6 +9,7 @@
     }
   },
   "search-result-layout#department": {
+    "title": "search layout department",
     "blocks": [
       "search-result-layout.desktop#department",
       "search-result-layout.mobile#department",
@@ -18,6 +20,7 @@
     }
   },
   "search-result-layout.desktop#department": {
+    "title": "search result layout desktop department",
     "children": [
       "flex-layout.row#department__section",
       "flex-layout.row#gallery__switcher",
@@ -36,6 +39,7 @@
     }
   },
   "flex-layout.row#department__section": {
+    "title": "flex layout row department section",
     "children": [
       "flex-layout.col#department__col--section"
     ],
@@ -44,6 +48,7 @@
     }
   },
   "flex-layout.row#gallery__switcher": {
+    "title": "flex layout row gallery switcher",
     "children": [
       "gallery-layout-switcher"
     ],
@@ -52,6 +57,7 @@
     }
   },
   "flex-layout.col#department__col--section": {
+    "title": "flex layout col department section",
     "children": [
       "flex-layout.row#department__breadcrumb",
       "flex-layout.row#department__orderby"
@@ -61,6 +67,7 @@
     }
   },
   "flex-layout.row#department__breadcrumb": {
+    "title": "flex layout row department breadcrumb",
     "children": [
       "flex-layout.col#department__breadcrumb"
     ],
@@ -69,6 +76,7 @@
     }
   },
   "flex-layout.col#department__breadcrumb": {
+    "title": "flex layout col department breadcrumb",
     "children": [
       "breadcrumb.search"
     ],
@@ -77,11 +85,13 @@
     }
   },
   "breadcrumb.search": {
+    "title": "breadcrumb search",
     "props": {
       "showOnMobile": true
     }
   },
   "flex-layout.row#department__orderby": {
+    "title": "row department order by and search title",
     "children": [
       "search-title.v2",
       "order-by.v2"
@@ -91,6 +101,7 @@
     }
   },
   "flex-layout.row#desktop__results--department": {
+    "title": "row desktop results department",
     "children": [
       "flex-layout.col#department__filter",
       "flex-layout.col#department__results"
@@ -100,6 +111,7 @@
     }
   },
   "flex-layout.col#department__filter": {
+    "title": "col department filter",
     "children": [
       "filter-navigator.v3"
     ],
@@ -109,6 +121,7 @@
     }
   },
   "flex-layout.row#department__filter": {
+    "title": "row department filter",
     "children": [
       "filter-navigator.v3"
     ],
@@ -117,6 +130,7 @@
     }
   },
   "flex-layout.col#department__results": {
+    "title": "col department results",
     "children": [
       "search-content"
     ],
@@ -125,6 +139,7 @@
     }
   },
   "search-content": {
+    "title": "search content",
     "blocks": [
       "gallery#department",
       "not-found"
@@ -134,6 +149,7 @@
     }
   },
   "gallery#department": {
+    "title": "gallery products department",
     "props": {
       "layouts": [
         {
@@ -157,6 +173,7 @@
     }
   },
   "product-summary.shelf#product__summary--department": {
+    "title": "product summary shelf department",
     "children": [
       "stack-layout",
       "product-summary-image",
@@ -171,6 +188,7 @@
     }
   },
   "search-result-layout.mobile#department": {
+    "title": "search result kayout mobile department",
     "children": [
       "flex-layout.row#department__section",
       "flex-layout.row#gallery__switcher",
@@ -192,15 +210,14 @@
     }
   },
   "gallery-layout-switcher": {
+    "title": "gallery layout switcher",
     "children": [
-      /*
-        * For accessibility purposes, it is fundamental to define the layout options following the same ordering used to declare them in step 2.
-        */
       "gallery-layout-option#grid",
       "gallery-layout-option#list"
     ]
   },
   "gallery-layout-option#grid": {
+    "title": "gallery layout option",
     "props": {
       "name": "grid"
     },
@@ -210,6 +227,7 @@
     ]
   },
   "gallery-layout-option#list": {
+    "title": "gallery layout option list",
     "props": {
       "name": "list"
     },
@@ -219,16 +237,19 @@
     ]
   },
   "responsive-layout.desktop#textOptionGrid": {
+    "title": "layout desktop text option grid",
     "children": [
       "rich-text#option-grid"
     ]
   },
   "responsive-layout.desktop#textOptionList": {
+    "title": "layout dektop text option list",
     "children": [
       "rich-text#option-list"
     ]
   },
   "rich-text#option-grid": {
+    "title": "text option grid",
     "props": {
       "text": "Grid",
       "textColor": "c-auto",
@@ -236,6 +257,7 @@
     }
   },
   "rich-text#option-list": {
+    "title": "text option list",
     "props": {
       "text": "List",
       "textColor": "c-auto",
