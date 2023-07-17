@@ -38,3 +38,7 @@
 .flexColChild--preheader__col--department :global(.vtex-breadcrumb-1-x-arrow--1) {
   color: #4572ed;
 }
+.flexColChild--col__department--breadcrumb :global(.vtex-breadcrumb-1-x-link--2),
+.flexColChild--col__department--breadcrumb :global(.vtex-breadcrumb-1-x-arrow--2) {
+  color: #4572ed !important;
+}
