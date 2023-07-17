@@ -5,3 +5,31 @@
   padding-left : 1rem;
   padding-right: 1rem;
 }
+.flexRow--row__product--breadcrumb :global(.vtex-breadcrumb-1-x-container) {
+  text-transform: uppercase;
+  font-size     : 12px;
+}
+.flexRow--row__product--breadcrumb :global(.vtex-breadcrumb-1-x-link--1) {
+  color: #4572ed;
+}
+.flexRow--row__product--breadcrumb :global(.vtex-breadcrumb-1-x-container),
+.flexRow--row__product--breadcrumb :global(.vtex-breadcrumb-1-x-homeLink),
+.flexRow--row__product--breadcrumb :global(.vtex-breadcrumb-1-x-arrow--1),
+.flexRow--row__product--breadcrumb :global(.vtex-breadcrumb-1-x-arrow--2),
+.flexRow--row__product--breadcrumb :global(.vtex-breadcrumb-1-x-termArrow),
+.flexRow--row__product--breadcrumb :global(.vtex-breadcrumb-1-x-link--2),
+.flexRow--row__product--breadcrumb :global(.vtex-breadcrumb-1-x-term) {
+  color: #4572ed !important;
+}
+.flexRow--row__reviews--ratings {
+  margin-top: 50px;
+}
+/* .flexColChild--col__product--image,
+.flexColChild--col__product--image :global(.vtex-store-components-3-x-productImagesContainer--carousel),
+.flexColChild--col__product--image :global(.vtex-store-components-3-x-carouselContainer),
+.flexColChild--col__product--image :global(.vtex-store-components-3-x-carouselGaleryThumbs) {
+  height: 100%;
+}
+.flexColChild--col__product--image :global(.vtex-store-components-3-x-carouselGaleryThumbs):first-child {
+  height: 100%;
+} */
