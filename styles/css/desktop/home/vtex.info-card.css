@@ -1,6 +1,0 @@
-.slideChildrenContainer--home__slider--info :global(.vtex-store-components-3-x-infoCardContainer) {
-  width: 100% !important;
-}
-.infoCardCallActionContainer--info__card--one :global(.vtex-button){
-  background-color: orange;
-}

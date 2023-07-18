@@ -1,0 +1,124 @@
+{
+  "store.custom#contact": {
+    "blocks": [
+      "flex-layout.row#contact__title",
+      "flex-layout.row#contact__subtitle",
+      "flex-layout.row#contact__form"
+    ]
+  },
+  "flex-layout.row#contact__title": {
+    "title": "contact title",
+    "children": [
+      "flex-layout.col#contact__preheader"
+    ]
+  },
+  "flex-layout.col#contact__preheader": {
+    "title": "col contact preheader",
+    "children": [
+      "rich-text#title__section-one",
+      "rich-text#title__section-two"
+    ]
+  },
+  "rich-text#title__section-one": {
+    "props": {
+      "text": "Comuníquese con Asistencia de Sony"
+    }
+  },
+  "rich-text#title__section-two": {
+    "props": {
+      "text": "América latina"
+    }
+  },
+  "rich-text#test": {
+    "props": {
+      "text": "prueba"
+    }
+  },
+  "flex-layout.row#contact__subtitle": {
+    "title": "contact subtitle",
+    "children": [
+      "flex-layout.col#contact__col--subtitle"
+    ]
+  },
+  "flex-layout.col#contact__col--subtitle": {
+    "title": "col terms and condition subtitle",
+    "children": [
+      "rich-text#contact__col--subtitle"
+    ]
+  },
+  "rich-text#contact__col--subtitle": {
+    "props": {
+      "text": "Por favor llenar los campos del formulario para enviar su pregunta al equipo de Asistencia de Sony"
+    }
+  },
+  "flex-layout.row#contact__form": {
+    "title": "contact form",
+    "children": [
+      "flex-layout.col#form"
+    ]
+  },
+  "flex-layout.col#form": {
+    "title": "col contact form",
+    "children": [
+      "form"
+    ]
+  },
+  "form": {
+    "props": {
+      "entity": "clients",
+      "schema": "person"
+    },
+    "children": [
+      "rich-text#formTitle",
+      "form-input.text#firstName",
+      "form-input.text#lastName",
+      "form-field-group#address",
+      "form-input.checkbox#agreement",
+      "form-submit"
+    ],
+    "blocks": ["form-success"]
+  },
+  "rich-text#formTitle": {
+    "props": {
+      "text": "Titulo"
+    }
+  },
+  "form-success": {
+    "children": [
+      "rich-text#successSubmit"
+    ]
+  },
+  "rich-text#successSubmit": {
+    "props": {
+      "text": "Succesfully submitted the data!",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
+    }
+  },
+  "form-input.text#firstName": {
+    "props": {
+      "pointer": "#/properties/firstName"
+    }
+  },
+  "form-input.text#lastName": {
+    "props": {
+      "pointer": "#/properties/lastName"
+    }
+  },
+  "form-input.checkbox#agreement": {
+    "props": {
+      "pointer": "#/properties/agreement",
+      "label": "Do you agree that this is the best form component in the whole wide world?"
+    }
+  },
+  "form-field-group#address": {
+    "props": {
+      "pointer": "#/properties/address"
+    }
+  },
+  "form-submit": {
+    "props": {
+      "label": "Submit"
+    }
+  }
+}
