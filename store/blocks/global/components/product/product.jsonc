@@ -56,6 +56,7 @@
     }
   },
   "flex-layout.col#product-image": {
+    "title": "col product image",
     "props": {
       "width": "60%",
       "rowGap": 0,
@@ -71,6 +72,7 @@
     }
   },
   "flex-layout.col#right-col": {
+    "title": "col right",
     "props": {
       "preventVerticalStretch": true,
       "rowGap": 0,
@@ -98,6 +100,7 @@
     }
   },
   "flex-layout.row#buy-button": {
+    "title": "row buy button",
     "props": {
       "marginTop": 4,
       "marginBottom": 7,
@@ -108,6 +111,7 @@
     ]
   },
   "flex-layout.row#reviews-ratings": {
+    "title": "row rwvies and ratings",
     "children": [
       "product-reviews"
     ],

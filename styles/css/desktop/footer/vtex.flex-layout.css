@@ -30,7 +30,13 @@
 
 .flexRowContent--row__section--contact {
   gap         : 12px;
-  padding-left: 44px;
+  justify-content: center;
+}
+.flexRowContent--row__section--contact .stretchChildrenWidth {
+  width: auto !important;
+}
+.flexRow--row__section--contact :global(.vtex-store-components-3-x-container) {
+  padding: 0;
 }
 
 .flexRowContent--footer__menu--content {
