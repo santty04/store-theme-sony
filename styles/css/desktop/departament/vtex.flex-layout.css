@@ -13,6 +13,8 @@
 }
 
 .flexRow--department__orderby-title :global(.vtex-search-result-3-x-galleryTitle--layout) {
+  font-size : 32px;
+  color     : #2f353d;
   margin-top: 0;
 }
 
@@ -28,6 +30,12 @@
   text-transform: uppercase;
   font-size     : 12px;
 }
+.flexRowContent--row__product--breadcrumb :global(.vtex-breadcrumb-1-x-container) {
+  line-height: 0.7;
+}
+.flexRow--row__product--info :global(.vtex-store-components-3-x-container) {
+  padding: 0;
+}
 
 .flexColChild--preheader__col--department :global(.vtex-breadcrumb-1-x-link--1) {
   color: #4572ed;
@@ -38,7 +46,30 @@
 .flexColChild--preheader__col--department :global(.vtex-breadcrumb-1-x-arrow--1) {
   color: #4572ed;
 }
+
 .flexColChild--col__department--breadcrumb :global(.vtex-breadcrumb-1-x-link--2),
-.flexColChild--col__department--breadcrumb :global(.vtex-breadcrumb-1-x-arrow--2) {
+.flexColChild--col__department--breadcrumb :global(.vtex-breadcrumb-1-x-arrow--2),
+.flexColChild--col__department--breadcrumb :global(.vtex-breadcrumb-1-x-arrow--3),
+.flexColChild--col__department--breadcrumb :global(.vtex-breadcrumb-1-x-link--3) {
   color: #4572ed !important;
+}
+
+.flexRowContent--row__product--info .stretchChildrenWidth:last-child {
+  padding-left: 2.5rem;
+  padding-right: 2.5rem;
+}
+.flexColChild--col__product--image :global(.vtex-store-components-3-x-swiperPaginationClickable) {
+  transform: translateY(10px);
+}
+
+@media (max-width: 640px) {
+  .flexRow--department__orderby-title :global(.vtex-search-result-3-x-orderByButton) {
+    width: 150px;
+  }
+}
+
+@media (max-width: 768px) {
+  .flexRow--department__orderby-title :global(.vtex-search-result-3-x-galleryTitle--layout) {
+    font-size: 18px !important;
+  }
 }

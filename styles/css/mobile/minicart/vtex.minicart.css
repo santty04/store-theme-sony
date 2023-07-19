@@ -24,3 +24,6 @@
 .childrenContainer :global(.vtex-product-list-0-x-productPriceContainer) {
   display: none;
 }
+.openIconContainer {
+  padding: 0;
+}

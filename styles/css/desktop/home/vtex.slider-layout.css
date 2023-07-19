@@ -241,6 +241,7 @@
   transform: translateY(20px);
 }
 
+
 @media (max-width: 1200px) {
 
   .sliderLayoutContainer--slider__shelf--unmissable :global(.vtex-product-summary-2-x-imageWrapper),
@@ -248,5 +249,15 @@
   .sliderLayoutContainer--slider__shelf--playstation :global(.vtex-product-summary-2-x-imageWrapper),
   .sliderLayoutContainer--slider__shelf--interest :global(.vtex-product-summary-2-x-imageWrapper) {
     min-height: 215px;
+  }
+}
+
+@media (max-width: 600px) {
+
+  .sliderLayoutContainer--slider__shelf--unmissable :global(.vtex-product-summary-2-x-imageWrapper),
+  .sliderLayoutContainer--slider__shelf--cams :global(.vtex-product-summary-2-x-imageWrapper),
+  .sliderLayoutContainer--slider__shelf--playstation :global(.vtex-product-summary-2-x-imageWrapper),
+  .sliderLayoutContainer--slider__shelf--interest :global(.vtex-product-summary-2-x-imageWrapper) {
+    min-height: 160px !important;
   }
 }
