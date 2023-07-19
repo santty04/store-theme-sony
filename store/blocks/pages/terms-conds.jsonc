@@ -1,0 +1,61 @@
+{
+  "store.custom#terms-and-conds": {
+    "children": [
+      "responsive-layout.desktop#terms-and-conds"
+    ]
+  },
+  "responsive-layout.desktop#terms-and-conds": {
+    "children": [
+      "flex-layout.row#terms-and-conditions"
+    ]
+  },
+  "flex-layout.row#terms-and-conditions": {
+    "children": [
+      "rich-text#test1",
+      "menu#menu__terms-conds"
+    ]
+  },
+  "menu#menu__terms-conds": {
+    "children": [
+      "menu-item#item__terms-conds"
+    ]
+  },
+  "menu-item#item__terms-conds": {
+    "props": {
+      "id": "item__terms-conds",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "text": "Términos y condiciones"
+      }
+    },
+    "blocks": ["submenu.accordion#department__one"]
+  },
+  "submenu.accordion#department__one": {
+    "children": [
+      "menu#department__one"
+    ]
+  },
+  "menu#department__one": {
+    "children": [
+      "menu-item#category__one"
+    ]
+  },
+  "menu-item#category__one": {
+    "props": {
+      "id": "category-one",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "text": "Mucho texto"
+      }
+    }
+  },
+  "rich-text#test1": {
+    "props": {
+      "text": "prueba"
+    }
+  }
+}

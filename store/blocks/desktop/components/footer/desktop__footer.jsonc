@@ -37,6 +37,7 @@
       "rich-text#help__sony",
       "rich-text#desktop__pqrs",
       "rich-text#desktop__policies",
+      "rich-text#desktop__terms-and-conds",
       "rich-text#desktop__warranty-sony",
       "rich-text#desktop__superintendence",
       "rich-text#desktop__consumer-statute",
@@ -86,6 +87,16 @@
       "blockClass": [
         "footer__item",
         "footer__item--policies"
+      ]
+    }
+  },
+  "rich-text#desktop__terms-and-conds": {
+    "title": "desktop warranty sony",
+    "props": {
+      "text": "[Términos y condiciones](/terms-and-conds)",
+      "blockClass": [
+        "footer__item",
+        "footer__item--warranty"
       ]
     }
   },
