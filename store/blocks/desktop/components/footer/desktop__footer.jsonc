@@ -365,7 +365,7 @@
   "rich-text#col__first--text": {
     "title": "text about privacy policies, first section",
     "props": {
-      "text": "[Política de Privacidad en Línea de Sony Latin America, Inc](/)",
+      "text": "[Política de Privacidad en Línea de Sony Latin America, Inc](/policies)",
       "blockClass": "col__first--text"
     }
   },

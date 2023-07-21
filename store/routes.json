@@ -1,5 +1,5 @@
 {
-  "store.custom#terms-and-conds": {
-    "path": "/terms-and-conds"
+  "store.custom#policies": {
+    "path": "/policies"
   }
 }

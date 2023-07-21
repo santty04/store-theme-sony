@@ -1,0 +1,89 @@
+{
+  "store.custom#policies": {
+    "children": [
+      "responsive-layout.desktop#policies"
+    ]
+  },
+  "responsive-layout.desktop#policies": {
+    "children": [
+      "flex-layout.row#policies"
+    ]
+  },
+  "flex-layout.row#policies": {
+    "children": [
+      "flex-layout.col#policies"
+    ]
+  },
+  "flex-layout.col#policies": {
+    "children": [
+      "rich-text#policies__title",
+      "rich-text#subtitle__introduction",
+      "rich-text#text__introduction",
+      "rich-text#subtitle__information",
+      "rich-text#text__information-1",
+      "rich-text#text__information-2",
+      "rich-text#subtitle__exchange",
+      "rich-text#text__exchange",
+      "rich-text#subtitle__access",
+      "rich-text#text__access",
+      "rich-text#text__access-1"
+    ]
+  },
+  "rich-text#policies__title": {
+    "props": {
+      "text": "Política de privacidad en línea de Sony Latin América, Inc.",
+      "font": "t-heading-1"
+    }
+  },
+  "rich-text#subtitle__introduction": {
+    "props": {
+      "text": "1 - Introduction"
+    }
+  },
+  "rich-text#text__introduction": {
+    "props": {
+      "text": "Sony Latin America, sus filiales en toda Latinoamérica, sus unidades de negocio, incluyendo Sony Professional Solutions Latin America y sus subsidiarias, valora su privacidad y se compromete a proteger su información. Sony ha creado esta política de privacidad y la ha adaptado para satisfacer las líneas de negocios relevantes o las ofertas de las compañías que se enumeran aquí ('Sony', 'nosotros', 'nos' o 'nuestro'). Esta política de privacidad, que se incorpora por referencia en nuestros Términos de Servicio, describe la recopilación y el uso potencial más amplio de su información que podemos recopilar de usted en línea o de cualquier otra forma en relación con el uso de nuestros productos y servicios como nuestros sitios web , Aplicaciones, electrónica y redes (individualmente, 'Propiedad', junto, 'Propiedades')."
+    }
+  },
+  "rich-text#subtitle__information": {
+    "props": {
+      "text": "2 - Recolección y uso de información"
+    }
+  },
+  "rich-text#text__information-1": {
+    "props": {
+      "text": "Al usar nuestras Propiedades, podemos recopilar cierta información de usted con su consentimiento previo. Podemos recopilar, por ejemplo, lo siguiente \n - Información de contacto, como nombre, dirección de correo electrónico, dirección postal y número de teléfono \n - Información de facturación, como número de tarjeta de crédito o de débito, números de cuenta financiera y dirección de facturación \n - Identificadores únicos como nombre de usuario, número de cuenta, contraseña y ID de dispositivo móvil \n - Información de ubicación, como su ubicación geográfica y dirección IP \n - Edad u otra información de perfil como rango de edad o fecha de nacimiento, fotografía, ocupación \n - Información demográfica como educación, género e intereses \n - Información de preferencias como configuración guardada y preferencias de marketing \n - Información agregada sobre usted, como sus intereses, compras, descargas, visitas a páginas y sus preferencias de música \n - Datos de uso de juegos o de software, tales como juegos, juegos o video y audio del sistema, progreso, utilización, rendimiento, uso de periféricos y dispositivos, servicios solicitados y usados, contenido descargado y visto,\n - Datos técnicos de hardware como el tipo, modelo, versión, dispositivo o ID de sesión, y datos relacionados con el error, estado, capacidad, configuración, funcionalidad, datos de rendimiento y tipo de conexión"
+    }
+  },
+  "rich-text#text__information-2": {
+    "props": {
+      "text": "Podremos recibir y complementar la información que recopilamos sobre usted con información de un tercero, siempre que un tercero informe que ha recibido su consentimiento para hacerlo. Esta información se puede combinar con la información que ya tenemos sobre usted para que podamos mejorar nuestra capacidad de servirle, adaptar nuestro contenido y nuestras ofertas y ofrecerle la oportunidad de adquirir productos o servicios que creemos que pueden ser de su interés \n Podemos usar esta información para: \n - Cumplir con sus pedidos y enviar confirmaciones de pedido \n - Proporcionar servicios solicitados tales como servicios de video en línea, música o videojuegos \n - Enviarle información de producto, servicio o garantía \n - Responda a sus solicitudes técnicas y consultas de servicio al cliente \n - Administrar su cuenta \n - Enviarle comunicaciones de marketing y boletines informativos \n - Adaptar nuestros sitios, servicios, publicidad, promociones y comunicaciones para brindarle una mejor experiencia \n - Monitorear y asegurar nuestros sitios y servicios \n - Administrar concursos, sorteos y promociones que haya ingresado, y notificar si es necesario \n - Solicitar información sobre nuestros productos, servicios, promociones, contenidos u otras actividades u ofertas que puedan ser de su interés \n - Envíe comunicaciones a sus amigos a su solicitud cuando proporcione su información de contacto"
+    }
+  },
+  "rich-text#subtitle__exchange": {
+    "props": {
+      "text": "3 - Intercambio de Información y Divulgaciones"
+    }
+  },
+  "rich-text#text__exchange": {
+    "props": {
+      "text": "Podemos compartir su información con nuestros afiliados, proveedores de servicios y otros terceros como se describe a continuación: \n - Afiliados de Sony. Podemos compartir información entre nuestros afiliados explícitamente cubiertos por esta política, así como cualquier otra compañía o afiliado de Sony. Esto incluye cualquier compañía con Sony como parte de su nombre comercial y cualquier compañía donde Sony tenga una participación significativa directa o indirecta en la propiedad. \n - Proveedores de servicio. Podemos proporcionar su información a personas o compañías que retenemos para llevar a cabo o brindar apoyo para el funcionamiento de nuestras Propiedades. Estos proveedores de servicios están autorizados a utilizar su información sólo cuando sea necesario para proporcionarnos estos servicios. Por ejemplo, estos proveedores de servicios pueden: \n -- Ayúdenos con nuestras actividades comerciales, como cumplir con sus solicitudes, compensar y verificar las transacciones \n -- Entregar, administrar y mejorar nuestras Propiedades, por ejemplo, sitios, aplicaciones, productos, contenidos o servicios \n -- Gestión y mejora de los datos de los clientes \n -- Proporcionar servicio al cliente \n -- Detección de fraude o actividades ilegales \n -- Realizar estudios y encuestas de clientes \n - Terceros para Propósitos de Comercialización. Podemos compartir información agregada o anónima acerca de usted con terceros para fines de marketing, publicidad, estudios o propósitos similares. Con su consentimiento, podemos compartir su información con un tercero no relacionado que puede querer contactarlo con respecto a productos, servicios u otras ofertas que puedan ser de interés para usted. Obtendremos su consentimiento en el lugar donde se recopila la información mediante un método de 'opt-out' o 'opt-in', o por otros medios (por ejemplo, una solicitud por correo electrónico). El uso y tratamiento de su información por parte de terceros se regirá por las políticas de privacidad de dicha parte. En el caso de que tenga una pregunta sobre la recolección y el uso de su información por parte de esa parte; Debe comunicarse directamente con esa parte \n Protección Legal y Aplicación de la Ley; Transferencias de Negocios. También podemos divulgar su información en el contexto de procedimientos legales y en relación con actividades de aplicación de la ley, así como en el caso de una venta del negocio aplicable. Por ejemplo, podemos divulgar su información: \n -- como lo requiere la ley, tal como para cumplir con una citación o proceso legal similar \n -- con las fuerzas del orden u organizaciones similares en relación con una investigación criminal o prevención de fraude o actividades delictivas, violación de derechos de propiedad intelectual u otra actividad que se sospecha que sea ilegal o puede exponer a nuestros usuarios oa nosotros a responsabilidad legal \n -- utilizar su información y registros para la defensa de una demanda, investigación u otra acción si dicha información, registros o perfiles son relevantes para la demanda, la protección o la acción \n -- cuando creemos de buena fe que la divulgación es necesaria para proteger nuestros derechos, proteger su seguridad o la de terceros, investigar el fraude o responder a una solicitud del gobierno \n -- en caso de que vendamos o traslademos cualquiera o todos sus negocios o tengamos alguno o todos sus negocios adquiridos, su información puede ser transferida a la entidad compradora o adquirente"
+    }
+  },
+  "rich-text#subtitle__access": {
+    "props": {
+      "text": "4 - Acceso y elección del usuario"
+    }
+  },
+  "rich-text#text__access": {
+    "props": {
+      "text": "Si su información cambia, o si ya no desea nuestro servicio, puede solicitar que corrija, actualice, desactive o elimine / quite su información realizando el cambio en la página de configuración de su cuenta o poniéndose en contacto con nosotros en [https://www.sony.com.co/micuenta](/) en caso de que se registrado en Sony Latin America. Podemos rechazar solicitudes que juzguemos irrazonablemente repetitivas, requieran esfuerzos técnicos desproporcionados, que puedan perjudicar la privacidad de otros, sean extremadamente poco prácticas o para las cuales el acceso no sea requerido por la ley. \n Puede informarnos si desea o no recibir comunicaciones de nosotros poniéndose en contacto con nosotros en [https://www.sony.com.co/contacto](/), O marcando o desmarcando la casilla que indica su preferencia, según corresponda, en el lugar donde se recopila su información. Además, con cada correo electrónico comercial que reciba de nosotros o de cualquiera de nuestras unidades de negocio, se le dará la oportunidad de indicar si no desea recibir futuros correos electrónicos comerciales de nosotros. Puede hacer clic a continuación para ajustar sus preferencias de comunicación con el propósito de aquellas compañías que se rigen por esta política de privacidad. También puede optar por dejar de recibir nuestro boletín de noticias o comunicaciones de marketing por: \n - Siguiendo las instrucciones de cancelación de suscripción incluidas en las comunicaciones aplicables \n - Acceso a las preferencias de correo electrónico en la página de configuración de la cuenta \n - y, para un mensaje SMS móvil, puede optar no recibir futuros mensajes, contestando con las palabras 'STOP' o 'END' (o como se indique lo contrario), o opt-out en el nivel del dispositivo."
+    }
+  },
+  "rich-text#text__access-1": {
+    "props": {
+      "text": "Al optar por desactivar o eliminar su información o solicitar otros cambios que puedan afectar negativamente la entrega de nuestros productos y servicios, es posible que no reciba más información de nosotros o que siga disfrutando del nivel de servicio que le hemos proporcionado anteriormente, O, simplemente, es posible que no podamos proporcionarle nuestros servicios. No le recomendamos esto sin entender las consecuencias."
+    }
+  }
+}
+
